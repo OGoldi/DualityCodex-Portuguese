@@ -1,0 +1,3996 @@
+{
+  "app": {
+    "title": "Duality codex",
+    "subtitle": "Character Manager"
+  },
+  "home": {
+    "welcome": {
+      "title": "Welcome to Duality Codex",
+      "description": "Create, manage, and track your Daggerheart RPG characters with this intuitive digital tool.",
+      "get_started": "Get Started"
+    },
+    "features": {
+      "character_creation": {
+        "title": "Character Creation",
+        "description": "Create your character with an intuitive step-by-step wizard that guides you through every choice."
+      },
+      "character_management": {
+        "title": "Character Management",
+        "description": "Track your character's progress, inventory, and abilities with our easy-to-use digital sheets."
+      },
+      "secure_private": {
+        "title": "Secure & Private",
+        "description": "Your character data is securely stored and accessible only to you."
+      }
+    },
+    "cta": {
+      "title": "Ready to Begin Your Adventure?",
+      "description": "Join our community of adventurers and start creating your unique Daggerheart characters today.",
+      "button": "Create Your Character"
+    },
+    "dashboard": {
+      "welcome": "Welcome, {name}!",
+      "adventurer": "Adventurer",
+      "subtitle": "Manage your characters and embark on new adventures",
+      "error_title": "Failed to load characters",
+      "no_characters": "No Characters Yet",
+      "no_characters_description": "Create your first character to begin your journey! You can have up to {max} characters and campaigns in total.",
+      "limit_reached": "Limit Reached",
+      "limit_description": "You've reached the maximum of {max} characters and campaigns in total. Delete a character or campaign to create more.",
+      "limit_description_free": "You've reached your free limit of {max} characters and campaigns. Upgrade to a membership to unlock more!",
+      "upgrade_prompt": "Want more characters and campaigns? Upgrade your membership!",
+      "discord_title": "Join Our Community",
+      "discord_description": "Connect with other players, share your characters, and get help on Discord!",
+      "discord_button": "Join Us on Discord"
+    }
+  },
+  "guides": {
+    "title": "Guides",
+    "subtitle": "Learn how to use optional rules and character preferences in the Duality codex Character Manager.",
+    "back_to_guides": "Back to Guides",
+    "items": {
+      "character_creation": {
+        "title": "Character Creation",
+        "description": "Step-by-step wizard to create your character. Choose ancestry, class, heritage, and configure your abilities."
+      },
+      "domain_cards": {
+        "title": "Domain Cards & Loadout",
+        "description": "Manage your spells and domain abilities with the loadout system. Move cards between your active loadout and vault."
+      },
+      "campaigns": {
+        "title": "Campaigns",
+        "description": "Create campaigns to group characters. Invite players and share content within your party."
+      },
+      "workshop": {
+        "title": "The Workshop",
+        "description": "Create custom weapons, armor, and items. Publish to the community or keep them private for your games."
+      },
+      "sharing": {
+        "title": "Sharing Characters",
+        "description": "Share your character sheets with other players. Import shared characters into your account."
+      },
+      "homebrew": {
+        "title": "Homebrew Guidelines",
+        "description": "Guidelines for creating and publishing custom content to the Workshop community."
+      },
+      "cross_domain_cards": {
+        "title": "Cross-Domain Card Advancement",
+        "description": "Learn how to enable the optional Cross-Domain Card advancement to take domain cards from any domain during level-up."
+      },
+      "scars": {
+        "title": "Scars",
+        "description": "Understand how scars from failed death saves affect your character's Hope and how to manage them."
+      },
+      "currency": {
+        "title": "Currency Settings",
+        "description": "Configure how your character tracks gold—default handfuls or the optional coins system."
+      },
+      "massive_damage": {
+        "title": "Massive Damage",
+        "description": "Enable and use the optional Massive Damage rule for devastating hits."
+      }
+    },
+    "cross_domain": {
+      "title": "Cross-Domain Card Advancement",
+      "subtitle": "How to enable and use the optional Cross-Domain Card advancement when leveling up your character.",
+      "what_is": {
+        "title": "What is Cross-Domain Card?",
+        "description": "The Cross-Domain Card advancement lets you take one domain card from any domain outside your class domains when you level up. This optional rule is similar to the Demiplane feature—it expands your character's abilities beyond their class's native domains.",
+        "level_rule": "The card's level cannot exceed half your character level (rounded up). For example, a level 5 character can take cross-domain cards up to level 3."
+      },
+      "how_to_enable": {
+        "title": "How to Enable",
+        "intro": "You must enable Cross-Domain Cards before the option will appear during level-up. You can enable it for your entire account (affects new characters and level-ups) or for individual characters.",
+        "account": {
+          "title": "Account-wide (Recommended)",
+          "description": "Enable Cross-Domain Cards in your account preferences. This applies to all your characters and makes the advancement available when you level up.",
+          "button": "Open Preferences"
+        },
+        "character": {
+          "title": "Per character",
+          "description": "You can also enable Cross-Domain Cards for a specific character in the character edit screen.",
+          "step1": "Open your character and go to the Preferences tab",
+          "step2": "Scroll to the Cross-Domain Cards section",
+          "step3": "Toggle Enable Cross-Domain Cards on"
+        }
+      },
+      "level_up": {
+        "title": "Using it when leveling up",
+        "description": "Once enabled, the Cross-Domain Card advancement will appear as an option in the level-up wizard (Tier 2 and above). Select it as one of your advancements, then choose a domain card from any domain outside your class. You can take at most one cross-domain card per level-up."
+      }
+    },
+    "scars": {
+      "title": "Scars",
+      "subtitle": "How scars affect your character's Hope and how to edit them.",
+      "what_are": {
+        "title": "What are Scars?",
+        "description": "Scars are permanent marks from failed death saves. Each scar represents a lasting wound that reduces your character's maximum Hope.",
+        "effective_hope": "Your effective maximum Hope equals your max Hope minus your scars. For example, with 6 max Hope and 2 scars, you have 4 effective Hope slots."
+      },
+      "how_to": {
+        "title": "How to Edit Scars",
+        "description": "Scars are managed in the character edit screen.",
+        "step1": "Open your character and go to the Preferences tab",
+        "step2": "Scroll to the Scars section",
+        "step3": "Click Edit and set the number of scars (0 to max Hope minus 1)"
+      }
+    },
+    "currency": {
+      "title": "Currency Settings",
+      "subtitle": "Configure how your character tracks gold and currency.",
+      "default": {
+        "title": "Default Currency",
+        "description": "By default, characters track gold using Handfuls, Bags, and Chest. This follows the standard Daggerheart rules."
+      },
+      "coins": {
+        "title": "Optional Coins",
+        "description": "When enabled, Coins are added as the smallest unit: 10 coins equal 1 handful. The currency hierarchy becomes Coins → Handfuls → Bags → Chest."
+      },
+      "how_to": {
+        "title": "How to Configure",
+        "step1": "Open your character and go to the Preferences tab",
+        "step2": "Scroll to the Currency Settings section",
+        "step3": "Toggle Enable Coins on or off"
+      }
+    },
+    "massive_damage": {
+      "title": "Massive Damage (Optional Rule)",
+      "subtitle": "Enable the optional rule for devastating hits that deal extra damage.",
+      "what_is": {
+        "title": "What is Massive Damage?",
+        "description": "Massive Damage is an optional Daggerheart rule for particularly devastating attacks.",
+        "rule": "If a character takes damage equal to twice their Major threshold in a single hit, they mark 4 HP instead of 3. When enabled, a fourth damage threshold button appears on your character sheet for this case."
+      },
+      "how_to": {
+        "title": "How to Enable",
+        "step1": "Open your character and go to the Preferences tab",
+        "step2": "Scroll to the Massive Damage section",
+        "step3": "Toggle Enable Massive Damage on"
+      }
+    }
+  },
+  "homebrew_guidelines": {
+    "meta_title": "Homebrew Content Guidelines - Duality codex Character Manager",
+    "meta_description": "Rules and guidelines for sharing homebrew content with the Duality codex Character Manager community",
+    "title": "Homebrew Content Guidelines",
+    "subtitle": "Rules and guidelines for sharing homebrew content with the community",
+    "intro": {
+      "paragraph1": "The following are the rules and guidelines for sharing homebrew content with the community. You do NOT need to publish your homebrew publicly in order to use or share any of it within your own campaign. In addition, both the Site Rules & Guidelines and the Terms of Service apply to all public homebrew. Any public homebrew content that violates these rules and guidelines will be denied approval and removed.",
+      "paragraph2": "Important: Once you have published a homebrew creation, it cannot be removed. Once published, the creation can only be updated via the \"Create new version\" option."
+    },
+    "unacceptable_title": "Unacceptable Content for Public Homebrew",
+    "unacceptable": {
+      "naming_and_shaming": {
+        "title": "Naming and Shaming",
+        "description": "We don't want to see one-sided accusations or any other form of naming and shaming as part of any homebrew content."
+      },
+      "personal_info": {
+        "title": "Personal Information",
+        "description": "Personal information about yourself or anyone else should not be posted in homebrew content."
+      },
+      "spamming_trolling": {
+        "title": "Spamming and Trolling",
+        "description": "Neither spamming nor trolling is acceptable as part of any homebrew content creation. This includes but isn't limited to:",
+        "list1": "Creating content for the sole purpose of causing unrest",
+        "list2": "Excessively communicating the same phrase, similar phrases, or pure gibberish",
+        "list3": "Posting meme or troll text as part of homebrew content (e.g., \"cool story bro\", \"u mad\", \"10/10\", captioned images, etc.)"
+      },
+      "links": {
+        "title": "Links to Other Websites",
+        "description": "You may not create homebrew and include a link to another website. For example, you may not create a race and include: \"for further information, please visit my website/blog/shop\"."
+      }
+    },
+    "ban_title": "Content That Will Result in a Ban",
+    "ban_items": {
+      "illegal_pdf": "Illegal PDF/download of official content or the websites that create/use them",
+      "keyloggers": "Keyloggers, hoaxes, and/or phishing websites",
+      "illegal_activities": "Activities considered illegal by the content owners",
+      "religious": "Religious opinions/debates (from the real world - fantasy religious principles are generally okay if they are not inflammatory)",
+      "hateful": "Hateful language about race, religion, country, political beliefs, etc.",
+      "explicit": "Sexually explicit content",
+      "illegal_law": "Content that is considered illegal by law",
+      "referral_links": "Referral links for contests, promotions, or anything else",
+      "advertisements": "Advertisements"
+    },
+    "official_title": "For Official Content",
+    "official": {
+      "paragraph1": "Do NOT submit official material to public homebrew. (e.g., submitting official content from published sourcebooks is NOT permitted as part of public homebrew).",
+      "paragraph2": "Please do not submit minor variations to official content (like a changed weapon for a town guard, or a \"warrior\" version of a standard monster). It is acceptable to submit variations provided that they contain significant additional changes."
+    },
+    "ai_title": "AI-Generated Content",
+    "ai": {
+      "paragraph1": "We reserve the right to remove public content that contains AI-generated images and content. While AI tools can be helpful for inspiration and development, publicly shared homebrew should represent original creative work. Content that is primarily or substantially AI-generated may be removed at our discretion.",
+      "paragraph2": "This policy helps maintain the quality and authenticity of the community's shared content. You are welcome to use AI tools for private homebrew content within your own campaigns."
+    },
+    "public_title": "Public Homebrew Guidelines",
+    "public": {
+      "intro": "If you wish to share your homebrew creation with the greater community, it must adhere to the following guidelines:",
+      "rule1": "Do not submit homebrew creations with names that start with either a space, bracket, symbol, or number.",
+      "rule2": "Do not submit homebrew that contains copyrighted material. We can review it again if you remove any and all copyrighted content and any references to it (e.g., content from other games, movies, books, etc.).",
+      "rule3": "Do not submit any content owned by a third party partner.",
+      "rule4": "Images may not be included or embedded in public homebrew.",
+      "rule5": "Please ensure that any public homebrew content you submit contains all of the correct modifiers. Missing modifiers may cause issues with values not appearing properly within the character sheet/character builder.",
+      "rule6": "Please do not submit homebrew that is only designed for personal campaigns. This includes descriptive references to specific PCs/NPCs, as well as places and events.",
+      "rule7": "Do not re-submit previously rejected submissions without making an attempt to resolve the reason why it was rejected.",
+      "rule8": "Do not submit new base or mundane items. If you wish to share your creation of mundane items/weapons, we recommend posting these in the community forums."
+    },
+    "category_title": "Category-Specific Guidelines",
+    "category": {
+      "magic_items": {
+        "title": "Magic Items",
+        "description": "Do not submit magical items that are not actually magical items. This includes items that are meant to replicate/emulate Blessings / Curses / Feats / Class features etc."
+      },
+      "ancestries": {
+        "title": "Races/Ancestries",
+        "description": "You may not create subraces for official races that do not normally have subraces. For example, you would not be able to create subraces for races that don't have them (but would be able to create a Variant, as long as it's sufficiently different from the version found in official material)."
+      }
+    },
+    "reminder": "Remember: You can always use homebrew privately for your own games! Publishing is optional and only required if you want to share with the community."
+  },
+  "guides_meta": {
+    "index_title": "Guides - Duality codex Character Manager",
+    "index_description": "Learn how to use optional rules and character preferences in the Duality codex Character Manager.",
+    "scars_title": "Scars Guide - Duality codex Character Manager",
+    "scars_description": "Learn how scars work in Daggerheart and how to manage them for your character.",
+    "currency_title": "Currency Settings Guide - Duality codex Character Manager",
+    "currency_description": "Learn how to configure currency tracking for your character—default gold or coins.",
+    "massive_damage_title": "Massive Damage Guide - Duality codex Character Manager",
+    "massive_damage_description": "Learn how to enable and use the optional Massive Damage rule for your character.",
+    "cross_domain_title": "Cross-Domain Cards Guide - Duality codex Character Manager",
+    "cross_domain_description": "Learn how to enable the Cross-Domain Card advancement to take domain cards from any domain outside your class during level-up."
+  },
+  "templates": {
+    "empty_states": {
+      "no_items": "No {type} available",
+      "no_content": "No {content} provided",
+      "no_description": "No description available",
+      "add_first": "Add your first {item}",
+      "empty_list": "No {items} yet",
+      "empty_title": "No {type} Yet",
+      "empty_description": "Create your first {type} using the button above",
+      "no_results": "No {type} found matching your criteria"
+    },
+    "confirmations": {
+      "delete_with_warning": "Are you sure you want to delete {name}? {warning}",
+      "remove": "Are you sure you want to remove {name}?",
+      "leave": "Are you sure you want to leave {name}?",
+      "last_use": "This is the last use of this item"
+    },
+    "loading": {
+      "type": "Loading {type}...",
+      "your_type": "Loading your {type}..."
+    },
+    "errors": {
+      "save_failed": "Failed to save {type}",
+      "load_failed": "Failed to load {type}",
+      "delete_failed": "Failed to delete {type}",
+      "create_failed": "Failed to create {type}",
+      "update_failed": "Failed to update {type}",
+      "name_required": "{type} name is required",
+      "name_too_long": "Name is too long (max {max} characters)",
+      "description_required": "Description is required",
+      "description_too_long": "Description is too long (max {max} characters)"
+    },
+    "visibility": {
+      "public_label": "Public {type}",
+      "private_label": "Private {type}",
+      "public_description": "This {type} will be visible in the community browser and can be used by other players.",
+      "private_description": "This {type} is private and only you can see and use it."
+    },
+    "search": {
+      "placeholder": "Search {type}...",
+      "no_results": "No {type} found matching your search"
+    },
+    "navigation": {
+      "back_to": "Back to {destination}"
+    },
+    "crud": {
+      "create_new": "Create New {type}",
+      "edit": "Edit {type}",
+      "delete": "Delete {type}",
+      "my_items": "My {type}",
+      "manage": "Manage {type}",
+      "manage_description": "Manage your custom {type} creations"
+    },
+    "success": {
+      "created": "{type} created successfully",
+      "updated": "{type} updated successfully",
+      "deleted": "{type} deleted successfully",
+      "saved": "{type} saved successfully"
+    }
+  },
+  "common": {
+    "all": "All",
+    "modifiers": "Modifiers",
+    "unknown": "Unknown",
+    "new": "New",
+    "in": "In",
+    "out": "Out",
+    "switch": "Switch",
+    "to": "to",
+    "loadout": "Loadout",
+    "vault": "Vault",
+    "name": "Name",
+    "thresholds": "Thresholds",
+    "score": "Score",
+    "type": "Type",
+    "features": "Features",
+    "description": "Description",
+    "optional": "Optional",
+    "armor_modifiers": "Armor Modifiers",
+    "not_set": "Not Set",
+    "characters": "characters",
+    "hp": "HP",
+    "hit_points": "Hit Points",
+    "max_hp": "Max HP",
+    "stress": "Stress",
+    "max_stress": "Max Stress",
+    "evasion": "Evasion",
+    "armor": "Armor",
+    "defense": "Defense",
+    "preview": "Preview",
+    "card_footer": "Daggerheart Compatible. Daggerheart.com",
+    "download_card": "Download Card",
+    "print_card": "Print Card",
+    "generating": "Generating...",
+    "official": "Official",
+    "community": "Community",
+    "created": "Created",
+    "updated": "Updated",
+    "back_to_my_creations": "Back to My Creations",
+    "basic_info": "Basic Information",
+    "image": "Image (optional)",
+    "image_url": "Image URL",
+    "image_position": "Image position",
+    "feature": "Feature",
+    "feature_name": "Feature Name",
+    "feature_name_placeholder": "Enter feature name",
+    "feature_description": "Feature Description",
+    "feature_description_placeholder": "Describe what this feature does...",
+    "markdown_hint": "Supports markdown: **bold**, *italic*, and more",
+    "add_modifier": "Add Mechanical Effect (Optional)",
+    "name_too_long": "Name is too long (max 100 characters)",
+    "description_required": "Description is required",
+    "feature_name_required": "Feature name is required",
+    "feature_description_required": "Feature description is required",
+    "make_public": "Make this public",
+    "make_public_hint": "Make public to enable downloads",
+    "public_hint": "Public content is visible in the browser and usable by other players.",
+    "private_hint": "Private content is only visible to you.",
+    "upload_image": "Upload Image",
+    "use_url": "Use URL",
+    "click_to_upload": "Click to upload or drag and drop",
+    "file_requirements": "JPG, PNG, or WebP up to 5MB",
+    "invalid_file_type": "Invalid file type. Only JPG, PNG, and WebP images are allowed.",
+    "file_too_large": "File is too large. Maximum size is 5MB.",
+    "image_load_error": "Failed to load image",
+    "image_url_placeholder": "https://example.com/image.png",
+    "image_url_hint": "Enter a URL to an image",
+    "save_error": "Failed to save. Please try again.",
+    "tier": "Tier",
+    "tier_foundation": "Foundation",
+    "tier_specialization": "Specialization",
+    "tier_mastery": "Mastery",
+    "select_tier": "Select tier",
+    "order": "Order",
+    "order_placeholder": "Enter order",
+    "level": "Level",
+    "difficulty": "Difficulty",
+    "add_feature": "Add Feature",
+    "no_features": "No features added yet",
+    "feature_type": "Feature Type",
+    "all_types": "All Types",
+    "customize_feature_descriptions": "Customize Feature Descriptions (Optional)",
+    "default_description": "Default",
+    "custom_flavor_text_placeholder": "Enter custom flavor text for {name} (leave empty to use default)",
+    "no_features_available": "No official features available",
+    "create_new_feature": "Create New Feature",
+    "custom": "Custom",
+    "select_feature_type": "Select feature type",
+    "failed_to_create_feature": "Failed to create feature. Please try again.",
+    "stat": "Stat",
+    "modifier": "Modifier",
+    "fear_cost": "Fear Cost",
+    "fear_features_only": "Fear features only",
+    "visibility_label": "Visibility",
+    "select_class": "Select a class",
+    "name_placeholder": "Enter name",
+    "description_placeholder": "Enter description",
+    "default_values": "Default Values",
+    "default_values_hint": "Apply recommended default stats based on the selected tier and type, derived from official content.",
+    "apply_defaults": "Apply Defaults",
+    "types": {
+      "weapon": "weapon",
+      "weapons": "weapons",
+      "armor": "armor",
+      "item": "item",
+      "items": "items",
+      "class": "class",
+      "classes": "classes",
+      "subclass": "subclass",
+      "subclasses": "subclasses",
+      "ancestry": "ancestry",
+      "ancestries": "ancestries",
+      "community": "community",
+      "communities": "communities",
+      "transformation": "transformation",
+      "transformations": "transformations",
+      "adversary": "adversary",
+      "adversaries": "adversaries",
+      "environment": "environment",
+      "environments": "environments",
+      "domain": "domain",
+      "domains": "domains",
+      "domain_card": "domain card",
+      "domain_cards": "domain cards",
+      "campaign": "campaign",
+      "campaigns": "campaigns",
+      "campaign_frame": "campaign frame",
+      "campaign_frames": "campaign frames",
+      "character": "character",
+      "characters": "characters",
+      "share": "share",
+      "shares": "shares",
+      "api_key": "API key",
+      "api_keys": "API keys",
+      "invitation": "invitation",
+      "invitations": "invitations",
+      "content": "content",
+      "equipment": "equipment"
+    },
+    "navigation": {
+      "menu": "Menu",
+      "home": "Home",
+      "characters": "Characters",
+      "create_character": "Create Character",
+      "weapons": "Weapons",
+      "my_campaigns": "My Campaigns",
+      "workshop": "Workshop",
+      "guides": "Guides",
+      "notifications": "Notifications",
+      "my_shares": "My Shares",
+      "integrations": "Integrations",
+      "themes": "Themes",
+      "preferences": "Preferences",
+      "account": "Account"
+    },
+    "errors": {
+      "failed_to_load_character": "Failed to load character",
+      "character_load_error_description": "There was a problem loading this character. Please check the character ID and try again.",
+      "try_again": "Try Again",
+      "back_to_characters": "Back to Characters",
+      "failed_to_add_weapon": "Failed to add weapon to inventory. Please try again.",
+      "failed_to_remove_weapon": "Failed to remove weapon from inventory. Please try again.",
+      "failed_to_equip_weapon": "Failed to equip weapon. Please try again.",
+      "failed_to_unequip_weapon": "Failed to unequip weapon. Please try again.",
+      "failed_to_attach": "Failed to attach item. Please try again.",
+      "two_handed_secondary_error": "Two-handed secondary weapons cannot be equipped.",
+      "secondary_weapon_blocked": "Cannot equip secondary weapons while wielding a two-handed weapon (unless you have Combat Training).",
+      "relic_already_exists": "You already have a relic",
+      "relic_already_exists_description": "You can only carry one relic at a time. Remove your current relic before adding a new one."
+    },
+    "actions": {
+      "show_details": "Show details",
+      "save": "Save",
+      "cancel": "Cancel",
+      "delete": "Delete",
+      "deleting": "Deleting",
+      "edit": "Edit",
+      "add": "Add",
+      "adding": "Adding...",
+      "remove": "Remove",
+      "removing": "Removing...",
+      "use": "Use",
+      "equip": "Equip",
+      "unequip": "Unequip",
+      "attach": "Attach",
+      "create": "Create",
+      "manage": "Manage",
+      "select": "Select",
+      "selected": "Selected",
+      "search": "Search",
+      "accept": "Accept",
+      "confirm": "Confirm",
+      "close": "Close",
+      "reset": "Reset",
+      "back": "Back",
+      "next": "Next",
+      "view": "View",
+      "update": "Update",
+      "print": "Print",
+      "previous": "Previous",
+      "continue": "Continue",
+      "finish": "Finish",
+      "sign_in": "Sign In",
+      "level_up": "Level Up",
+      "sign_up": "Sign Up",
+      "sign_out": "Sign Out",
+      "try_again": "Try Again",
+      "clear": "Clear",
+      "customize": "Customize",
+      "create_character": "Create Character",
+      "change": "Change",
+      "click_to_add": "Click to add",
+      "create_new_character": "Create New Character",
+      "hide": "Hide",
+      "show": "Show",
+      "expand": "Expand",
+      "collapse": "Collapse"
+    },
+    "states": {
+      "loading": "Loading...",
+      "saving": "Saving...",
+      "saved": "Saved",
+      "deleting": "Deleting...",
+      "creating": "Creating...",
+      "updating": "Updating...",
+      "uploading": "Uploading",
+      "error": "An unexpected error occurred",
+      "success": "Success",
+      "beta": "Beta",
+      "active": "Active",
+      "expired": "Expired",
+      "attached": "Attached"
+    },
+    "visibility": {
+      "public": "Public",
+      "private": "Private"
+    },
+    "columns": {
+      "actions": "Actions",
+      "visibility": "Visibility",
+      "status": "Status",
+      "category": "Category",
+      "info": "Info",
+      "activity": "Activity"
+    },
+    "filters": {
+      "all_tiers": "All Tiers",
+      "all_types": "All Types",
+      "all_categories": "All Categories",
+      "all_content": "All Content",
+      "all_features": "All Features",
+      "official_only": "Official Only",
+      "community_only": "Community Only",
+      "filter_by_tier": "Filter by tier",
+      "filter_by_type": "Filter by type",
+      "filter_by_category": "Filter by category",
+      "filter_by_domain": "Filter by domain",
+      "filter_by_feature": "Filter by feature",
+      "content_type": "Content Type",
+      "clear_filters": "Clear Filters"
+    },
+    "sort": {
+      "sort_by": "Sort by",
+      "most_recent": "Most Recent",
+      "most_popular": "Most Popular",
+      "oldest": "Oldest First",
+      "name_az": "Name (A-Z)",
+      "name_za": "Name (Z-A)",
+      "recently_added": "Recently Added",
+      "recently_updated": "Recently Updated",
+      "recently_created": "Recently Created"
+    },
+    "confirmations": {
+      "delete": "Are you sure you want to delete {name}? This action cannot be undone."
+    },
+    "fields": {
+      "physical_description": {
+        "label": "Physical Description",
+        "placeholder": "Describe your character's appearance, mannerisms, and notable features..."
+      },
+      "character_name": {
+        "label": "Character Name",
+        "placeholder": "Enter character name"
+      },
+      "pronouns": {
+        "label": "Pronouns",
+        "placeholder": "e.g., they/them, she/her, he/him"
+      }
+    },
+    "equipment": {
+      "weapon": "Weapon",
+      "item": "Item",
+      "damage": "Damage",
+      "range": "Range",
+      "trait": "Trait",
+      "score": "Score",
+      "armor_score": "Armor Score",
+      "tier": "Tier",
+      "tier_value": "Tier {tier}",
+      "two_handed": "Two-handed",
+      "one_handed": "One-handed",
+      "primary": "Primary",
+      "secondary": "Secondary",
+      "proficiency": "Proficiency",
+      "minor_threshold": "Major Threshold",
+      "major_threshold": "Severe Threshold",
+      "level_bonus": "{level} (base + level)",
+      "mobility": "Mobility",
+      "no_features": "No features"
+    },
+    "sections": {
+      "basic_info": "Basic Information",
+      "background": "Background",
+      "personality": "Personality & Traits",
+      "experiences": "Experiences",
+      "connections": "Character Connections",
+      "equipment": "Equipment",
+      "inventory": "Inventory",
+      "attributes": "Attributes",
+      "class_features": "Class Features"
+    },
+    "placeholders": {
+      "enter_text": "Enter text...",
+      "select_option": "Select an option..."
+    },
+    "search": {
+      "label": "Search",
+      "placeholder": "Enter your search..."
+    },
+    "wizard_header": {
+      "step_of": "Step {current} of {total}",
+      "completion": "{percentage}% Complete"
+    },
+    "beta": "BETA",
+    "betaContent": "Beta Content",
+    "betaContentWarning": "This content is currently in beta testing and may be subject to changes.",
+    "disableBetaContent": "Disable Beta Content",
+    "enableBetaContent": "Enable Beta Content",
+    "betaContentToggle": "Show Beta Content",
+    "voidContentWarning": "This content is from The Void expansion and may have different balance or mechanics.",
+    "voidContentToggle": "Show Void Content",
+    "theVoid": "The Void",
+    "by": "by",
+    "sortBy": "Sort by",
+    "clear": "Clear"
+  },
+  "auth": {
+    "logged_in": "Logged in",
+    "logged_out": "Logged out",
+    "email_label": "Email",
+    "email_placeholder": "Enter your email",
+    "password_label": "Password",
+    "password_placeholder": "Enter your password",
+    "create_password_placeholder": "Create a password",
+    "confirm_password_label": "Confirm Password",
+    "confirm_password_placeholder": "Confirm your password",
+    "password_hint": "Password must be at least 6 characters",
+    "forgot_password": "Forgot Password?",
+    "no_account": "Don't have an account?",
+    "have_account": "Already have an account?",
+    "signing_in": "Signing in...",
+    "creating_account": "Creating account...",
+    "signup_success": "Account created successfully! Check your email to verify your account.",
+    "sign_in": {
+      "title": "Sign In",
+      "button": "Sign In",
+      "link": "Sign In"
+    },
+    "sign_up": {
+      "title": "Create Account",
+      "button": "Create Account",
+      "link": "Sign Up"
+    },
+    "forgot_password_modal": {
+      "title": "Reset Password",
+      "description": "Enter your email address and we'll send you a link to reset your password.",
+      "email_label": "Email",
+      "email_placeholder": "Enter your email",
+      "sending": "Sending...",
+      "send_button": "Send Reset Link",
+      "back_to_login": "Back to Login",
+      "success_message": "Password reset link has been sent to your email",
+      "unexpected_error": "An unexpected error occurred",
+      "validation": {
+        "email_required": "Email is required",
+        "email_invalid": "Please enter a valid email"
+      }
+    },
+    "password_reset": {
+      "title": "Set New Password",
+      "description": "Enter your new password below.",
+      "new_password_label": "New Password",
+      "new_password_placeholder": "Enter your new password",
+      "confirm_password_label": "Confirm Password",
+      "confirm_password_placeholder": "Confirm your new password",
+      "updating": "Updating...",
+      "update_button": "Update Password",
+      "success_message": "Password has been updated successfully",
+      "unexpected_error": "An unexpected error occurred",
+      "validation": {
+        "password_required": "Password is required",
+        "password_min_length": "Password must be at least 6 characters",
+        "confirm_required": "Please confirm your password",
+        "passwords_no_match": "Passwords do not match"
+      }
+    }
+  },
+  "campaigns": {
+    "page": {
+      "meta_title": "Campaigns",
+      "title": "My Campaigns",
+      "subtitle": "Manage your Daggerheart campaigns, create new adventures, and join others."
+    },
+    "roles": {
+      "game_master": "Game Master",
+      "player": "Player"
+    },
+    "characters": {
+      "gm_view": "Game Master View"
+    },
+    "list": {
+      "error_title": "Something went wrong",
+      "no_campaigns_title": "No campaigns found",
+      "no_campaigns_description": "Get started by creating your first campaign or joining an existing one.",
+      "create_first": "Create Your First Campaign",
+      "owned_title": "My Campaigns ({count})",
+      "create_button": "Create Campaign",
+      "joined_title": "Joined Campaigns ({count})",
+      "delete_campaign_confirm": "Are you sure you want to delete '{name}'? This action cannot be undone and will remove all campaign data, characters, and notes.",
+      "delete_confirm_text": "Delete Campaign",
+      "delete_cancel_text": "Cancel",
+      "delete_loading_text": "Deleting...",
+      "limit_reached": "You can have up to 5 characters and campaigns in total. Delete a character or campaign to create more, or join unlimited campaigns as a player."
+    },
+    "detail": {
+      "not_found_title": "Campaign Not Found",
+      "header_alt": "{name} header",
+      "edit_title": "Edit Campaign",
+      "header_image_label": "Header Image",
+      "title_label": "Title",
+      "title_placeholder": "Campaign title",
+      "description_placeholder": "Describe your campaign",
+      "public_toggle_label": "Share Campaign Frame Publicly",
+      "public_toggle_description": "Allow others to discover and use this campaign frame as a template in the workshop",
+      "invite_player": "Invite Player",
+      "leave_campaign": "Leave Campaign",
+      "show_details": "Show Details",
+      "hide_details": "Hide Details",
+      "created_at": "Created {date}",
+      "updated_at": "Last updated {date}",
+      "fear": "Fear",
+      "playing_as": "Playing as",
+      "select_character_placeholder": "Select a character",
+      "delete_campaign": "Delete Campaign",
+      "delete_warning": "Once deleted, this campaign cannot be recovered.",
+      "not_authorized": "You are not authorized to edit this campaign.",
+      "notes_title": "Campaign Notes",
+      "add_note": "Add Note",
+      "view_character": "View",
+      "add_display_name": "Add a display name",
+      "leave_confirm": "Are you sure you want to leave this campaign? This action cannot be undone.",
+      "session_expired": "Your session has expired. Please sign in again and try again.",
+      "upload_image_failed": "Failed to upload image",
+      "authentication_required": "Authentication required",
+      "equipment_removed_success": "Equipment removed from campaign successfully",
+      "equipment_remove_failed": "Failed to remove equipment from campaign",
+      "equipment_added_success": "{type} added to character successfully!",
+      "equipment_add_failed": "Failed to add equipment to character",
+      "shared_equipment": {
+        "title": "Shared Equipment",
+        "empty": "No equipment shared yet",
+        "empty_description": "Share custom equipment from your Workshop",
+        "weapons": "Weapons",
+        "items": "Items",
+        "remove_from_campaign": "Remove from campaign",
+        "add": "Add",
+        "adding": "Adding...",
+        "add_to_character": "Add {name} to character",
+        "remove_weapon": "Remove weapon from campaign",
+        "remove_armor": "Remove armor from campaign",
+        "remove_item": "Remove item from campaign",
+        "hidden": "Hidden",
+        "toggle_failed": "Failed to toggle visibility",
+        "auth_required": "Authentication required",
+        "load_failed": "Failed to load equipment",
+        "add_equipment": "Add Equipment"
+      },
+      "share_equipment_modal": {
+        "title": "Share Equipment with Campaign",
+        "description": "Select equipment to share with this campaign. Players will be able to add shared equipment to their characters.",
+        "content_source": "Content Source",
+        "search_placeholder": "Search your equipment...",
+        "empty": "You don't have any equipment of this type yet.",
+        "create_in_workshop": "Create in Workshop →",
+        "share_button": "Share with Campaign",
+        "share_failed": "Failed to share equipment. Please try again."
+      },
+      "loot_generator": {
+        "title": "Random Loot Generator",
+        "type_loot": "Loot",
+        "type_consumable": "Consumable",
+        "rarity": "Rarity",
+        "rarity_common": "Common",
+        "rarity_uncommon": "Uncommon",
+        "rarity_rare": "Rare",
+        "rarity_legendary": "Legendary",
+        "dice_option": "Dice Option",
+        "quantity": "Quantity",
+        "items_range": "items (1-20)",
+        "generating": "Generating...",
+        "generate_loot": "Generate Loot",
+        "generation_mode": "Generation Mode",
+        "mode_roll": "Roll",
+        "mode_manual": "Manual Pick",
+        "manual_pick": "Pick Items",
+        "generated_items": "Generated Items ({count})",
+        "add_all_to_character": "Add All to Character",
+        "add_all_to_shared_equipment": "Add All to Shared Equipment",
+        "add_to_character": "Add to Character",
+        "add_to_shared": "Add to Shared",
+        "added": "Added",
+        "added_to_shared_tooltip": "Added to shared equipment",
+        "roll": "Roll",
+        "empty_state": "Select a rarity and click \"Generate Loot\" to create random items.",
+        "empty_state_results": "Generated items will appear here",
+        "manual_pick_modal": {
+          "title": "Select Loot Items",
+          "search_placeholder": "Search items...",
+          "add_selected": "Add {count} Item(s)"
+        }
+      }
+    },
+    "tabs": {
+      "information": "Information",
+      "session": "Session",
+      "encounters": "Encounters",
+      "files": "Shared Files",
+      "loot": "Loot Generator"
+    },
+    "info": {
+      "about": "About",
+      "campaign_frame": "Campaign Frame",
+      "members": "Members",
+      "playing": "Playing",
+      "remove_member": "Remove Player",
+      "remove_member_title": "Remove Player from Campaign",
+      "remove_member_confirm": "Are you sure you want to remove {name} from this campaign? They will lose access to the campaign and their character will be unlinked.",
+      "pregen_characters": {
+        "title": "Pre-generated Characters",
+        "subtitle": "Characters available for players to claim when joining",
+        "no_pregen_characters": "No pregen characters available",
+        "no_pregen_characters_description": "Add characters that players can pick up when joining this campaign.",
+        "claim": "Claim Character",
+        "claim_description": "This character will become yours",
+        "remove": "Remove from Campaign",
+        "remove_confirm": "Are you sure you want to remove this pregen character from the campaign?",
+        "add_success": "Character added as pregen",
+        "remove_success": "Pregen character removed",
+        "claim_success": "Character claimed successfully",
+        "select_character_to_add": "Select a character from your collection to add as a pregen character for this campaign.",
+        "select_character_first": "Please select a character first",
+        "no_characters_available": "You don't have any characters available to add as pregen.",
+        "claiming": "Claiming...",
+        "load_failed": "Failed to load pregen characters",
+        "add_failed": "Failed to add character as pregen",
+        "claim_failed": "Failed to claim character",
+        "remove_failed": "Failed to remove pregen character"
+      }
+    },
+    "files": {
+      "title": "Shared Files",
+      "description": "Files shared by the Game Master with the campaign. Click an image to view it full size.",
+      "upload": "Upload file",
+      "upload_hint": "Images (JPEG, PNG, WebP, GIF) and PDFs, max 10MB",
+      "uploading": "Uploading…",
+      "upload_success": "File uploaded",
+      "upload_error": "Failed to upload file",
+      "no_files": "No files shared yet",
+      "no_files_description": "The Game Master can upload images and PDFs to share with the group.",
+      "delete": "Remove",
+      "delete_confirm": "Remove this file from the campaign?",
+      "delete_success": "File removed",
+      "delete_error": "Failed to remove file",
+      "download": "Download",
+      "view_full": "View full size",
+      "rename": "Rename",
+      "rename_title": "Name this file",
+      "rename_placeholder": "Enter a display name for the file",
+      "rename_success": "File renamed",
+      "rename_error": "Failed to rename file"
+    },
+    "session": {
+      "fear": "Fear",
+      "fear_description": "Track the rising tension and danger throughout your campaign. The GM adjusts this value based on narrative events.",
+      "fear_table": {
+        "title": "Fear Table",
+        "category": "Category",
+        "description": "Description",
+        "fear": "Fear",
+        "incidental": "Incidental",
+        "incidental_desc": "A catch-up between PCs after an emotionally charged scene; gathering information; resupplying at a local market; resting during downtime.",
+        "minor": "Minor",
+        "minor_desc": "A travel sequence; a minor skirmish that introduces new foes or signals future trouble.",
+        "standard": "Standard",
+        "standard_desc": "A substantial battle with a notable objective; perilous travel that tests might and wit; a tense social encounter seeking crucial information or aid.",
+        "major": "Major",
+        "major_desc": "A large battle with a Solo or Leader adversary; a character-defining scene with a significant change to a character's personal story (such as revelation, growth, and betrayal).",
+        "climactic": "Climactic",
+        "climactic_desc": "A major confrontation with the villain of a story arc; an epic set piece battle; a judicial duel to determine an important NPC's fate."
+      },
+      "notes": "Campaign Notes",
+      "add_note": "Add Note",
+      "equipment": "Shared Equipment",
+      "no_character_selected": "No character selected",
+      "no_members": "No members in this campaign yet",
+      "playing_as": "Playing as",
+      "select_character": "Select Character",
+      "currently_playing": "Currently playing",
+      "no_characters_title": "No Characters",
+      "no_characters_description": "You haven't created any characters yet. Create one to join this campaign.",
+      "create_character": "Create Character",
+      "create_new_character": "Create new character",
+      "no_character": "No Character",
+      "no_character_description": "Leave the campaign without an active character",
+      "set_display_name": "Set display name",
+      "column": "Column {number}",
+      "remove_column": "Remove column",
+      "add_column": "Add Column",
+      "reset_layout": "Reset",
+      "undo": "Undo",
+      "done_editing": "Done",
+      "edit_layout": "Edit Layout",
+      "notifications": {
+        "fear_updated": "Fear updated to {value}",
+        "countdowns_updated": "Countdowns updated",
+        "layout_updated": "Layout updated",
+        "session_layout_updated": "Session layout updated",
+        "encounter_layout_updated": "Encounter layout updated"
+      },
+      "drop_elements_here": "Drop elements here",
+      "make_double": "Make double width",
+      "make_single": "Make single width",
+      "add_section": "Add Section",
+      "layout_elements": "Layout Elements",
+      "core": "Core",
+      "players": "Players",
+      "no_players": "No players have joined this campaign yet.",
+      "active_encounter": "Active Encounter",
+      "no_active_encounter": "No active encounter",
+      "no_active_encounter_hint": "Start an encounter from the Encounters tab to display it here.",
+      "visibility": {
+        "gm_only": "GM Only",
+        "visible_to_players": "Visible to Players"
+      },
+      "click_to_expand": "Click to expand",
+      "gm_sections": "GM Reference Sections",
+      "countdowns": {
+        "title": "Countdowns",
+        "add": "Add Countdown",
+        "create": "Create Countdown",
+        "edit": "Edit Countdown",
+        "name_label": "Name",
+        "name_placeholder": "e.g., City Guard Arrives",
+        "type_label": "Type",
+        "type_standard": "Standard",
+        "type_consequence": "Consequence",
+        "type_progress": "Progress",
+        "initial_value_label": "Initial Value",
+        "initial_value_placeholder": "Starting countdown value",
+        "current_value_label": "Current Value",
+        "current_value_placeholder": "Current countdown value",
+        "description_label": "Description",
+        "description_placeholder": "What is this countdown tracking?",
+        "effect_label": "Effect (when countdown reaches 0)",
+        "effect_placeholder": "What happens when this countdown reaches 0?",
+        "empty": "No countdowns yet. Create one to track upcoming events.",
+        "info": {
+          "title": "About Countdowns",
+          "description": "Countdowns represent a period of time or series of events preceding a future effect. They start at a specific value and are reduced when they advance. Their effect is triggered when the countdown reaches 0."
+        },
+        "fear_table": {
+          "title": "Fear Table"
+        }
+      },
+      "dice_rolls": {
+        "title": "Dice Roll Log",
+        "empty": "No dice rolls yet. Roll some dice to see them here!",
+        "rolled": "rolled",
+        "with": "with",
+        "visible": "Visible",
+        "hidden": "Hidden"
+      },
+      "connections": {
+        "title": "Character Connections",
+        "empty": "No character connections yet",
+        "no_connections": "No connections"
+      }
+    },
+    "actions": {
+      "menu": "Actions",
+      "leave_campaign": "Leave Campaign",
+      "leave_campaign_title": "Leave Campaign",
+      "leave_campaign_confirm": "Are you sure you want to leave \"{name}\"? You will lose access to this campaign and your character will be unlinked."
+    },
+    "create": {
+      "page_title": "Create Campaign",
+      "title": "Create New Campaign",
+      "subtitle": "Set up your new Daggerheart campaign and invite players to join",
+      "name_label": "Campaign Name",
+      "name_placeholder": "Enter campaign name",
+      "description_label": "Description",
+      "description_placeholder": "Describe your campaign (optional)",
+      "header_image_label": "Campaign Header Image",
+      "campaign_frame_title": "Campaign Frame Details",
+      "create_button": "Create Campaign",
+      "errors": {
+        "name_required": "Campaign name is required",
+        "name_too_long": "Campaign name must be 100 characters or less",
+        "description_too_long": "Description must be 1000 characters or less",
+        "image_upload_failed": "Failed to upload image. Please try again.",
+        "creation_failed": "Failed to create campaign. Please try again."
+      }
+    },
+    "invitations": {
+      "title": "Campaign Invitations",
+      "pending_banner": "You have {count} pending campaign invitation | You have {count} pending campaign invitations",
+      "view_invitations": "View Invitations",
+      "hide_invitations": "Hide Invitations",
+      "invited_by": "Invited by {name}",
+      "accept": "Accept",
+      "decline": "Decline",
+      "processing": "Processing invitation...",
+      "invalid_title": "Invalid Invitation",
+      "view_my_campaigns": "View My Campaigns",
+      "go_home": "Go Home",
+      "accepted_title": "Welcome to the Campaign!",
+      "accepted_message": "You have successfully joined \"{name}\"",
+      "already_member_title": "Already a Member",
+      "already_member_message": "You're already a member of \"{name}\". Head to the campaign to manage your character.",
+      "view_campaign": "View Campaign",
+      "campaign_invitation_title": "Campaign Invitation",
+      "invited_subtitle": "You've been invited to join a campaign!",
+      "game_master_label": "Game Master:",
+      "expires_label": "Expires:",
+      "sign_in_required": "You need to be signed in to accept this invitation.",
+      "sign_in_to_accept": "Sign In to Accept",
+      "join_question": "Would you like to join this campaign?",
+      "character_selection": "Character Selection",
+      "choose_how_to_join": "Choose how you want to join this campaign",
+      "pick_pregen": "Pick a Pre-generated Character",
+      "create_new": "Create Your Own Character",
+      "available_characters": "Available Characters",
+      "no_pregen_available": "No pregen characters available",
+      "accepting": "Accepting...",
+      "declining": "Declining...",
+      "subtitle": "Manage your campaign invitations and join new adventures.",
+      "pending_section_title": "Pending Invitations ({count})",
+      "accept_all": "Accept All",
+      "decline_all": "Decline All",
+      "personal_message_label": "Personal message:",
+      "sent_section_title": "Sent Invitations ({count})",
+      "table": {
+        "campaign": "Campaign",
+        "invited_player": "Invited Player",
+        "status": "Status",
+        "sent": "Sent"
+      },
+      "empty_title": "No invitations",
+      "empty_description": "You don't have any pending invitations or sent invitations at the moment.",
+      "browse_campaigns": "Browse Campaigns",
+      "relative": {
+        "1_day_ago": "1 day ago",
+        "n_days_ago": "{count} days ago"
+      },
+      "errors": {
+        "no_token": "No invitation token provided",
+        "expired": "This invitation has expired",
+        "already_handled": "This invitation has already been {status}",
+        "invalid_token": "Invalid invitation token",
+        "load_failed": "Failed to load invitation",
+        "no_auth": "No auth token",
+        "accept_failed": "Failed to accept invitation",
+        "decline_failed": "Failed to decline invitation"
+      },
+      "confirm": {
+        "cancel_one": "Are you sure you want to cancel this invitation?",
+        "accept_all": "Are you sure you want to accept all {count} pending invitations?",
+        "decline_all": "Are you sure you want to decline all {count} pending invitations?"
+      }
+    },
+    "encounters": {
+      "title": "Encounters",
+      "back_to_list": "Back to Encounters",
+      "create_encounter": "Create Encounter",
+      "edit_encounter": "Edit Encounter",
+      "create_content": "Create Content",
+      "create_content_hint": "Create adversaries and environments in the Workshop to use in your encounters:",
+      "add_content_hint": "After creating the encounter, you can add adversaries and environments from their respective view pages in the Workshop.",
+      "empty_title": "No Encounters Yet",
+      "empty_description": "Create an encounter to organize adversaries and environments for your sessions.",
+      "name": "Encounter Name",
+      "name_placeholder": "e.g., Abandoned Mine Entrance",
+      "description_placeholder": "Describe the encounter setup...",
+      "environment": "Environment",
+      "no_environment": "No environment",
+      "environment_hint": "Optional: Select an environment for this encounter.",
+      "features": "features",
+      "adversaries": "Adversaries",
+      "scene": "Scene",
+      "add_adversary": "Add Adversary",
+      "add_to_encounter": "Add to Encounter",
+      "select_adversary": "Select Adversary",
+      "choose_adversary": "Choose an adversary...",
+      "select_campaign": "Select Campaign",
+      "choose_campaign": "Choose a campaign...",
+      "select_encounter": "Select Encounter",
+      "choose_encounter": "Choose an encounter...",
+      "no_campaigns": "You don't have any campaigns yet.",
+      "go_to_campaigns": "Go to Campaigns",
+      "go_to_encounters": "Go to Encounters",
+      "no_encounters_in_campaign": "This campaign has no encounters yet.",
+      "create_new_encounter": "Create New Encounter",
+      "adversary_added": "Adversary added to encounter!",
+      "environment_added": "Environment added to encounter!",
+      "will_replace_environment": "This will replace the current environment on this encounter.",
+      "add_failed": "Failed to add to encounter.",
+      "quantity": "Quantity",
+      "add": "Add",
+      "active": "Active",
+      "activate": "Start Encounter",
+      "deactivate": "End Encounter",
+      "start_encounter": "Start Encounter",
+      "end_encounter": "End Encounter",
+      "description": "Description",
+      "view_description": "View description",
+      "hidden": "Hidden",
+      "visible_to_players": "Visible to Players",
+      "hide_from_players": "Hide from Players",
+      "show_to_players": "Show to Players",
+      "creatures": "creatures",
+      "creature": "creature",
+      "no_adversaries": "No adversaries in this encounter.",
+      "no_environment_set": "Click to add environment",
+      "no_adversaries_available": "No adversaries available",
+      "all_tiers": "All Tiers",
+      "all_types": "All Types",
+      "columns_label": "Columns",
+      "columns_auto": "Auto",
+      "add_adversary_hint": "Add adversaries from the Workshop by viewing an adversary and clicking 'Add to Encounter'.",
+      "add_environment_hint": "Add an environment from the Workshop by viewing an environment and clicking 'Add to Encounter'.",
+      "activate_to_track": "Activate the encounter to track individual HP and stress for each adversary.",
+      "view_encounter": "View",
+      "add_environment": "Add Environment",
+      "set_environment": "Set Environment",
+      "remove_environment": "Remove Environment",
+      "no_environments_available": "No environments available. Create one in the Workshop first.",
+      "health_tracking": "Health Tracking",
+      "defeated": "Defeated",
+      "defeat": "Defeat",
+      "revive": "Revive",
+      "notes_placeholder": "Add notes for this adversary...",
+      "limit_reached": "You've reached the maximum of {max} encounters per campaign. Delete an encounter to create more.",
+      "stats_visible": "Stats visible to players",
+      "stats_hidden": "Stats hidden from players",
+      "stats_hidden_from_players": "Stats hidden from players",
+      "customize_for_encounter": "Customize for this encounter",
+      "overrides_encounter_only": "These changes only apply to this encounter.",
+      "override_name": "Name",
+      "override_hp": "HP",
+      "override_stress": "Stress",
+      "override_tier": "Tier",
+      "override_difficulty": "Difficulty",
+      "override_description": "Description",
+      "override_thresholds_major": "Major Threshold",
+      "override_thresholds_severe": "Severe Threshold",
+      "override_attack_modifier": "Attack Modifier",
+      "override_standard_attack": "Standard Attack",
+      "override_standard_attack_name": "Attack Name",
+      "override_standard_attack_range": "Range",
+      "override_standard_attack_damage": "Damage",
+      "override_features": "Features",
+      "override_impulses": "Impulses",
+      "override_potential_adversaries": "Potential Adversaries",
+      "customize_adversary": "Customize Adversary",
+      "customize_environment": "Customize Environment",
+      "stat_block": "Stat Block",
+      "features_hidden": "Features hidden",
+      "expand_all": "Expand All",
+      "collapse_all": "Collapse All",
+      "damage_amount": "Amount",
+      "apply_damage": "Damage",
+      "apply_heal": "Heal"
+    },
+    "frame": {
+      "title": "Campaign Frame",
+      "create": "Create Campaign Frame",
+      "workshopTitle": "Campaign Frames",
+      "workshopDescription": "Browse and use campaign frames created by the community. Find inspiration for your next adventure!",
+      "searchPlaceholder": "Search campaign frames...",
+      "noFramesFound": "No campaign frames found",
+      "notFound": "Campaign frame not found",
+      "useAsTemplate": "Use as Template",
+      "basicInfo": "Basic Information",
+      "pitch": "Pitch",
+      "pitchPlaceholder": "A brief pitch to present to players...",
+      "tone": "Tone & Themes",
+      "tonePlaceholder": "Describe the tone, feel, themes, and cultural touchstones...",
+      "background": "Background",
+      "backgroundPlaceholder": "Overview of the campaign's background...",
+      "complexity": "Complexity",
+      "settingElements": "Setting Elements",
+      "communities": "Communities",
+      "communitiesEmpty": "No communities defined yet",
+      "ancestries": "Ancestries",
+      "ancestriesEmpty": "No ancestries defined yet",
+      "classes": "Classes",
+      "classesEmpty": "No classes defined yet",
+      "distinctions": "Unique Setting Distinctions",
+      "distinctionsEmpty": "No distinctions defined yet",
+      "principles": "Guiding Principles",
+      "playerPrinciples": "Player Principles",
+      "playerPrinciplesEmpty": "No player principles defined yet",
+      "gmPrinciples": "GM Principles",
+      "gmPrinciplesEmpty": "No GM principles defined yet",
+      "player_principles": "Player Principles",
+      "gm_principles": "GM Principles",
+      "campaignDetails": "Campaign Details",
+      "incitingIncident": "Inciting Incident",
+      "inciting_incident": "Inciting Incident",
+      "incitingIncidentPlaceholder": "Describe the incident that launches the campaign...",
+      "specialMechanics": "Special Mechanics",
+      "special_mechanics": "Special Mechanics",
+      "specialMechanicsPlaceholder": "Describe any special mechanics to use during the campaign...",
+      "sessionZeroQuestions": "Session Zero Questions",
+      "session_zero_questions": "Session Zero Questions",
+      "sessionZeroQuestionsPlaceholder": "Questions to consider during session zero...",
+      "additional_details": "Additional Details",
+      "noEntries": "No entries yet",
+      "entryTitle": "Entry title",
+      "entryDescription": "Entry description"
+    },
+    "complexity": {
+      "none": "Not set",
+      "low": "Low Complexity - Familiar fantasy setting",
+      "medium": "Medium Complexity - Some unique mechanics or setting elements",
+      "high": "High Complexity - Extensive homebrew and unique mechanics"
+    },
+    "name": "Campaign Name",
+    "namePlaceholder": "Enter a name for your campaign..."
+  },
+  "campaign": {
+    "equipment": {
+      "adding": "Adding..."
+    }
+  },
+  "character": {
+    "class": "Class",
+    "subclass": "Subclass",
+    "spellcast_trait": "Spellcast Trait",
+    "level": "Level",
+    "heritage": "Heritage",
+    "created": "Created",
+    "ancestry": "Ancestry",
+    "ancestry_empty": "No ancestry information available",
+    "community": "Community",
+    "community_empty": "No community selected",
+    "orderborne": {
+      "tenets": {
+        "title": "Principles",
+        "placeholder": "Tenet {number}"
+      }
+    },
+    "warlock": {
+      "patron": {
+        "title": "Patron Information",
+        "name": "Patron Name",
+        "name_placeholder": "Enter patron name",
+        "spheres": "Spheres of Influence",
+        "sphere_placeholder": "Sphere {number} (e.g., Nature & Mischief)",
+        "add_sphere": "Add Sphere",
+        "spent_favor": "Spent Favor"
+      },
+      "favor": {
+        "title": "Favor"
+      }
+    },
+    "compact": {
+      "toggle_to_compact": "Switch to Compact View",
+      "toggle_to_regular": "Switch to Regular View"
+    },
+    "print": {
+      "download_pdf": "Download PDF"
+    },
+    "mixed": "Mixed",
+    "transformation": "Transformation",
+    "transformation_beta": "Beta",
+    "transformation_empty": "No transformation selected",
+    "transformation_heritage_description": "Transformations are optional character changes that add both benefits and drawbacks. Like ancestry and community features, they don't count against your domain card limit.",
+    "no_transformation": "No Transformation",
+    "no_transformation_description": "Continue without a transformation (recommended for new players).",
+    "no_transformations_available": "No transformations available",
+    "transformation_beta_hint": "Enable beta content in your account settings to access transformation cards.",
+    "attributes": "Attributes",
+    "equipment": "Equipment",
+    "experience": "Experience",
+    "experiences": "Experiences",
+    "domains": "Domains",
+    "connections": "Connections",
+    "character_info": "Character Info",
+    "review": "Review",
+    "image": {
+      "label": "Character Image",
+      "preview_alt": "Character image preview",
+      "upload_instruction": "Click or drag to upload an image",
+      "file_requirements": "JPG, PNG, WebP up to 5MB",
+      "uploading": "Uploading...",
+      "error": {
+        "invalid_type": "Please select a valid image file (JPG, PNG, WebP)",
+        "too_large": "File size must be less than {max}MB",
+        "load_failed": "Failed to load image",
+        "upload_failed": "Failed to upload image"
+      }
+    },
+    "background": {
+      "title": "Background",
+      "subtitle": "Develop your character's background by answering the questions below. Your background has no explicit mechanical effect, but it greatly affects the character you'll play and the prep the GM will do.",
+      "questions_title": "Background Questions",
+      "origin_label": "Where did your character come from?",
+      "origin_placeholder": "Describe your character's homeland, community, or place of origin. What was their early life like?",
+      "motivation_label": "What drives your character?",
+      "motivation_placeholder": "What are their goals, dreams, or motivations? What brought them to this adventure?",
+      "relationships_label": "Who are the important people in your character's life?",
+      "relationships_placeholder": "Family, friends, mentors, rivals, or enemies. How do these relationships shape your character?",
+      "secrets_label": "What secrets or mysteries surround your character?",
+      "secrets_placeholder": "Hidden past, family secrets, unfinished business, or personal struggles.",
+      "personality_traits_title": "Personality & Traits",
+      "personality_label": "How does your character act and speak?",
+      "personality_placeholder": "Personality traits, mannerisms, speech patterns, or quirks that make them unique.",
+      "beliefs_label": "What does your character believe in?",
+      "beliefs_placeholder": "Values, ideals, religious beliefs, or personal philosophies that guide their actions.",
+      "story_title": "Background Story",
+      "story_label": "Tell your character's story",
+      "story_placeholder": "Weave together the answers above into a cohesive background story. This can be as detailed or as ambiguous as you prefer - you can always discover more through play.",
+      "connections_title": "Connections & Notes",
+      "connections_label": "How is your character connected to the world? (Optional)",
+      "connections_placeholder": "Organizations, locations, events, or ongoing situations your character is involved with.",
+      "notes_label": "Additional Notes",
+      "notes_placeholder": "Any other important details, ideas for future development, or notes for your GM.",
+      "remember_title": "Remember",
+      "remember_content": "You can adjust choices from earlier steps to better reflect your character's background. If you prefer to keep your character's past more ambiguous, that's perfectly fine - you can discover their backstory through play!"
+    },
+    "attribute_traits": {
+      "agility": "Agility",
+      "strength": "Strength",
+      "finesse": "Finesse",
+      "instinct": "Instinct",
+      "presence": "Presence",
+      "knowledge": "Knowledge"
+    },
+    "experiences_item": {
+      "name": "Experience",
+      "name_placeholder": "Enter experience name...",
+      "description": "Description",
+      "description_placeholder": "Enter description...",
+      "description_optional": "Optional"
+    },
+    "custom_counters": {
+      "add_title": "Add Custom Counter",
+      "edit_title": "Edit Custom Counter",
+      "name_label": "Counter Name",
+      "count_direction_label": "Count Direction",
+      "count_direction_placeholder": "Select count direction",
+      "count_direction_description": "Choose whether to fill dots from left to right or right to left",
+      "count_direction_left": "Left to Right",
+      "count_direction_right": "Right to Left",
+      "name_placeholder": "e.g., Inspiration, Rage Points, Ki Points",
+      "max_value_label": "Max Value",
+      "max_value_placeholder": "Enter maximum slots",
+      "max_value_description": "Total number of slots available",
+      "current_value_label": "Current Value",
+      "current_value_placeholder": "Enter current used slots",
+      "current_value_description": "Number of slots currently used"
+    },
+    "creation": {
+      "basic_info": {
+        "title": "Character Information & Background",
+        "section_title": "Basic Character Details"
+      }
+    },
+    "sheet": {
+      "tabs": {
+        "character_sheet": "Character Sheet",
+        "details": "Details",
+        "inventory": "Inventory",
+        "domain_cards": "Domain Cards"
+      },
+      "resources": {
+        "hope": "Hope",
+        "armor_score": "Armor Score",
+        "experience": "Experience",
+        "gold": "Gold"
+      },
+      "damage_thresholds": {
+        "minor": "Minor",
+        "major": "Major",
+        "severe": "Severe",
+        "massive": "Massive"
+      }
+    },
+    "stats": {
+      "hope": "Hope"
+    },
+    "create_title": "Create Character",
+    "buttons": {
+      "create": "Create Character"
+    },
+    "delete": {
+      "title": "Delete Character",
+      "confirm_title": "Are you sure?",
+      "this_character": "this character",
+      "button": "Delete Character"
+    },
+    "class_selection": {
+      "title": "Choose Your Class",
+      "stats": {
+        "base_hp": "Base HP"
+      },
+      "domains": {
+        "title": "Class Domains"
+      },
+      "info": {
+        "title": "Class Selection",
+        "content": "Select the class that defines your character's abilities and role in the party. Each class offers unique specializations and features to customize your playstyle."
+      },
+      "features": {
+        "title": "Class Features",
+        "info": {
+          "title": "Class Features",
+          "content": "Every class begins with unique features. If your class feature requires a selection, choose now."
+        },
+        "subclass_info": {
+          "title": "Subclass Features",
+          "content": "Your {subclass} specialization grants these unique abilities.{spellcast}"
+        }
+      },
+      "selection_summary": {
+        "complete": {
+          "title": "Class Selection Complete",
+          "content": "All required class and subclass features have been selected. You can proceed to the next step."
+        },
+        "incomplete": {
+          "title": "Class Selection Incomplete",
+          "content": "Please make all required selections for your class and subclass features before proceeding."
+        }
+      }
+    },
+    "armor": {
+      "delete_confirmation": {
+        "title": "Remove Armor",
+        "message": "Are you sure you want to remove {armorName}? This action cannot be undone."
+      }
+    },
+    "armor_modal": {
+      "title": "Select Armor",
+      "filters": {
+        "tier": {
+          "label": "Tier",
+          "placeholder": "Filter by tier",
+          "all": "All Tiers",
+          "tier_n": "Tier {n}"
+        },
+        "score": {
+          "label": "Base Score",
+          "placeholder": "Filter by score",
+          "all": "All Scores",
+          "light": "0-2 (Light)",
+          "medium": "3-4 (Medium)",
+          "heavy": "5+ (Heavy)"
+        }
+      },
+      "no_results": "No armor found matching your criteria",
+      "armor_card": {
+        "score_label": "Score: {value}",
+        "tier_label": "T{value}",
+        "base_score": "Base Score"
+      }
+    },
+    "sheet_tab": {
+      "sections": {
+        "health": {
+          "title": "Hit Points & Stress"
+        },
+        "hope": {
+          "title": "Hope",
+          "feature_title": "Hope Feature",
+          "custom_counters_hint": "Tip: You can add custom counters on the Edit page under the Experience tab."
+        },
+        "custom_counters": {
+          "title": "Custom Counters"
+        },
+        "experience": {
+          "empty": {
+            "title": "No Experiences",
+            "description": "Add experiences during character creation"
+          },
+          "usage": "Usage: Spend 1 Hope to add the experience bonus to a relevant action roll",
+          "noExperienceSelected": "No experience selected yet",
+          "experienceSelected": "Experience selected:",
+          "chooseExperience": "Choose Experience"
+        },
+        "class_features": {
+          "title": "Class Features",
+          "unknown": "UNKNOWN FEATURE",
+          "level": "Level {n}",
+          "empty": "No class features available",
+          "debug": "Debug: Class - {class}"
+        },
+        "combo_die": {
+          "title": "Combo Die",
+          "name": "COMBO DIE",
+          "description": "Your Combo Die is used for Combo Strikes. Mark a Stress to start a combo strike and roll your Combo Die, continuing to roll until you get a lower result.",
+          "progression": "Progression"
+        },
+        "subclass_features": {
+          "title": "{subclass} Features",
+          "unknown": "UNKNOWN SUBCLASS FEATURE"
+        },
+        "weapons": {
+          "title": "Active weapons",
+          "title_short": "Weapons",
+          "proficiency": "Proficiency",
+          "primary": "Primary",
+          "secondary": "Secondary",
+          "set_active": "Set active in the equipment section",
+          "add_weapon_modal": {
+            "title": "Add Weapon to Inventory"
+          },
+          "filters": {
+            "all_types": "All Types",
+            "all_burdens": "All Burdens",
+            "all_categories": "All Categories",
+            "physical": "Physical",
+            "magic": "Magic",
+            "wheelchair": "Wheelchair/Mobility",
+            "filter_by_type": "Filter by type",
+            "filter_by_burden": "Filter by burden",
+            "filter_by_category": "Filter by category"
+          }
+        },
+        "armor": {
+          "title": "Active armor",
+          "title_short": "Armor"
+        },
+        "beastform": {
+          "title": "BEASTFORM",
+          "attack": "Attack",
+          "attack_trait": "Attack Trait:",
+          "evasion_bonus": "Evasion Bonus:",
+          "advantages": "Advantages:",
+          "trait_bonuses": "Trait Bonuses:",
+          "melee_range": "Melee",
+          "attack_rules": "Beastform Attack Rules",
+          "attack_description": "Use the creature's listed range, trait, and damage dice, but use your Proficiency.",
+          "weapons_disabled": "Normal weapons are disabled while in beastform",
+          "selector": {
+            "choose_form": "Choose a form...",
+            "tier": "Tier {n}",
+            "fragile": "(Fragile)",
+            "attacks": "attacks"
+          },
+          "toggle": {
+            "drop_form": "Drop Form",
+            "select_form_first": "Select Form First",
+            "need_stress": "Need 1 Stress",
+            "transform_stress": "Transform (1 Stress)"
+          }
+        }
+      }
+    },
+    "attributes_step": {
+      "title": "Assign Attribute Modifiers",
+      "instructions": "Assign the following modifiers to your six attributes in any order you wish: +2, +1, +1, +0, +0, -1",
+      "suggested_traits": "Suggested Traits for",
+      "available_modifiers": "Available Modifiers:",
+      "no_modifiers_available": "No modifiers available",
+      "suggested_value": "Suggested Value:"
+    },
+    "connections_step": {
+      "title": "Create Your Connections",
+      "intro": {
+        "title": "Building Relationships",
+        "content": "Connections are the relationships between player characters. Record your connections with other party members below."
+      },
+      "section": {
+        "title": "Your Character Connections",
+        "description": "Add your connections to other player characters. Work with your group to establish these relationships collaboratively."
+      },
+      "quick_ideas": {
+        "title": "Quick Connection Ideas",
+        "family": {
+          "title": "Family/Friends",
+          "description": "Siblings, childhood friends, or chosen family"
+        },
+        "professional": {
+          "title": "Professional",
+          "description": "Former colleagues, guild members, or rivals"
+        },
+        "shared": {
+          "title": "Shared Experience",
+          "description": "Survivors of the same event or quest"
+        }
+      },
+      "process": {
+        "title": "Connection Creation Process (Click to expand)",
+        "steps": {
+          "introductions": {
+            "title": "Character Introductions",
+            "description": "Go around the table and have each player describe their character: name, pronouns, description, experiences, and background answers."
+          },
+          "discuss": {
+            "title": "Discuss Potential Connections",
+            "description": "Use the connection questions below as inspiration to explore relationships between characters."
+          },
+          "suggest": {
+            "title": "Suggest & Accept Connections",
+            "description": "Suggest at least one connection between your character and each other PC. Accept or reject suggestions as desired."
+          }
+        }
+      },
+      "questions": {
+        "title": "Connection Questions for Inspiration (Click to expand)",
+        "shared_history": {
+          "title": "Shared History",
+          "question_grow_up": "Did you grow up together?",
+          "question_work": "Have you worked together before?",
+          "question_event": "Did you meet during a significant event?",
+          "question_mentor": "Do you share a mentor or teacher?"
+        },
+        "family": {
+          "title": "Family & Blood",
+          "question_related": "Are you related by blood or marriage?",
+          "question_save": "Did one of you save the other's family?",
+          "question_history": "Do your families have a history together?",
+          "question_adopted": "Are you adopted siblings or chosen family?"
+        },
+        "professional": {
+          "title": "Professional Bonds",
+          "question_guild": "Were you in the same guild or organization?",
+          "question_military": "Did you serve together in military or guard?",
+          "question_business": "Are you business partners or rivals?",
+          "question_patron": "Do you share the same patron or employer?"
+        },
+        "debts": {
+          "title": "Debts & Favors",
+          "question_debt": "Does one of you owe the other a debt?",
+          "question_lives": "Did you save each other's lives?",
+          "question_oath": "Are you bound by an oath or promise?",
+          "question_secret": "Do you share a secret that binds you?"
+        },
+        "conflict": {
+          "title": "Conflict & Rivalry",
+          "question_enemies": "Were you once enemies or rivals?",
+          "question_compete": "Did you compete for the same goal?",
+          "question_philosophy": "Do you have philosophical differences?",
+          "question_overcome": "Are you working to overcome past conflicts?"
+        },
+        "goals": {
+          "title": "Shared Goals",
+          "question_seek": "Do you seek the same thing?",
+          "question_enemy": "Are you united by a common enemy?",
+          "question_vision": "Do you share a vision for the future?",
+          "question_search": "Are you both searching for someone or something?"
+        }
+      },
+      "reminders": {
+        "title": "Important Reminders",
+        "item_reject": "Players can reject suggested connections for any reason",
+        "item_not_all": "It's okay if there isn't a connection between every pair of PCs",
+        "item_discover": "You can always discover and develop relationships through play",
+        "item_focus": "Focus on connections that excite you and enhance the story"
+      },
+      "help": {
+        "title": "Quick Ideas & Reminders"
+      },
+      "fields": {
+        "name": {
+          "label": "Connected Character Name",
+          "placeholder": "Enter character name..."
+        },
+        "description": {
+          "label": "Connection Description",
+          "placeholder": "Describe your connection to this character..."
+        }
+      }
+    },
+    "heritage_step": {
+      "title": "Choose Your Heritage",
+      "description": "Your heritage consists of your ancestry (your physical and magical origins) and your community (the culture and traditions that shaped you).",
+      "ancestry": {
+        "title": "Select Your Ancestry",
+        "available": "{count} available",
+        "info": {
+          "title": "About Ancestry",
+          "description": "Your ancestry determines your physical traits, innate magical abilities, and natural talents. Choose the one that best fits your character concept."
+        }
+      },
+      "mixed": {
+        "title": "Create Mixed Ancestry",
+        "reset": "Reset",
+        "rules": {
+          "title": "Mixed Ancestry Rules",
+          "description": "Take the {first} from one ancestry and the {second} from another ancestry to create your unique mixed heritage.",
+          "first_feature": "first feature",
+          "second_feature": "second feature"
+        },
+        "first": {
+          "title": "First Ancestry (for first feature)"
+        },
+        "second": {
+          "title": "Second Ancestry (for second feature)",
+          "already_selected": "(Already selected)"
+        },
+        "preview": {
+          "title": "Your Mixed Ancestry",
+          "type": "Mixed Ancestry",
+          "from": "From {ancestry}",
+          "confirm": "Confirm Mixed Ancestry"
+        }
+      },
+      "community": {
+        "title": "Select Your Community",
+        "available": "{count} available",
+        "locked": {
+          "title": "Select Ancestry First",
+          "description": "You must first choose an ancestry before selecting a community.",
+          "button": "Go to Ancestry"
+        },
+        "info": {
+          "title": "About Community",
+          "description": "Your community represents the culture and traditions that shaped you growing up. This influences your social connections, skills, and worldview."
+        }
+      },
+      "drakona": {
+        "elemental_breath": {
+          "choice_required": {
+            "title": "Elemental Breath Choice Required",
+            "description": "You must choose an element for your Drakona's breath weapon before proceeding to Community selection.",
+            "button": "Choose Element"
+          },
+          "selected": {
+            "title": "Elemental Breath Selected",
+            "description": "Your breath weapon element has been chosen.",
+            "button": "Change Element"
+          }
+        }
+      },
+      "mixed_ancestry": {
+        "label": "MIX",
+        "description": "A mixed heritage combining {first} and {second} traits."
+      },
+      "personality_traits": "Personality Traits"
+    },
+    "heritage_confirmation": {
+      "title": "Confirm Your Heritage",
+      "info": {
+        "title": "Heritage Review",
+        "content": "Review your ancestry, community, and any transformations before proceeding. You can go back to make changes if needed."
+      },
+      "elemental_breath": "Elemental Breath",
+      "summary": {
+        "title": "Heritage Selection Complete",
+        "content": "Your heritage selections look good! You can proceed to the next step or go back to make changes."
+      }
+    },
+    "equipment_item": {
+      "armor_score": "Armor Score"
+    },
+    "master_of_the_craft_step": {
+      "title": "Master of the Craft",
+      "card_info": {
+        "title": "Master of the Craft",
+        "content": "Gain a permanent +2 bonus to two of your Experiences or a permanent +3 bonus to one of your Experiences. Then place this card in your vault permanently."
+      },
+      "option_selection": {
+        "title": "Choose Your Bonus"
+      },
+      "experience_selection": {
+        "title": "Select Experiences"
+      }
+    },
+    "vitality_step": {
+      "title": "Vitality",
+      "card_info": {
+        "title": "Vitality",
+        "content": "When you choose this card, permanently gain two of the following benefits: One Stress slot, One Hit Point slot, or +2 bonus to your damage thresholds. Then place this card in your vault permanently."
+      },
+      "benefit_selection": {
+        "title": "Choose Two Benefits"
+      }
+    },
+    "domain_cards_step": {
+      "title": "Domain Cards",
+      "acquisition": {
+        "title": "Domain Card Acquisition",
+        "content": "When leveling up, you automatically gain 1 new domain card from your class domains at your new level or below. If you selected the 'Additional Domain Card' advancement, you can choose 1 additional card (2 total). You can also exchange existing cards."
+      },
+      "advancing_to_level": "Advancing to Level {level}",
+      "header": {
+        "status_and_available": "Current domain card status and available cards from your class domains: {domains}"
+      },
+      "multiclass_info": "🌟 Multiclass detected! You can choose from both {primary} and {secondary} domains.",
+      "advancement_bonus_info": "🎉 You selected 'Additional Domain Card' advancement - you can choose {count} cards!",
+      "filter_by_domain": "Filter by domain:",
+      "summary": {
+        "title": "Level Up Summary",
+        "selected": "Selected {count}",
+        "to_loadout": "to loadout",
+        "exchanging": "Exchanging {count} card | Exchanging {count} cards"
+      },
+      "card_placement": "Card Placement",
+      "available_for_exchange": "{count} available for exchange",
+      "choose_title": "Choose Domain Cards",
+      "new_cards": "New Cards",
+      "card_exchanges": "Card Exchanges",
+      "select_more_short": "Select {remaining} more to continue",
+      "ready_short": "Ready to Level Up",
+      "exchange_incomplete_short": "Complete exchanges to continue",
+      "info": {
+        "title": "Domain Card Selection",
+        "description": "Choose {count} cards from your class's domains. You can take one card from each domain or {multiple_text}, whichever you prefer.",
+        "school_of_knowledge": "📚 School of Knowledge Bonus: Your \"Prepared\" feature grants you an additional domain card!"
+      },
+      "progress": {
+        "title": "Cards Selected"
+      },
+      "domains": {
+        "title": "Your Class Domains"
+      },
+      "cards": {
+        "title": "Available Domain Cards"
+      },
+      "usage": {
+        "title": "Using Domain Cards",
+        "content": "Domain cards represent special abilities and techniques your character knows. Work with your GM to determine when and how to use these abilities during play. You'll gain more domain cards as you level up!"
+      },
+      "completion": {
+        "complete": "Complete",
+        "cards_selected": "{count} card selected | {count} cards selected"
+      },
+      "filters": {
+        "domain": "Filter by domain",
+        "all_domains": "All Domains",
+        "type": "Filter by type",
+        "all_types": "All Types",
+        "type_spell": "Spell",
+        "type_ability": "Ability",
+        "type_grimoire": "Grimoire",
+        "search": "Search",
+        "search_placeholder": "Search by title or ability...",
+        "official_only": "Official cards only",
+        "no_matches": "No Cards Match Your Filters",
+        "no_matches_description": "Try adjusting your search or filter options to see more cards."
+      },
+      "merged_selection": {
+        "title": "Select Your Domain Cards",
+        "description": "Choose from your class domains ({classDomains}) at level {level} or below, plus one card from any other domain at level {maxCrossLevel} or below."
+      },
+      "merged_progress": {
+        "class_cards": "Class: {count} / {max}",
+        "cross_domain": "Cross-domain: {count}"
+      },
+      "cross_domain_badge": "CROSS-DOMAIN",
+      "cross_domain_section": {
+        "title": "Cross-Domain Card",
+        "description": "Select one domain card from any domain outside your class domains. The card's level cannot exceed {maxLevel} (half your character level, rounded up).",
+        "no_cards": "No Cross-Domain Cards Available",
+        "no_cards_description": "There are no domain cards available from other domains at your level."
+      },
+      "exchange": {
+        "title": "Card Exchange",
+        "select_source_first": "Select a source card first",
+        "move_to_vault": "Move to Vault",
+        "move_to_vault_description": "Choose a card to replace in your loadout if you want, this card is moved to your vault",
+        "replace_card": "Replace Card",
+        "with_this_card": "With this card",
+        "replace_card_description": "Choose any card you have and replace it with a card from your domains (same level or lower). The new card goes to the same location.",
+        "not_available_title": "Exchange Not Available",
+        "not_available_description": "Card exchange becomes available once you have domain cards. Complete character creation first to gain your starting domain cards.",
+        "no_cards_to_exchange_title": "No Cards to Exchange",
+        "no_cards_to_exchange_description": "You don't have any domain cards to exchange yet."
+      }
+    },
+    "equipment_step": {
+      "title": "Choose Your Starting Equipment",
+      "rules": {
+        "title": "Starting Equipment Rules",
+        "description": "Select from Tier 1 equipment tables. Choose either a two-handed primary weapon OR a one-handed primary + one-handed secondary weapon. Your Proficiency is 1 at Level 1."
+      },
+      "content_filter": {
+        "label": "Content Type"
+      },
+      "weapon": {
+        "title": "Weapon Selection",
+        "configuration": {
+          "title": "Choose Your Weapon Configuration:",
+          "two_handed": "Two-handed primary weapon",
+          "one_handed": "One-handed primary + one-handed secondary weapon"
+        },
+        "summary": {
+          "title": "Selected Weapons",
+          "configuration": "Configuration",
+          "configuration_two_handed": "Two-handed",
+          "configuration_one_handed": "One-handed + Secondary"
+        },
+        "primary": {
+          "title": "Primary Weapon"
+        },
+        "secondary": {
+          "title": "Secondary Weapon (One-handed)"
+        }
+      },
+      "armor": {
+        "title": "Armor Selection",
+        "complete": "Complete",
+        "summary": {
+          "title": "Selected Armor",
+          "armor": "Armor",
+          "no_armor": "No Armor"
+        },
+        "selection": {
+          "title": "Choose Your Tier 1 Armor",
+          "no_armor": {
+            "title": "No Armor",
+            "armor_score": "0 (special)",
+            "threshold_note": "{level} (base + level)",
+            "description": "Ideal for Bare Bones domain card users or unique builds"
+          },
+          "no_armor_available": "No armor available for character creation."
+        }
+      },
+      "suggested": {
+        "primary_title": "SUGGESTED PRIMARY WEAPON",
+        "secondary_title": "SUGGESTED SECONDARY WEAPON",
+        "armor_title": "SUGGESTED ARMOR"
+      },
+      "inventory": {
+        "title": "Starting Inventory",
+        "complete": "Complete",
+        "summary": {
+          "title": "Selected Inventory",
+          "potion": "Starting Potion",
+          "class_item": "Class Item",
+          "spell_focus": "Spell Focus",
+          "additional": "Additional Items"
+        },
+        "basic_items": {
+          "title": "Basic Starting Items (Included)"
+        },
+        "potion": {
+          "title": "Choose Your Starting Potion"
+        },
+        "class_item": {
+          "title": "Choose Your Class-Specific Item"
+        },
+        "spell_focus": {
+          "title": "Choose Your Spell Focus"
+        },
+        "additional": {
+          "title": "Additional Items (Optional)",
+          "placeholder": "List any other GM-approved items you'd like to start with...",
+          "note": "Work with your GM to add any other starting items that fit your character concept."
+        }
+      }
+    },
+    "experiences_step": {
+      "title": "Create Your Experiences",
+      "info": {
+        "title": "What are Experiences?",
+        "description": "Experiences are words or phrases that encapsulate skills, traits, or aptitudes your character possesses. You get {count} at character creation, each providing a {bonus} when relevant.",
+        "count_text": "two Experiences",
+        "bonus_text": "+2 modifier"
+      },
+      "first_experience": {
+        "title": "First Experience"
+      },
+      "second_experience": {
+        "title": "Second Experience"
+      },
+      "clank_bonus": {
+        "error": "As a Clank, you must select which experience aligns with your purpose"
+      },
+      "guidelines": {
+        "title": "Experience Guidelines",
+        "good": {
+          "title": "Good Examples",
+          "example_blacksmith": "Trained as a blacksmith",
+          "example_streets": "Grew up on the streets",
+          "example_noble": "Noble court etiquette",
+          "example_wilderness": "Wilderness survival",
+          "example_scholar": "Academic scholar",
+          "example_soldier": "Former soldier"
+        },
+        "bad": {
+          "title": "Avoid These",
+          "example_broad": "Too broad: \"Lucky\"",
+          "example_powerful": "Too powerful: \"Supersonic flight\"",
+          "example_vague": "Too vague: \"Good at stuff\"",
+          "example_combat": "Combat focused: \"Sword master\"",
+          "example_magic": "Magical abilities: \"Mind reading\""
+        }
+      },
+      "inspiration": {
+        "title": "Need Inspiration?",
+        "professional": {
+          "title": "Professional",
+          "example_merchant": "Merchant trader",
+          "example_acolyte": "Temple acolyte",
+          "example_guard": "City guard",
+          "example_tavern": "Tavern keeper",
+          "example_navigator": "Ship navigator",
+          "example_musician": "Court musician"
+        },
+        "social": {
+          "title": "Social",
+          "example_noble": "Noble upbringing",
+          "example_orphan": "Street orphan",
+          "example_tribal": "Tribal member",
+          "example_apprentice": "Guild apprentice",
+          "example_performer": "Traveling performer",
+          "example_elder": "Village elder"
+        },
+        "skills": {
+          "title": "Skills & Traits",
+          "example_reflexes": "Quick reflexes",
+          "example_observer": "Keen observer",
+          "example_leader": "Natural leader",
+          "example_teacher": "Patient teacher",
+          "example_talker": "Smooth talker",
+          "example_detail": "Detail oriented"
+        }
+      },
+      "usage": {
+        "title": "Using Experiences",
+        "content": "During play, you can spend 1 Hope to add +2 to any action roll where one of your Experiences would be relevant. Work with your GM to determine when an Experience applies!"
+      },
+      "help": {
+        "title": "Guidelines & Inspiration"
+      }
+    },
+    "review_step": {
+      "title": "Review Your Character",
+      "description": "Review all your character details before finalizing creation.",
+      "sections": {
+        "basic_info": {
+          "title": "Basic Information",
+          "fields": {
+            "heritage": "Heritage",
+            "class": "Class",
+            "level": "Level"
+          }
+        },
+        "mixed_ancestry": {
+          "title": "Mixed Ancestry Features",
+          "from": "From {ancestry}"
+        },
+        "transformation": {
+          "title": "Transformation",
+          "beta": "BETA"
+        },
+        "class_features": {
+          "title": "Class Features",
+          "selected": "Selected: {choice}",
+          "level_progression": {
+            "title": "Level Progression",
+            "level": "Level {level}:"
+          }
+        },
+        "subclass_features": {
+          "title": "{subclass} Features"
+        },
+        "attributes": {
+          "title": "Attributes"
+        },
+        "equipment": {
+          "title": "Starting Equipment",
+          "armor": {
+            "title": "Armor",
+            "score": "Score: {value}"
+          },
+          "primary_weapon": {
+            "title": "Primary Weapon",
+            "stats": {}
+          },
+          "secondary_weapon": {
+            "title": "Secondary Weapon",
+            "stats": {}
+          },
+          "configuration": {
+            "title": "Configuration",
+            "two_handed": "Two-handed primary weapon",
+            "one_handed": "One-handed primary + secondary weapons"
+          }
+        },
+        "inventory": {
+          "title": "Starting Inventory",
+          "basic_items": {
+            "title": "Basic Items",
+            "content": "Torch, 50 feet of rope, basic supplies, handful of gold"
+          },
+          "potion": "Potion",
+          "class_item": "Class Item",
+          "spell_focus": "Spell Focus",
+          "additional": "Additional Items"
+        },
+        "experiences": {
+          "title": "Experiences",
+          "bonus": "+2 Bonus",
+          "usage": {
+            "title": "Using Experiences",
+            "content": "Spend 1 Hope to add +2 to a relevant action roll"
+          }
+        },
+        "domain_cards": {
+          "title": "Domain Cards",
+          "level": "Level {level}",
+          "feature": "Feature",
+          "empty": "No domain cards selected"
+        }
+      }
+    },
+    "details_tab": {
+      "sections": {
+        "basic_info": {
+          "title": "Basic Information",
+          "name": "NAME",
+          "pronouns": "PRONOUNS",
+          "heritage": "HERITAGE",
+          "level": "LEVEL",
+          "class_subclass": "CLASS & SUBCLASS"
+        },
+        "description": {
+          "title": "Physical Description",
+          "label": "DESCRIPTION",
+          "empty": "No physical description provided"
+        },
+        "background": {
+          "title": "Background",
+          "origin": {
+            "label": "WHERE DID YOUR CHARACTER COME FROM?",
+            "empty": "No origin story provided"
+          },
+          "motivation": {
+            "label": "WHAT DRIVES YOUR CHARACTER?",
+            "empty": "No motivation provided"
+          },
+          "relationships": {
+            "label": "IMPORTANT PEOPLE IN YOUR CHARACTER'S LIFE",
+            "empty": "No important relationships described"
+          },
+          "secrets": {
+            "label": "SECRETS OR MYSTERIES",
+            "empty": "No secrets or mysteries described"
+          }
+        },
+        "story": {
+          "empty": "No background story provided"
+        },
+        "personality": {
+          "empty": "No personality traits described"
+        },
+        "beliefs": {
+          "empty": "No beliefs described"
+        },
+        "connections": {
+          "default_title": "Connection",
+          "unnamed": "Unnamed Connection",
+          "empty_title": "No Connections",
+          "empty_description": "Connections will appear here as your character develops relationships during gameplay"
+        },
+        "notes": {
+          "title": "Notes",
+          "add_button": "+ Add Note"
+        }
+      }
+    },
+    "damage_thresholds": {
+      "minor": {
+        "title": "Minor Damage",
+        "description": "Mark 1 HP"
+      },
+      "major": {
+        "title": "Major Damage",
+        "description": "Mark 2 HP"
+      },
+      "severe": {
+        "title": "Severe Damage",
+        "description": "Mark 3 HP"
+      },
+      "massive": {
+        "title": "Massive Damage",
+        "description": "Mark 4 HP"
+      }
+    },
+    "cards": {
+      "name_label": "Character Name",
+      "name_placeholder": "Enter your character's name",
+      "pronouns_label": "Pronouns",
+      "pronouns_placeholder": "e.g., they/them, she/her, he/him",
+      "description_label": "Physical Description",
+      "description_placeholder": "Describe your character's appearance, mannerisms, and notable features..."
+    },
+    "conditions": {
+      "title": "Conditions",
+      "manage": "Manage Status",
+      "manage_title": "Manage Character Conditions",
+      "current": "Active Conditions",
+      "available": "Available Conditions",
+      "apply": "Apply",
+      "remove": "Remove",
+      "active": "Active",
+      "types": {
+        "hidden": {
+          "name": "Hidden",
+          "description": "Out of sight from enemies. Rolls against Hidden creatures have disadvantage."
+        },
+        "restrained": {
+          "name": "Restrained",
+          "description": "Cannot move, but can still take actions from current position."
+        },
+        "vulnerable": {
+          "name": "Vulnerable",
+          "description": "All rolls targeting this creature have advantage."
+        }
+      }
+    },
+    "active_effects": {
+      "title": "Active Effects",
+      "none": "No active effects",
+      "remove": "Remove effect"
+    },
+    "settings": {
+      "title": "Character Settings"
+    },
+    "actions": {
+      "edit": "Edit",
+      "level_up": "Level Up",
+      "rollback_level": "Rollback Level",
+      "rolling_back": "Rolling Back..."
+    },
+    "rollback": {
+      "confirm_title": "Rollback Level Up?",
+      "confirm_message": "Are you sure you want to rollback your last level up? This will undo all choices made during that level up and cannot be easily reversed.",
+      "confirm_button": "Rollback"
+    },
+    "rest": {
+      "title": "Rest",
+      "take_rest": "Take Rest",
+      "saving_text": "Taking Rest...",
+      "save_button_text": "Complete Rest",
+      "short": {
+        "title": "Short Rest",
+        "description": "Lasts enough time to catch breath, about an hour.",
+        "choose_two": "Choose 2 downtime moves:"
+      },
+      "long": {
+        "title": "Long Rest", 
+        "description": "When characters make camp and relax or sleep for several in-game hours.",
+        "choose_two": "Choose 2 downtime moves (can choose the same twice):"
+      },
+      "moves": {
+        "tend_wounds": {
+          "name": "Tend to Wounds",
+          "effect": "Clear 1d4+Tier Hit Points for yourself or an ally"
+        },
+        "clear_stress": {
+          "name": "Clear Stress",
+          "effect": "Clear 1d4+Tier Stress"
+        },
+        "repair_armor": {
+          "name": "Repair Armor",
+          "effect": "Clear 1d4+Tier Armor Slots from your or an ally's armor"
+        },
+        "prepare": {
+          "name": "Prepare",
+          "effect": "Describe how you prepare yourself for the path ahead, then gain a Hope. If you choose to Prepare with one or more members of your party, you each gain 2 Hope."
+        },
+        "tend_all_wounds": {
+          "name": "Tend to All Wounds",
+          "effect": "Clear all Hit Points for yourself or an ally"
+        },
+        "clear_all_stress": {
+          "name": "Clear All Stress",
+          "effect": "Clear all Stress"
+        },
+        "repair_all_armor": {
+          "name": "Repair All Armor",
+          "effect": "Clear all Armor Slots from your or an ally's armor"
+        },
+        "work_on_project": {
+          "name": "Work on a Project",
+          "effect": "With GM approval, make progress on a long-term project or craft. Each time a PC makes the Work on a Project move, they either advance their project's countdown automatically or make an action roll to advance it (GM's choice)."
+        },
+        "tithe_to_patron": {
+          "name": "Tithe to Your Patron",
+          "effect": "Gain Favor equal to your Presence"
+        }
+      },
+      "domain_cards": {
+        "title": "Domain Card Management",
+        "description": "During rest, you can move domain cards between your loadout and vault for free.",
+        "manage": "Manage Cards",
+        "free_movement": "Move domain cards between loadout and vault for free",
+        "free_during_rest": "Free Card Movement",
+        "no_stress_cost": "Moving cards between loadout and vault costs no stress during rest"
+      },
+      "preview": {
+        "title": "Rest Effects Preview"
+      },
+      "automatic_effects": "Automatic Effects",
+      "features": {
+        "limited_uses_refresh": "Features with limited uses per rest refresh",
+        "all_uses_refresh": "All features with limited uses per rest or per long rest refresh"
+      },
+      "step_1": {
+        "title": "Choose Rest Type"
+      },
+      "step_2": {
+        "title": "Select Actions",
+        "info": {
+          "title": "Downtime Moves",
+          "content": "Choose exactly 2 downtime moves to perform during your rest. Some moves can target other characters.",
+          "content_three": "Choose exactly 3 downtime moves to perform during your rest. Some moves can target other characters."
+        },
+        "choose_two": "Choose 2 downtime moves:",
+        "choose_three": "Choose 3 downtime moves:",
+        "target_selection": {
+          "title": "Target Selection",
+          "self": "Yourself",
+          "other": "Another Character",
+          "other_note": "No effect will be applied to your character when targeting others."
+        },
+        "prepare_mode": {
+          "title": "Choose Preparation Method",
+          "alone": "Prepare Alone",
+          "with_others": "Prepare with Others",
+          "description": "Describe how you prepare yourself for the path ahead. Preparing with others gives more Hope but requires party coordination."
+        }
+      },
+      "step_3": {
+        "title": "Manage Loadout",
+        "info": {
+          "title": "Domain Card Management",
+          "content": "Reorganize your domain cards between your active loadout and vault. All card movements are free during rest."
+        },
+        "hide_vault": "Hide Vault",
+        "show_vault": "Show Vault",
+        "current_status": "Current Loadout Status",
+        "loadout_count": "{current}/{max} cards in loadout"
+      },
+      "step_4": {
+        "title": "Confirm Rest",
+        "info": {
+          "title": "Ready to Rest",
+          "content": "Review your rest selections and add any external healing received from other players."
+        },
+        "summary": {
+          "title": "Rest Summary",
+          "rest_type": "Rest Type",
+          "selected_actions": "Selected Actions",
+          "target": "Target",
+          "automatic_effects": "Automatic Effects"
+        },
+        "external_healing": {
+          "title": "External Healing",
+          "info": {
+            "title": "Healing from Others",
+            "content": "If other players used healing or repair actions on you, enter the amounts here."
+          },
+          "hp_healed": "HP Healed by Others",
+          "armor_repaired": "Armor Repaired by Others",
+          "hp_note": "Current HP: {current}/{max}",
+          "armor_note": "Current Armor Damage: {current}"
+        },
+        "effects_preview": {
+          "title": "Rest Effects to Apply"
+        }
+      }
+    },
+    "domain_cards": {
+      "loadout_count": "{current} of {max} slots",
+      "no_loadout_cards": "No cards in loadout",
+      "no_vault_cards": "No cards in vault",
+      "title": "Domain Cards",
+      "no_cards": "No domain cards available",
+      "no_cards_available": "No domain cards available for this filter",
+      "info_title": "Manage Domain Cards",
+      "info_content": "Click cards to select or deselect. You can only exchange cards of the same level. Maximum cards equals your current total.",
+      "level": "Level {level}",
+      "total_owned": "Total Owned",
+      "in_loadout": "In Loadout",
+      "pending_changes": "Pending Changes",
+      "removing": "Removing {count} card(s)",
+      "adding": "Adding {count} card(s)",
+      "replace_this": "Replace this card",
+      "exchange_with": "Exchange with",
+      "select_source_first": "Select a card to replace first",
+      "no_available_cards": "No available cards found",
+      "empty_state": {
+        "title": "No Domain Cards",
+        "description": "You haven't acquired any domain cards yet."
+      },
+      "swap_modal": {
+        "title": "Swap Domain Card",
+        "description": "Your loadout is full (5/5 cards). Choose a card from your loadout to replace with",
+        "instruction": "Click on a card below to swap it out."
+      }
+    },
+    "edit": {
+      "header": {
+        "title": "Edit Character",
+        "description": "Edit your character's information and details"
+      },
+      "saving": "Saving changes...",
+      "tabs": {
+        "details": "Details",
+        "experiences": "Growth",
+        "core": "Core",
+        "preferences": "Preferences"
+      },
+      "preferences": {
+        "jump_to": "Jump to"
+      },
+      "attributes": {
+        "title": "Edit Attributes",
+        "instructions": "Assign the following modifiers to your six attributes in any order you wish: +2, +1, +1, +0, +0, -1",
+        "info": {
+          "title": "Attribute Editing",
+          "content": "You can reassign your attribute modifiers at any time during editing. This allows you to adjust your character's strengths and weaknesses."
+        }
+      },
+      "subclass": {
+        "title": "Change Subclass",
+        "confirm": {
+          "title": "Confirm Subclass Change",
+          "message": "You are changing from {oldSubclass} to {newSubclass}.",
+          "warning": "This will replace your subclass features. Are you sure you want to continue?"
+        }
+      },
+      "domains": {
+        "title": "Edit Domains",
+        "warning_title": "Advanced Option",
+        "warning_content": "Warning: Custom domains do not follow standard game settings. Domain cards from removed domains will be automatically deleted.",
+        "class_domains": "Class Default Domains",
+        "primary_domain": "Primary Domain {n}",
+        "multiclass_domain": "Multiclass Domain",
+        "cards_to_remove": "Domain Cards to be Removed",
+        "cards_to_remove_description": "{count} domain card(s) will be removed from domains that are no longer available."
+      },
+      "heritage": {
+        "title": "Edit Heritage",
+        "info": {
+          "title": "Heritage Editing",
+          "content": "You can change your character's ancestry and community. This will update your heritage information."
+        }
+      },
+      "scars": {
+        "title": "Edit Scars",
+        "warning_title": "Warning",
+        "warning_content": "Scars permanently reduce your maximum Hope. Each scar crosses out one Hope slot that cannot be used.",
+        "input_label": "Number of Scars",
+        "input_hint": "Enter a value between 0 and {max}"
+      },
+      "stats": {
+        "title": "Edit Stats",
+        "info": {
+          "title": "Stats Editing",
+          "content": "Edit your character's base stats (HP, Stress, Evasion). Advancement bonuses from HP slots, stress slots, and evasion increases are automatically applied on top of these base values."
+        },
+        "advancement_note": "Base {bonus} + {final} from advancements = {final}"
+      },
+      "sections": {
+        "background": {
+          "title": "Background",
+          "fields": {
+            "origin": {
+              "label": "Where did your character come from?",
+              "placeholder": "Describe your character's homeland, community, or place of origin. What was their early life like?"
+            },
+            "motivation": {
+              "label": "What drives your character?",
+              "placeholder": "What are their goals, dreams, or motivations? What brought them to this adventure?"
+            },
+            "relationships": {
+              "label": "Who are the important people in your character's life?",
+              "placeholder": "Family, friends, mentors, rivals, or enemies. How do these relationships shape your character?"
+            },
+            "secrets": {
+              "label": "What secrets or mysteries surround your character?",
+              "placeholder": "Hidden past, family secrets, unfinished business, or personal struggles."
+            }
+          }
+        },
+        "personality": {
+          "title": "Personality & Traits",
+          "fields": {
+            "traits": {
+              "label": "How does your character act and speak?",
+              "placeholder": "Personality traits, mannerisms, speech patterns, or quirks that make them unique."
+            },
+            "beliefs": {
+              "label": "What does your character believe in?",
+              "placeholder": "Values, ideals, religious beliefs, or personal philosophies that guide their actions."
+            }
+          }
+        },
+        "story": {
+          "title": "Background Story",
+          "fields": {
+            "story": {
+              "label": "Tell your character's story",
+              "placeholder": "Weave together the answers above into a cohesive background story. This can be as detailed or as ambiguous as you prefer - you can always discover more through play."
+            }
+          }
+        },
+        "experiences": {
+          "no_experiences": "No experiences yet.",
+          "fields": {
+            "name": {
+              "label": "Experience Name",
+              "placeholder": "e.g., Trained as a blacksmith, Noble court etiquette"
+            },
+            "description": {
+              "label": "Description",
+              "placeholder": "Describe how this experience shaped your character..."
+            }
+          }
+        },
+        "connections": {
+          "title": "Character Connections",
+          "description": "Add your connections to other player characters and important NPCs. Work with your group to establish these relationships collaboratively.",
+          "fields": {
+            "name": {
+              "label": "Connected Character Name",
+              "placeholder": "Enter character name..."
+            },
+            "description": {
+              "label": "Connection Description",
+              "placeholder": "Describe your connection to this character..."
+            }
+          }
+        },
+        "custom_counters": {
+          "title": "Custom Counters",
+          "description": "Create custom counters to track resources like Inspiration, Rage Points, Ki Points, or any other resource your character needs to track.",
+          "empty_state": "No custom counters yet. Click the button below to add one.",
+          "add_button": "Add Custom Counter"
+        },
+        "attributes": {
+          "title": "Character Attributes",
+          "description": "Edit your character's attribute modifiers. All six attributes must be assigned the standard distribution: +2, +1, +1, +0, +0, -1.",
+          "no_attributes": "No attributes available. Please ensure your character has attributes assigned.",
+          "info": {
+            "title": "Attribute Editing",
+            "content": "You can reassign your attribute modifiers at any time during editing. This allows you to adjust your character's strengths and weaknesses."
+          }
+        },
+        "subclass": {
+          "title": "Subclass",
+          "description": "Change your character's subclass specialization.",
+          "warning": {
+            "title": "Important",
+            "content": "Changing your subclass will replace your current subclass features with the new subclass features. Your class features will remain unchanged."
+          }
+        },
+        "domains": {
+          "title": "Domains",
+          "description": "Override your character's domains. This is an advanced option that doesn't follow standard game settings.",
+          "current_domains": "Current Domains",
+          "custom_warning": "Custom domains are active (not using class defaults)",
+          "class_domains": "Class Default Domains"
+        },
+        "heritage": {
+          "title": "Heritage",
+          "description": "Edit your character's ancestry and community.",
+          "info": {
+            "title": "Heritage Editing",
+            "content": "You can change your character's ancestry and community. This will update your heritage information."
+          }
+        },
+        "scars": {
+          "title": "Scars",
+          "description": "Scars are permanent marks from failed death saves that reduce your maximum Hope.",
+          "current": "Current Scars",
+          "effective_hope": "Effective Max Hope"
+        },
+        "currency": {
+          "title": "Currency Settings",
+          "description": "Configure how your character tracks gold and currency.",
+          "use_coins": "Enable Coins",
+          "use_coins_description": "Add coins as the smallest currency unit (10 coins = 1 handful)",
+          "hierarchy_with_coins": "Currency: Coins → Handfuls → Bags → Chest",
+          "hierarchy_default": "Currency: Handfuls → Bags → Chest"
+        },
+        "massive_damage": {
+          "title": "Massive Damage (Optional Rule)",
+          "description": "Enable the optional Massive Damage rule for this character.",
+          "enable": "Enable Massive Damage",
+          "enable_description": "If a character takes damage equal to twice their Major threshold, they mark 4 HP instead of 3.",
+          "rule_explanation": "When enabled, a fourth damage threshold button will appear. Damage equal to twice the Major threshold marks 4 HP."
+        },
+        "cross_domain": {
+          "title": "Cross-Domain Card Advancement",
+          "description": "Enable the optional Cross-Domain Card advancement for this character.",
+          "enable": "Enable Cross-Domain Cards",
+          "enable_description": "Allow taking one domain card from any domain outside your class domains during level-up. The card's level cannot exceed half your character level (rounded up)."
+        },
+        "stats": {
+          "title": "Character Stats",
+          "description": "Edit your character's base stats (HP, Stress, Evasion). Advancement bonuses are applied automatically on top of these base values."
+        }
+      },
+      "features": {
+        "removed": "Features Being Removed",
+        "added": "Features Being Added"
+      },
+      "core": {
+        "info_title": "Individual Save Actions",
+        "info_content": "Each section in the Character Core tab saves immediately when you click Edit and confirm your changes.",
+        "jump_to": "Jump to",
+        "sections": {
+          "attributes": "Attributes",
+          "subclass": "Subclass",
+          "heritage": "Heritage",
+          "domain_cards": "Domain Cards",
+          "scars": "Scars",
+          "currency": "Currency",
+          "massive_damage": "Massive Damage",
+          "cross_domain": "Cross-Domain Cards"
+        }
+      }
+    },
+    "errors": {
+      "relic_already_exists": "You already have a relic",
+      "relic_already_exists_description": "You can only carry one relic at a time. Remove your current relic before adding a new one."
+    }
+  },
+  "companion": {
+    "title": "Companion",
+    "name": "Name",
+    "description": "Description",
+    "namePlaceholder": "Enter companion name",
+    "descriptionPlaceholder": "Describe your companion",
+    "experiencePlaceholder": "Enter experience name",
+    "damageDie": "Damage Die",
+    "range": "Range",
+    "hitPoints": "Hit Points",
+    "available": "Available",
+    "unavailable": "Unavailable",
+    "rollAttack": "Roll Attack",
+    "rollDamage": "Roll Damage",
+    "clearStress": "Clear Stress",
+    "selectExperience": "Select Experience",
+    "chooseOne": "Choose One",
+    "experienceNote": "Note: Companion experiences provide special abilities and bonuses.",
+    "noCompanion": {
+      "title": "No Companion",
+      "description": "Your character doesn't have a companion yet. Create one to begin your adventures together."
+    },
+    "notAvailable": {
+      "title": "Companion Not Available",
+      "description": "Only characters with the Companion feature can have companions."
+    },
+    "create": {
+      "title": "Create Companion",
+      "button": "Create Companion",
+      "step1": "Step 1: Name Your Companion",
+      "step1Description": "Give your companion a name and describe their appearance and personality.",
+      "step2": "Step 2: Add Initial Experiences",
+      "step2Description": "Add up to 2 experiences that your companion has gained through their adventures with you.",
+      "experienceLimit": "You can add up to 2 experiences for your new companion."
+    },
+    "edit": {
+      "title": "Edit Companion",
+      "experienceDescription": "Edit your companion's experiences. You can have up to 2 experiences."
+    },
+    "deleteModal": {
+      "title": "Delete Companion",
+      "message": "Are you sure you want to delete this companion? This action cannot be undone."
+    },
+    "advancement": {
+      "title": "Companion Training",
+      "description": "Your companion can gain new abilities through training. Select one advancement that reflects how your companion has grown during your adventures.",
+      "chooseImprovementType": "Choose improvement type",
+      "damage": "Damage",
+      "range": "Range",
+      "unknownExperience": "Unknown Experience",
+      "experienceModal": {
+        "title": "Choose Companion Experience to Increase",
+        "selectToContinue": "Select an experience to continue",
+        "experienceSelectedReady": "Experience selected and ready to advance.",
+        "advancementTitle": "Companion Experience Advancement", 
+        "advancementDescription": "Choose one of your companion's existing experiences to gain a permanent +1 bonus. This represents your companion's continued growth and training.",
+        "availableExperiences": "Available Experiences:",
+        "selectedCount": "Selected: {count}/1",
+        "noExperiencesFound": "No experiences found",
+        "noExperiencesDescription": "Your companion needs to have existing experiences to use this advancement."
+      },
+      "types": {
+        "intelligent": {
+          "name": "Intelligent",
+          "description": "Your companion gains a permanent +1 bonus to a Companion Experience of your choice.",
+          "summary": "Will enhance companion's chosen experience by +1"
+        },
+        "vicious": {
+          "name": "Vicious",
+          "description": "Your companion becomes more effective in combat. Choose to improve either their damage die or attack range.",
+          "summary": "Selected {count} time{plural}",
+          "summaryImprovement": "Will improve companion's {improvementType}",
+          "damageImprovement": "Damage Dice Improvement",
+          "rangeImprovement": "Range Improvement"
+        },
+        "lightInTheDark": {
+          "name": "Light in the Dark",
+          "description": "Your companion's presence grants you an additional Hope slot.",
+          "summary": "Will gain 1 Hope slot",
+          "badgeText": "Grants Hope Slot"
+        },
+        "resilient": {
+          "stressSlot": "Stress Slot",
+          "thickHide": "Thick Hide (+2 Damage Thresholds)"
+        }
+      }
+    }
+  },
+  "features": {
+    "types": {
+      "stat_modifier": "Stat Modifier",
+      "stat_modifier_short": "STT",
+      "dice_mechanic": "Dice Mechanic",
+      "dice_mechanic_short": "DCE",
+      "status_effect": "Status Effect",
+      "status_effect_short": "EFT",
+      "action_economy": "Action Economy",
+      "action_economy_short": "ACT",
+      "utility": "Utility",
+      "utility_short": "UTL",
+      "versatile": "Versatile",
+      "versatile_short": "VER",
+      "requirement": "Requirement",
+      "requirement_short": "REQ",
+      "damage_reduction": "Damage Reduction",
+      "defensive_reaction": "Defensive Reaction",
+      "healing": "Healing",
+      "spell_focus": "Spell Focus",
+      "consumable": "Consumable",
+      "multi": "Multiple Types",
+      "multi_short": "MLT",
+      "multi_stat_modifier": "Multiple Stats",
+      "multi_dice_mechanic": "Multiple Dice Effects",
+      "multi_status_effect": "Multiple Status Effects",
+      "multi_action_economy": "Multiple Actions",
+      "multi_utility": "Multiple Utilities",
+      "multi_versatile": "Multiple Versatile Effects",
+      "multi_requirement": "Multiple Requirements"
+    }
+  },
+  "pwa": {
+    "install": {
+      "title": "Install App",
+      "description": "Install this app on your device for quick access and offline use.",
+      "button": "Install",
+      "not_now": "Not Now"
+    },
+    "offline": {
+      "sync_now": "Sync Now",
+      "offline_with_pending": "You're offline - {count} changes waiting to sync",
+      "offline_no_pending": "You're offline - Changes will sync when connection is restored",
+      "syncing": "Syncing {count} changes...",
+      "all_synced": "All changes synced"
+    }
+  },
+  "footer": {
+    "links": {
+      "guides": "Guides",
+      "homebrew_guidelines": "Homebrew Guidelines"
+    },
+    "copyright": {
+      "title": "Copyright & Attribution",
+      "srd_content": "This site uses only official Public Game Content from the Darrington Press System Reference Document (SRD), shared under the Community Gaming License. The descriptive text comes straight from the SRD, but all the images here are original creations inspired by those descriptions.",
+      "trademarks": "We don't use any copyrighted art, logos, or story content from Critical Role or its related companies. All trademarks and rights belong to Critical Role, LLC and its partners. Just so you know, this project isn't officially connected to or endorsed by Critical Role or Darrington Press.",
+      "feedback": "If you have any suggestions or feedback, please let us know by email at:"
+    },
+    "attribution": {
+      "title": "Daggerheart System Reference",
+      "license": "This product includes materials from the Daggerheart System Reference Document 1.0, © Critical Role, LLC. under the terms of the Darrington Press Community Gaming (DPCGL) License.",
+      "more_info": "More information can be found at",
+      "website": "https://www.daggerheart.com",
+      "modifications": "There are no previous modifications by others."
+    },
+    "bottom": {
+      "text": "Built for the Daggerheart community"
+    }
+  },
+  "dice": {
+    "critical_hit": "CRITICAL HIT!",
+    "hope_roll": "HOPE ROLL",
+    "fear_roll": "FEAR ROLL",
+    "result": "Result",
+    "critical_hit_explanation": "Both dice show the same number - always counts as Hope!",
+    "modifier_label": "Modifier",
+    "with_hope": "WITH HOPE",
+    "with_fear": "WITH FEAR",
+    "advantage": "ADV",
+    "disadvantage": "DIS",
+    "modifier_short": "MOD",
+    "roll_type": {
+      "regular": "Regular",
+      "reaction": "Reaction"
+    },
+    "mode": {
+      "daggerheart": "Duality",
+      "standard": "Standard"
+    },
+    "standard": {
+      "no_dice": "Add dice to roll",
+      "clear": "Clear",
+      "drop_lowest": "Drop Lowest",
+      "drop_lowest_tooltip": "Roll an extra die and drop the lowest result (like Brutal/Massive)"
+    },
+    "drawer": {
+      "panel_title": "Dice Roller",
+      "title": "Daggerheart Dice",
+      "subtitle": "Roll your Hope and Fear dice",
+      "hope_label": "HOPE",
+      "fear_label": "FEAR",
+      "total_label": "Total:",
+      "total_short": "Total:",
+      "history_title": "Roll History",
+      "clear_history": "Clear",
+      "rolling": "Rolling...",
+      "roll_cta": "ROLL",
+      "show_history": "SHOW HISTORY",
+      "hide_history": "HIDE HISTORY",
+      "roll_dice": "ROLL DICE",
+      "duality_roll": "Duality Roll",
+      "standard_roll": "Standard Roll",
+      "custom_roll": "CUSTOM ROLL",
+      "open": "Open Dice Roller",
+      "handle_label": "DICE"
+    }
+  },
+  "death_mechanic": {
+    "modal": {
+      "title": "Death Move",
+      "title_icon": "",
+      "description": "Your character has marked their last Hit Point. You must choose one of the following death moves:",
+      "ephemeral_notice": "Your Ephemeral transformation requires you to choose Blaze of Glory.",
+      "execute": "Execute Death Move"
+    },
+    "options": {
+      "blaze_of_glory": {
+        "title": "Blaze of Glory",
+        "description": "Your character embraces death and goes out in a blaze of glory. Take one final action. It automatically critically succeeds (with GM approval), and then you cross through the veil of death.",
+        "final_action_label": "Describe your final action:",
+        "final_action_placeholder": "Describe how your character goes out in a blaze of glory..."
+      },
+      "avoid_death": {
+        "title": "Avoid Death",
+        "description": "Your character avoids death and faces the consequences. They temporarily drop unconscious, and then you work with the GM to describe how the situation worsens. While unconscious, your character can't move or act, and they can't be targeted by an attack. They return to consciousness when an ally clears 1 or more of their marked Hit Points or when the party finishes a long rest.",
+        "scar_warning": "After falling unconscious: Roll your Hope Die. If its value is equal to or less than your character's level ({level}), they gain a scar: permanently cross out a Hope slot.",
+        "roll_button": "Roll Hope Die for Scar Check",
+        "scar_gained": "Scar Gained!",
+        "no_scar": "No Scar!",
+        "scar_explanation": "Hope Die ({roll}) ≤ Character Level ({level}) - Your character gains a scar.",
+        "no_scar_explanation": "Hope Die ({roll}) > Character Level ({level}) - Your character avoids gaining a scar."
+      },
+      "risk_it_all": {
+        "title": "Risk It All",
+        "description": "Roll your Duality Dice:",
+        "rules": {
+          "hope_higher": "If the Hope Die is higher: stay on your feet and clear HP/Stress equal to the Hope Die value",
+          "fear_higher": "If the Fear Die is higher: cross through the veil of death",
+          "dice_match": "If the dice match: stay up and clear all Hit Points and Stress"
+        },
+        "roll_button": "Roll Duality Dice",
+        "allocation_prompt": "Allocate {points} points between Hit Points and Stress:",
+        "remaining_points": "Remaining points: {points}"
+      }
+    },
+    "dice": {
+      "hope_die": "HOPE DIE",
+      "fear_die": "FEAR DIE",
+      "results": {
+        "matching_dice": "MATCHING DICE! Stay up and clear all Hit Points and Stress!",
+        "hope_wins": "Hope Die wins! Stay on your feet!",
+        "fear_wins": "Fear Die wins... Cross through the veil of death."
+      }
+    }
+  },
+  "inventory": {
+    "modal": {
+      "title": "Manage Inventory",
+      "available_items": "Available Items",
+      "character_items": "Your Items",
+      "create_custom": "Create Custom Item",
+      "empty_state": {
+        "title": "No Items Available",
+        "description": "There are no items available to add to your inventory."
+      },
+      "filters": {
+        "content_type": {
+          "label": "Content Type",
+          "placeholder": "Filter by content type"
+        }
+      },
+      "no_results": "No items found matching your criteria",
+      "pagination": {
+        "showing": "Showing {start} - {end} of {total} items"
+      },
+      "errors": {
+        "create_failed": "Failed to create custom item. Please try again."
+      }
+    },
+    "sections": {
+      "gold": "Gold",
+      "weapons": "Weapons",
+      "other_equipment": "Other Equipment"
+    },
+    "gold": {
+      "coins": "Coins",
+      "handfuls": "Handfuls",
+      "bags": "Bags",
+      "chest": "Chest",
+      "add_chest": "Add chest",
+      "remove_chest": "Remove chest",
+      "convert_chest_to_bags": "Convert chest to 12 bags"
+    },
+    "weapons": {
+      "store_description": "Store weapons not currently equipped",
+      "add_weapon": "+ Add Weapon",
+      "no_weapons": "No weapons in inventory",
+      "no_weapons_description": "Add weapons to store them when not equipped",
+      "inventory": "Inventory",
+      "add_weapon_modal": {
+        "title": "Add"
+      },
+      "filters": {
+        "all_types": "All Types",
+        "all_burdens": "All Burdens",
+        "all_categories": "All Categories",
+        "physical": "Physical",
+        "magic": "Magic",
+        "wheelchair": "Wheelchair/Mobility",
+        "filter_by_type": "Filter by type",
+        "filter_by_burden": "Filter by burden",
+        "filter_by_category": "Filter by category"
+      }
+    },
+    "armor": {
+      "store_description": "Store armor not currently equipped",
+      "add_armor": "+ Add Armor",
+      "no_armor": "No armor in inventory",
+      "no_armor_description": "Add armor to store it when not equipped"
+    },
+    "items": {
+      "store_description": "Store general equipment and items",
+      "no_items": "No Equipment Items",
+      "no_items_description": "This character's backpack is empty. Items can be added during character creation or acquired during gameplay.",
+      "attach_to_weapon_title": "Attach to Weapon",
+      "attach_to_weapon_description": "Select a weapon to attach {itemName} to.",
+      "no_weapons_available": "No weapons available to attach this item to."
+    },
+    "consumables": {
+      "use_modal": {
+        "title": "Use {itemName}",
+        "effects": "Effects:",
+        "last_use_warning": "This is the last use of this item",
+        "uses_remaining": "Uses remaining: {current}/{max}",
+        "choose_effect": "Choose one effect:"
+      },
+      "badges": {
+        "consumable": "consumable",
+        "expended": "expended",
+        "custom": "custom",
+        "equipped": "equipped"
+      },
+      "effects": {
+        "heal_hp": "Heal {amount} Hit Points",
+        "heal_stress": "Clear {amount} Stress",
+        "heal_choice": "Heal {amount} Hit Points OR clear {amount} Stress (your choice)",
+        "stat_boost": "Gain +{bonus} {stat} for {duration}",
+        "stat_penalty": "Suffer {penalty} {stat} for {duration}",
+        "resource_gain": "Gain {amount} {resource}",
+        "resource_lose": "Lose {amount} {resource}",
+        "weapon_damage": "Adds {amount} to your next weapon damage roll"
+      },
+      "durations": {
+        "next_roll": "next roll",
+        "next_attack": "next attack",
+        "scene": "the current scene",
+        "rest": "until your next rest",
+        "permanent": "permanently"
+      }
+    }
+  },
+  "level_up": {
+    "saving_text": "Leveling Up...",
+    "save_button_text": "Complete Level Up",
+    "advancement_selection": {
+      "title": "Advancements",
+      "points_remaining": "You have {points} advancement points remaining.",
+      "advancement_points": "Advancement Points",
+      "used": "Used:",
+      "click_to_select": "Click to Select",
+      "uses_both_picks": "Uses Both Picks",
+      "will_increase_traits": "Will increase {count} character traits by +1",
+      "will_gain_hp_slots": "Will gain {count} Hit Point slot{plural}",
+      "will_gain_stress_slots": "Will gain {count} Stress slot{plural}",
+      "selected_times": "Selected {count} time{plural}",
+      "trait_selection": "Trait Selection",
+      "select_traits": "Select {count} traits",
+      "multiple_experience_advancement": "Multiple Experience Advancement",
+      "multiple_subclass_advancement": "Multiple Subclass Feature Advancement",
+      "multiple_multiclass_advancement": "Multiple Multiclass Advancement",
+      "experience_advancement_warning": "Experience advancement can only be taken once per tier. You have selected it {count} times, but only one will be applied.",
+      "subclass_advancement_warning": "Subclass feature advancement can only be taken once per tier. You have selected it {count} times, but only one will be applied.",
+      "multiclass_advancement_warning": "Multiclass advancement can only be taken once per character. You have selected it {count} times, but only one will be applied.",
+      "not_enough_experiences": "Not enough experiences found for this character. Your character needs at least two existing experiences to use this advancement.",
+      "cross_domain_card": "Cross-Domain Card"
+    },
+    "damage_thresholds": {
+      "title": "Damage Thresholds",
+      "threshold_increase": "Threshold Increase",
+      "automatic_increase": "All damage thresholds automatically increase by 1 when you level up.",
+      "threshold_adjustments": "Threshold Adjustments",
+      "automatic_threshold_increase": "Automatic Threshold Increase",
+      "resilience_description": "Your character becomes more resilient as they level up. All damage thresholds increase by 1.",
+      "plus_one_increase": "+1 increase",
+      "includes_armor": "(Includes +{amount} from {armorName})",
+      "threshold_update_complete": "Threshold Update Complete",
+      "threshold_update_description": "Your damage thresholds have been automatically increased. Your character can now withstand more damage before suffering consequences."
+    },
+    "tier_achievements": {
+      "title": "Tier Achievements",
+      "description": "As you advance in level, you automatically gain tier achievements. These are not optional - you receive all applicable benefits for your new level.",
+      "advancing_to_level": "Advancing to Level {level}",
+      "level_achievement": "Level {level} Tier Achievement",
+      "new_experience": "New Experience:",
+      "new_experience_description": "Gain a new Experience at +2",
+      "proficiency_increase": "Proficiency Increase:",
+      "proficiency_increase_description": "Permanently increase your Proficiency by 1",
+      "clear_traits": "Clear Marked Traits:",
+      "clear_traits_description": "Clear any marked traits on your character",
+      "create_experience": "Create Your New Experience",
+      "experience_guidelines": "Experience Guidelines",
+      "experience_guidelines_description": "Experiences represent significant moments, training, or knowledge your character has gained. They should be specific and meaningful to your character's story.",
+      "experience_name": "Experience Name",
+      "experience_name_placeholder": "e.g., Survived the Dragon's Lair",
+      "experience_name_help": "This experience will start at +2",
+      "experience_description": "Experience Description",
+      "experience_description_placeholder": "Describe what happened and how it shaped your character...",
+      "experience_description_help": "Optional: Provide more details about this experience",
+      "no_tier_achievement": "No Tier Achievement",
+      "no_tier_achievement_description": "Level advancement from {current} to {next} does not include a tier achievement. You will still gain other benefits in the following steps.",
+      "experience_required": "Experience Required",
+      "experience_required_description": "You must create a new experience to continue with this tier achievement.",
+      "ready_to_continue": "Ready to Continue",
+      "ready_to_continue_description": "Your tier achievement benefits will be applied when you complete the level up process."
+    },
+    "domain_cards": {
+      "available": "Available",
+      "loadout_full": "Loadout Full",
+      "loadout_full_description": "Your loadout is full. New cards will be added to your vault. You can reorganize your cards after leveling up.",
+      "no_available_cards": "No Available Cards",
+      "no_available_cards_description": "You have acquired all available domain cards for your class domains ({domains}) at level {level} or lower. Focus on the optional card exchange below.",
+      "selected": "SELECTED",
+      "school_of_knowledge_bonus": "📚 School of Knowledge: Your Accomplished or Brilliant feature grants an extra domain card!"
+    },
+    "multiclass_setup": {
+      "title": "Multiclass Setup",
+      "subtitle": "Choose your second class and specialization",
+      "requirements": "Multiclass Requirements",
+      "requirements_description": "You are now learning from a second class! This process involves:",
+      "requirements_list": [
+        "Choosing an additional class (different from {primaryClass})",
+        "Selecting one domain from your new class",
+        "Choosing a subclass specialization from your new class",
+        "Gaining all foundation features from your selected subclass",
+        "Gaining all class features from your new class",
+        "Resolving spellcast trait conflicts"
+      ],
+      "setup_progress": "Setup Progress",
+      "complete": "Complete",
+      "choose_second_class": "1. Choose Your Second Class",
+      "choose_second_class_description": "Select the class you want to learn from. This must be different from your primary class ({primaryClass}).",
+      "selected_second_class": "Selected Second Class",
+      "change": "Change",
+      "choose_domain": "2. Choose One Domain",
+      "choose_domain_description": "Choose one domain from {className}. You'll gain access to domain cards from this domain only.",
+      "selected_multiclass_domain": "Selected Multiclass Domain",
+      "choose_subclass": "3. Choose Subclass",
+      "choose_subclass_description": "Select a subclass specialization from {className}. You'll gain a foundation card from this subclass.",
+      "selected_subclass": "Selected Subclass",
+      "gained_foundation_features": "4. Foundation Features",
+      "gained_foundation_features_description": "You automatically gain all foundation features from {subclass}.",
+      "foundation_features_placeholder": "No foundation features available",
+      "gained_class_features": "5. Gained Class Features",
+      "gained_class_features_description": "You automatically gain all class features from {className}.",
+      "class_features_placeholder": "Class feature information will be displayed once a class is selected.",
+      "choose_foundation_card": "5. Choose Foundation Card",
+      "choose_spellcast_trait": "6. Choose Spellcast Trait",
+      "spellcast_trait_description": "Both {primaryClass} and {secondaryClass} have different Spellcast traits. Choose which one to use.",
+      "from_primary_class": "From {className} (Primary Class)",
+      "from_secondary_class": "From {className} (Secondary Class)",
+      "setup_incomplete": "Setup Incomplete",
+      "setup_incomplete_description": "Please complete the following to continue:",
+      "setup_complete": "Multiclass Setup Complete",
+      "setup_complete_description": "All multiclass selections have been made. You can now continue to the next step."
+    }
+  },
+  "share": {
+    "title": "Share Character",
+    "title_short": "Share",
+    "create_new": "Create New Share",
+    "share_type": "Share Type",
+    "private_description": "Private shares can only be accessed with the direct link.",
+    "public_description": "Public shares can be discovered by anyone.",
+    "expiration": "Expiration (Optional)",
+    "expiration_options": {
+      "never": "Never expires",
+      "1day": "1 day",
+      "3days": "3 days",
+      "1week": "1 week",
+      "1month": "1 month",
+      "custom": "Custom date"
+    },
+    "custom_expiration_date": "Custom Expiration Date",
+    "permissions": {
+      "title": "Share Permissions",
+      "view_info": "Recipients can view all character information",
+      "cannot_edit": "Recipients cannot edit or modify the character",
+      "can_export": "Recipients can export character data for reference",
+      "can_revoke": "You can revoke access at any time"
+    },
+    "existing_shares": "Existing Shares",
+    "public_share": "Public Share",
+    "private_share": "Private Share",
+    "expired": "Expired",
+    "expires": "Expires",
+    "views": "Views",
+    "created": "Created",
+    "delete": "Delete",
+    "link_created": "Share Link Created!",
+    "public_link_description": "This is a public share link.",
+    "private_link_description": "This is a private share link.",
+    "no_expiration": "No expiration date.",
+    "anyone_can_view": "Anyone with this link can view your character sheet.",
+    "create_link": "Create Share Link",
+    "done": "Done",
+    "errors": {
+      "load_failed": "Failed to load existing shares",
+      "create_failed": "Failed to create share link",
+      "delete_failed": "Failed to delete share"
+    },
+    "success": {
+      "link_created": "Share link created successfully!"
+    }
+  },
+  "shares_page": {
+    "title": "Character Shares",
+    "subtitle": "Manage your shared characters and view characters shared with you.",
+    "tabs": {
+      "my_shares": "My Shares",
+      "saved_shares": "Saved Shares"
+    },
+    "error_title": "Error Loading Shares",
+    "try_again": "Try Again",
+    "empty": {
+      "my_shares_title": "No Character Shares",
+      "my_shares_description": "You haven't shared any characters yet. Share a character from its page to get started.",
+      "view_characters": "View My Characters",
+      "saved_shares_title": "No Saved Shares",
+      "saved_shares_description": "You haven't saved any shared characters yet. When someone shares a character with you, you can save it here for easy access."
+    },
+    "stats": {
+      "total_shares": "Total Shares",
+      "total_views": "Total Views",
+      "active_shares": "Active Shares"
+    },
+    "filters": {
+      "search_placeholder": "Search by character name..."
+    },
+    "table": {
+      "character": "Character",
+      "shared_by": "Shared By",
+      "status": "Status",
+      "views": "Views",
+      "created": "Created",
+      "saved": "Saved"
+    },
+    "character": {
+      "unnamed": "Unnamed Character",
+      "level": "Level",
+      "unknown_class": "Unknown Class",
+      "note": "Note:"
+    },
+    "status": {
+      "expires": "Expires"
+    },
+    "shared_by_user": "Shared by user",
+    "actions": {
+      "copy_link": "Copy share link",
+      "view_character": "View shared character",
+      "delete_share": "Delete share",
+      "remove_saved": "Remove from saved shares"
+    },
+    "modals": {
+      "delete_title": "Delete Share",
+      "delete_message": "Are you sure you want to delete this share for {name}? This action cannot be undone and the share link will no longer work.",
+      "delete_confirm": "Delete Share",
+      "remove_title": "Remove Saved Share",
+      "remove_message": "Are you sure you want to remove {name} from your saved shares? This will not delete the original share.",
+      "remove_confirm": "Remove"
+    },
+    "errors": {
+      "load_failed": "Failed to load your shares",
+      "remove_failed": "Failed to delete saved share"
+    }
+  },
+  "account": {
+    "title": "Account Settings",
+    "subtitle": "Manage your account information and preferences",
+    "sections": {
+      "profile": "Profile Information",
+      "security": "Security",
+      "membership": "Membership",
+      "preferences": "Preferences",
+      "danger_zone": "Danger Zone"
+    },
+    "preferences": {
+      "subtitle": "Customize your app experience",
+      "homebrew_content_toggle": "Show homebrew content by default",
+      "homebrew_content_description": "When enabled, community-created content from the Workshop will be included in character creation and equipment selection.",
+      "cross_domain_cards_toggle": "Enable Cross-Domain Card advancement",
+      "cross_domain_cards_description": "Allow taking a domain card from another domain during level-up (similar to Demiplane). Requires explicit opt-in per character or account."
+    },
+    "membership": {
+      "current_tier": "Current Tier",
+      "tiers": {
+        "free": "Free",
+        "tier1": "Supporter"
+      },
+      "usage": "Usage",
+      "characters_and_campaigns": "Characters & Campaigns",
+      "limit_reached": "You've reached your limit. Upgrade your membership to create more!",
+      "upgrade_title": "Upgrade Your Membership",
+      "upgrade_description": "Support Duality Codex and unlock more characters and campaigns! Supporter members can create up to 25 characters and campaigns combined.",
+      "email_notice": "Important: Use the same email ({email}) when subscribing on Ko-fi to automatically link your membership to this account.",
+      "subscribe_button": "Subscribe on Ko-fi",
+      "active_subscription": "Active Subscription",
+      "thank_you": "Thank you for supporting Duality Codex! Your membership helps keep the project running.",
+      "member_since": "Member since {date}"
+    },
+    "profile": {
+      "email": "Email",
+      "display_name": "Display Name",
+      "account_created": "Account Created",
+      "not_set": "Not set",
+      "edit": "Edit",
+      "save_changes": "Save Changes",
+      "saving": "Saving..."
+    },
+    "security": {
+      "password": "Password",
+      "password_description": "Change your account password",
+      "change_password": "Change Password",
+      "changing": "Changing...",
+      "current_password": "Current Password",
+      "new_password": "New Password",
+      "confirm_password": "Confirm New Password"
+    },
+    "theme": {
+      "title": "Theme",
+      "subtitle": "Choose a color theme for the application",
+      "selected": "Selected"
+    },
+    "delete_account": {
+      "title": "Delete Account",
+      "warning_title": "Are you absolutely sure?",
+      "warning_message": "This action cannot be undone. This will permanently delete your account and all your character data.",
+      "description": "Once you delete your account, there is no going back. This will permanently delete your account and all associated data.",
+      "what_will_be_deleted": "What will be permanently deleted:",
+      "deleted_items": {
+        "account": "Your account and profile information",
+        "characters": "All your characters and their data",
+        "equipment": "Equipment, weapons, and armor",
+        "domain_cards": "Domain cards and experiences",
+        "progress": "All progress and game history"
+      },
+      "confirm_instruction": "Please type {word} to confirm:",
+      "confirm_placeholder": "Type DELETE to confirm",
+      "confirm_word": "DELETE"
+    },
+    "errors": {
+      "display_name_required": "Display name is required",
+      "current_password_required": "Current password is required",
+      "new_password_required": "New password is required",
+      "password_min_length": "Password must be at least 6 characters",
+      "confirm_password_required": "Please confirm your password",
+      "passwords_no_match": "Passwords do not match",
+      "delete_confirm_required": "Please type DELETE to confirm",
+      "update_profile_failed": "Failed to update profile",
+      "change_password_failed": "Failed to change password",
+      "delete_account_failed": "Failed to delete account"
+    }
+  },
+  "integrations": {
+    "title": "Integrations",
+    "subtitle": "Connect your characters with third-party applications",
+    "description": "Create API keys to allow external applications to access your character data securely.",
+    "api_keys": {
+      "title": "API Keys",
+      "description": "API keys allow external applications to access your character data. Each key can be used by one application.",
+      "create": "Create API Key",
+      "name": "Key Name",
+      "name_placeholder": "e.g., Owlbear Rodeo Integration",
+      "name_required": "Key name is required",
+      "no_keys": "No API Keys",
+      "no_keys_description": "You haven't created any API keys yet. Create one to get started with integrations.",
+      "key_created": "API Key Created",
+      "key_created_message": "Your API key has been created. Make sure to copy it now - you won't be able to see it again!",
+      "copy_key": "Copy Key",
+      "copied": "Copied!",
+      "key_prefix": "Key",
+      "created": "Created",
+      "last_used": "Last Used",
+      "never": "Never",
+      "delete": "Delete",
+      "delete_confirm": "Are you sure you want to delete this API key? This action cannot be undone and any applications using it will stop working.",
+      "expires": "Expires",
+      "never_expires": "Never expires"
+    },
+    "integrations_list": {
+      "title": "Available Integrations",
+      "owlbear_rodeo": {
+        "title": "Owlbear Rodeo",
+        "description": "Connect your Daggerheart characters to Owlbear Rodeo for seamless character management during your games.",
+        "status": "Available",
+        "coming_soon": "Coming Soon"
+      }
+    },
+    "errors": {
+      "create_failed": "Failed to create API key",
+      "delete_failed": "Failed to delete API key",
+      "load_failed": "Failed to load API keys"
+    }
+  },
+  "workshop": {
+    "title": "The Workshop",
+    "subtitle": "Create and manage custom equipment for your games",
+    "favorites": {
+      "title": "My Favorites",
+      "subtitle": "Items you've saved for later",
+      "empty": {
+        "title": "No favorites yet",
+        "description": "Browse the workshop and click the heart icon to save items here."
+      },
+      "button": "My Favorites",
+      "add": "Add to favorites",
+      "remove": "Remove from favorites",
+      "added": "Added to favorites",
+      "removed": "Removed from favorites",
+      "login_required": "Sign in to save favorites",
+      "groups": {
+        "title": "Groups",
+        "create": "Create group",
+        "create_placeholder": "Group name (e.g. Campaign NPCs)",
+        "description_placeholder": "Optional description",
+        "ungrouped": "Ungrouped",
+        "view_list": "List",
+        "view_by_group": "By group",
+        "assign_to_group": "Add to group",
+        "remove_from_group": "Remove from group",
+        "edit_group": "Edit group",
+        "delete_group": "Delete group",
+        "delete_confirm": "Delete group \"{name}\"? Favorites will become ungrouped."
+      }
+    },
+    "my_creations": {
+      "title": "My Creations",
+      "subtitle": "View and manage all your custom content",
+      "back_to_workshop": "Back to Workshop",
+      "search_placeholder": "Search your creations...",
+      "items": "items",
+      "today": "Today",
+      "yesterday": "Yesterday",
+      "delete_confirm": "Are you sure you want to delete \"{name}\"? This action cannot be undone.",
+      "create_description": "Choose what type of content you want to create",
+      "tabs": {
+        "classes": "Classes",
+        "subclasses": "Subclasses",
+        "ancestries": "Ancestries",
+        "communities": "Communities",
+        "transformations": "Transformations",
+        "adversaries": "Adversaries",
+        "environments": "Environments",
+        "weapons": "Weapons",
+        "armor": "Armor",
+        "items": "Items",
+        "campaign_frames": "Campaign Frames",
+        "domains": "Domains",
+        "domain_cards": "Domain Cards"
+      },
+      "empty": {
+        "title": "No creations yet",
+        "description": "Start creating custom content using the buttons above"
+      }
+    },
+    "weapons": {
+      "title": "Weapons",
+      "manage": "Manage Weapons",
+      "create": "+ Weapon",
+      "edit": "Edit Weapon",
+      "update": "Update Weapon",
+      "delete": "Delete Weapon",
+      "delete_confirm": "Are you sure you want to delete {name}? This action cannot be undone. Characters using this weapon will keep their copies.",
+      "my_weapons": "My Weapons",
+      "manage_description": "Manage your custom weapon creations",
+      "filter_tier": "Filter by tier",
+      "all_tiers": "All Tiers",
+      "back_to_weapons": "← Back to Weapons",
+      "stats": "Weapon Stats",
+      "features": "Weapon Features",
+      "name": "Name",
+      "name_placeholder": "Enter weapon name",
+      "trait": "Trait",
+      "trait_placeholder": "Select trait",
+      "range": "Range",
+      "range_placeholder": "Select range",
+      "damage_dice": "Damage Dice",
+      "damage_dice_placeholder": "e.g., 1d8, 2d6+1",
+      "damage_type": "Damage Type",
+      "damage_type_placeholder": "Select damage type",
+      "burden": "Burden",
+      "burden_placeholder": "Select burden",
+      "weapon_type": "Weapon Type",
+      "weapon_type_placeholder": "Select weapon type",
+      "weapon_category": "Weapon Category",
+      "category_placeholder": "Select category",
+      "tier": "Tier",
+      "tier_placeholder": "Select tier",
+      "features_title": "Weapon Features (Optional)",
+      "public_weapon": "Public Weapon",
+      "private_weapon": "Private Weapon",
+      "damage_dice_required": "Damage dice is required"
+    },
+    "armor": {
+      "title": "Armor",
+      "manage": "Manage Armor",
+      "create": "+ Armor",
+      "edit": "Edit Armor",
+      "update": "Update Armor",
+      "delete": "Delete Armor",
+      "delete_confirm": "Are you sure you want to delete {name}? This action cannot be undone. Characters using this armor will keep their copies.",
+      "my_armor": "My Armor",
+      "manage_description": "Manage your custom armor creations",
+      "filter_tier": "Filter by tier",
+      "all_tiers": "All Tiers",
+      "back_to_armor": "← Back to Armor",
+      "stats": "Armor Stats",
+      "features": "Armor Features",
+      "name": "Name",
+      "name_placeholder": "Enter armor name",
+      "base_score": "Base Armor Score",
+      "base_score_placeholder": "Enter base score (0-20)",
+      "tier": "Tier",
+      "tier_placeholder": "Select tier",
+      "minor_threshold": "Minor Threshold",
+      "minor_threshold_placeholder": "Minor Threshold",
+      "minor_threshold_note": "Damage required to mark a damage slot",
+      "major_threshold": "Major Threshold",
+      "major_threshold_placeholder": "Major Threshold",
+      "major_threshold_note": "Damage required to mark armor as broken",
+      "features_title": "Armor Features (Optional)",
+      "public_armor": "Public Armor",
+      "private_armor": "Private Armor",
+      "base_score_invalid": "Base score must be between 0 and 20",
+      "minor_threshold_invalid": "Minor threshold must be at least 1",
+      "major_threshold_invalid": "Major threshold must be at least 1",
+      "major_threshold_too_low": "Major threshold must be greater than minor threshold"
+    },
+    "items": {
+      "title": "Items",
+      "manage": "Manage Items",
+      "create": "+ Item",
+      "edit": "Edit Item",
+      "update": "Update Item",
+      "delete": "Delete Item",
+      "delete_confirm": "Are you sure you want to delete {name}? This action cannot be undone. Characters using this item will keep their copies.",
+      "my_items": "My Items",
+      "manage_description": "Manage your custom item creations",
+      "back_to_items": "← Back to Items",
+      "details": "Item Details",
+      "name": "Name",
+      "description": "Description",
+      "category": "Category",
+      "rarity": "Rarity",
+      "name_placeholder": "Enter item name",
+      "description_placeholder": "Enter item description",
+      "category_placeholder": "Select category",
+      "rarity_placeholder": "Select rarity",
+      "characters_count": "{count} / 1000 characters",
+      "consumable": "Consumable Item",
+      "non_consumable": "Non-Consumable Item",
+      "consumable_description": "This item can be used or consumed and will be tracked in inventory.",
+      "non_consumable_description": "This item is a permanent equipment or tool.",
+      "public_item": "Public Item",
+      "private_item": "Private Item",
+      "features": "Item Features",
+      "features_title": "Item Features (Optional)",
+      "effects": "Effects",
+      "add_effect": "Add Effect",
+      "effect": "Effect",
+      "effects_hint": "Add modifier effects that this item provides when used or equipped.",
+      "no_effects": "No effects added yet. Click 'Add Effect' to create one.",
+      "filter_category": "Filter by category",
+      "sort_by": "Sort by",
+      "all_categories": "All Categories",
+      "clear_filters": "✕ Clear Filters",
+      "updated": "Updated",
+      "share_with_campaigns": "📤 Share with Campaigns",
+      "recently_updated": "Recently Updated",
+      "recently_created": "Recently Created",
+      "name_az": "Name (A-Z)"
+    },
+    "homebrew": "Homebrew",
+    "ancestries": {
+      "title": "Ancestries",
+      "create_button": "+ Ancestry",
+      "edit_title": "Edit Ancestry",
+      "delete_title": "Delete Ancestry",
+      "my_ancestries": "My Ancestries",
+      "manage_description": "Create and manage custom ancestries for your games",
+      "browse_public": "Browse Vault",
+      "browse": "Browse Workshop",
+      "browse_title": "Browse Workshop Ancestries",
+      "no_results": "No ancestries found matching your search",
+      "name_label": "Ancestry Name",
+      "name_placeholder": "e.g., Skunkfolk, Ribbet",
+      "description_placeholder": "Describe the ancestry's appearance, traits, and background...",
+      "image_url_placeholder": "https://example.com/ancestry-image.png",
+      "image_url_hint": "Enter a URL to an image representing this ancestry",
+      "first_feature": "First Ancestry Feature",
+      "second_feature": "Second Ancestry Feature",
+      "feature_name_placeholder": "e.g., Amphibious, Thick Skin",
+      "public_label": "Public Ancestry",
+      "private_label": "Private Ancestry",
+      "print_title": "Print ancestry sheet",
+      "card_title": "Download as card",
+      "print_sheet": "Print Sheet",
+      "download_png": "Download as PNG",
+      "back_to_ancestries": "Back to Ancestries",
+      "features_title": "Features"
+    },
+    "communities": {
+      "title": "Communities",
+      "create_button": "+ Community",
+      "edit_title": "Edit Community",
+      "delete_title": "Delete Community",
+      "my_communities": "My Communities",
+      "manage_description": "Create and manage custom communities for your games",
+      "browse": "Browse Workshop",
+      "browse_title": "Browse Workshop Communities",
+      "no_results": "No communities found matching your search",
+      "name_label": "Community Name",
+      "name_placeholder": "e.g., Skyborne, Deephollow",
+      "description_placeholder": "Describe the community's culture, values, and characteristics...",
+      "image_url_placeholder": "https://example.com/community-image.png",
+      "image_url_hint": "Enter a URL to an image representing this community",
+      "adjectives": "Personality Adjectives",
+      "adjectives_hint": "Add adjectives that describe members of this community (up to 10)",
+      "adjective_placeholder": "e.g., amiable, resourceful",
+      "max_adjectives": "Maximum 10 adjectives",
+      "feature_title": "Community Feature",
+      "feature_name_placeholder": "e.g., Resourceful, Well-Connected",
+      "public_label": "Public Community",
+      "private_label": "Private Community"
+    },
+    "transformations": {
+      "title": "Transformations",
+      "badge": "Transformation",
+      "name_label": "Transformation Name",
+      "name_placeholder": "e.g., Vampire, Werewolf",
+      "description_placeholder": "Describe the transformation's nature and effects...",
+      "image_url_placeholder": "https://example.com/transformation-image.png",
+      "image_url_hint": "Enter a URL to an image representing this transformation",
+      "first_feature": "First Feature",
+      "second_feature": "Second Feature",
+      "feature_name_placeholder": "e.g., Spirit Form, Wolf Form",
+      "has_ephemeral_label": "Has Ephemeral Mechanic",
+      "has_ephemeral_description": "Enable if the transformation crosses out HP slots at character creation and when increasing tier (like Ghost).",
+      "public_label": "Public",
+      "private_label": "Private",
+      "features_title": "Features"
+    },
+    "classes": {
+      "title": "Classes",
+      "create_button": "+ Class",
+      "edit_title": "Edit Class",
+      "delete_title": "Delete Class",
+      "my_classes": "My Classes",
+      "manage_description": "Create and manage custom classes for your games",
+      "name_label": "Class Name",
+      "name_placeholder": "e.g., Mystic, Warden",
+      "description_placeholder": "Describe the class's role, abilities, and playstyle...",
+      "domains_label": "Domains",
+      "domains_hint": "Select exactly 2 domains",
+      "primary_domain": "Primary Domain",
+      "secondary_domain": "Secondary Domain",
+      "base_stats": "Base Stats",
+      "base_hp": "Base HP",
+      "base_stress": "Base Stress",
+      "base_evasion": "Base Evasion",
+      "suggested_traits": "Suggested Traits",
+      "suggested_traits_hint": "Assign a bonus value (-3 to +3) for each trait. Total should ideally sum to 3.",
+      "traits_sum_warning": "Current sum: {sum} (recommended: 3)",
+      "suggested_weapons": "Suggested Weapons",
+      "suggested_weapons_optional": "Suggested Weapons (Optional)",
+      "suggested_weapons_hint": "Select up to 2 starting weapons for this class.",
+      "suggested_armor": "Suggested Armor",
+      "suggested_armor_optional": "Suggested Armor (Optional)",
+      "suggested_armor_hint": "Select starting armor for this class.",
+      "starting_items_optional": "Starting Items (Optional)",
+      "starting_items_hint": "Select starting items that characters of this class receive during character creation.",
+      "selected_items": "Selected: {items}",
+      "equipment_filter": "Equipment Filter",
+      "equipment_filter_hint": "Filter equipment options for starting weapons, armor, and items",
+      "filter_official": "Official Content Only",
+      "filter_custom": "Custom Creations",
+      "filter_own": "Own Creations Only",
+      "filter_all": "All Creations",
+      "hope_feature": "Hope Feature",
+      "hope_feature_hint": "Every class has a unique Hope Feature that costs 3 Hope to use.",
+      "hope_feature_name": "Feature Name",
+      "hope_feature_name_placeholder": "e.g., Make a Scene, Evolution",
+      "hope_feature_description": "Feature Description",
+      "hope_feature_description_placeholder": "Spend 3 Hope to...",
+      "hope_feature_name_required": "Hope feature name is required",
+      "hope_feature_description_required": "Hope feature description is required",
+      "class_features": "Class Features",
+      "feature_index": "Feature {index}",
+      "display_order": "Display Order",
+      "modifier_index": "Modifier {index}",
+      "modifiers_count": "Modifiers ({count})",
+      "select_modifier": "Select Modifier",
+      "select_modifier_placeholder": "Select a modifier template",
+      "select_modifier_error": "Please select a modifier",
+      "no_features_hint": "No features added yet. Class features are optional.",
+      "public_label": "Public",
+      "private_label": "Private",
+      "domains_required": "Both domains are required",
+      "domains_different": "Domains must be different",
+      "feature_name_required": "Feature {index} name is required",
+      "feature_description_required": "Feature {index} description is required",
+      "back_to_classes": "Back to Classes",
+      "load_error": "Failed to load class",
+      "delete_error": "Failed to delete class",
+      "suggested_equipment": "Suggested Equipment",
+      "features_title": "Class Features",
+      "hope_feature_cost": "3 Hope"
+    },
+    "subclasses": {
+      "title": "Subclasses",
+      "create_button": "+ Subclass",
+      "edit_title": "Edit Subclass",
+      "delete_title": "Delete Subclass",
+      "my_subclasses": "My Subclasses",
+      "manage_description": "Create and manage custom subclasses for your games",
+      "class_label": "Class",
+      "class_placeholder": "Select a class",
+      "name_label": "Subclass Name",
+      "name_placeholder": "e.g., Dawnblade, Shadowcaster",
+      "description_placeholder": "Describe the subclass's focus and abilities...",
+      "spellcast_trait": "Spellcast Trait",
+      "spellcast_trait_optional": "Spellcast Trait (Optional)",
+      "spellcast_trait_placeholder": "Select spellcast trait (optional)",
+      "tier_label": "Tier",
+      "tier_placeholder": "Select tier",
+      "feature_order": "Feature Order",
+      "public_label": "Public",
+      "private_label": "Private",
+      "class_required": "Class is required",
+      "back_to_subclasses": "Back to Subclasses"
+    },
+    "adversaries": {
+      "title": "Adversaries",
+      "badge": "Adversary",
+      "create": "+ Adversary",
+      "name_label": "Adversary Name",
+      "name_placeholder": "e.g., Green Ooze, Skeleton Knight",
+      "description_placeholder": "Describe the adversary's appearance and nature...",
+      "stats": "Combat Stats",
+      "attack_modifier": "Attack Modifier",
+      "major_threshold": "Major Threshold",
+      "severe_threshold": "Severe Threshold",
+      "standard_attack": "Standard Attack",
+      "attack_name": "Attack Name",
+      "attack_name_placeholder": "e.g., Slam, Bite",
+      "attack_range": "Range",
+      "attack_damage": "Damage",
+      "attack_damage_placeholder": "e.g., 1d6+2",
+      "optional_info": "Additional Information",
+      "motives_and_tactics": "Motives & Tactics",
+      "motives_placeholder": "How does this adversary behave in combat?",
+      "experience": "Experience",
+      "experience_placeholder": "e.g., 1 per player",
+      "feature_name_placeholder": "e.g., Acid Touch, Pack Tactics",
+      "select_defaults": "Select Default Values",
+      "select_defaults_hint": "Choose which default values to apply based on tier and type. Each option includes recommended stats and features.",
+      "more_features": "more features",
+      "no_default_features": "No default features"
+    },
+    "environments": {
+      "title": "Environments",
+      "badge": "Environment",
+      "create": "+ Environment",
+      "name_label": "Environment Name",
+      "name_placeholder": "e.g., Abandoned Grove, Dark Dungeon",
+      "description_placeholder": "Describe the environment's atmosphere and characteristics...",
+      "stats": "Environment Stats",
+      "impulses": "Impulses",
+      "impulses_placeholder": "e.g., To consume, To corrupt",
+      "potential_adversaries": "Potential Adversaries",
+      "potential_adversaries_placeholder": "List adversaries commonly found here...",
+      "feature_questions": "Feature Questions",
+      "feature_questions_placeholder": "Add prompts for plot hooks and narrative connections...",
+      "feature_questions_hint": "Prompts for plot hooks, narrative engines, and connections to other story elements",
+      "feature_name_placeholder": "e.g., Living Vines, Toxic Spores"
+    },
+    "modifiers": {
+      "optional_hint": "Add a mechanical effect to this feature. Leave empty if the feature has no direct game mechanics.",
+      "source": "Affects",
+      "source_placeholder": "Select stat/field",
+      "value": "Value",
+      "value_placeholder": "Enter value",
+      "math": "Operation",
+      "math_placeholder": "Select operation",
+      "value_type": "Value Type",
+      "value_type_placeholder": "Select type",
+      "attribute": "Attribute",
+      "attribute_placeholder": "Select attribute",
+      "condition": "Active When",
+      "condition_placeholder": "Select condition",
+      "sources": {
+        "hp": "HP",
+        "hope": "Hope",
+        "armor": "Armor Score",
+        "damage": "Damage",
+        "attack": "Attack Rolls",
+        "proficiency": "Proficiency",
+        "damage_thresholds": "Damage Thresholds (Both)",
+        "minor_threshold": "Minor Threshold",
+        "major_threshold": "Major Threshold",
+        "agility": "Agility",
+        "strength": "Strength",
+        "finesse": "Finesse",
+        "instinct": "Instinct",
+        "presence": "Presence",
+        "knowledge": "Knowledge"
+      },
+      "math_options": {
+        "add": "Add (+)",
+        "subtract": "Subtract (-)"
+      },
+      "value_types": {
+        "fixed": "Fixed Value",
+        "level": "Character Level",
+        "proficiency": "Proficiency Bonus",
+        "tier": "Character Tier",
+        "attribute": "Attribute Value"
+      },
+      "conditions": {
+        "always": "Always Active",
+        "while_flying": "While Flying",
+        "while_vulnerable": "While Vulnerable",
+        "while_hidden": "While Hidden",
+        "while_in_beastform": "While in Beastform",
+        "hp_1_remaining": "At 1 HP",
+        "hp_low": "At Low HP (1-3)",
+        "stress_max": "At Max Stress",
+        "has_hope_2_plus": "With 2+ Hope",
+        "has_hope_0": "With 0 Hope",
+        "in_melee_range": "In Melee Range",
+        "on_roll_with_fear": "On Roll with Fear",
+        "on_roll_with_hope": "On Roll with Hope"
+      }
+    },
+    "quick_actions": {
+      "title": "Quick Actions",
+      "my_creations": "My Creations",
+      "browse_community": "Browse Community"
+    },
+    "recent_creations": {
+      "title": "Recent Creations",
+      "empty": "You haven't created any equipment yet. Use the quick actions above to get started.",
+      "updated": "Updated"
+    },
+    "time": {
+      "just_now": "just now",
+      "minutes_ago": "{count} minute{plural} ago",
+      "hours_ago": "{count} hour{plural} ago",
+      "days_ago": "{count} day{plural} ago"
+    },
+    "vault": {
+      "search_placeholder": "Search vault item...",
+      "author_placeholder": "Homebrew Author...",
+      "results": "results",
+      "tabs": {
+        "all": "Frontpage",
+        "classes": "Classes",
+        "subclasses": "Subclasses",
+        "ancestries": "Ancestries",
+        "communities": "Communities",
+        "transformations": "Transformations",
+        "adversaries": "Adversaries",
+        "environments": "Environments",
+        "weapons": "Weapons",
+        "armor": "Armor",
+        "items": "Items",
+        "campaign_frames": "Frames",
+        "domains": "Domains",
+        "domain_cards": "Domain Cards"
+      },
+      "browse": "Browse Workshop",
+      "upvotes": "upvotes",
+      "empty": {
+        "title": "No items found",
+        "description": "Try adjusting your search or filters"
+      },
+      "latest": "Latest",
+      "view_all": "View All",
+      "no_items_in_category": "No items available yet"
+    },
+    "pagination": {
+      "page": "Page",
+      "page_of_total": "Page {current} of {total}",
+      "of": "of",
+      "per_page": "Per page",
+      "previous": "Previous",
+      "prev": "Prev",
+      "next": "Next",
+      "first": "First",
+      "last": "Last",
+      "showing": "Showing"
+    },
+    "community": {
+      "title": "Browse Equipment",
+      "subtitle": "Discover and use equipment from the official game and custom creations from other players",
+      "tabs": {
+        "weapons": "Weapons",
+        "items": "Items",
+        "campaign_frames": "Campaign Frames"
+      },
+      "empty": {
+        "weapons": "No weapons found matching your criteria",
+        "armor": "No armor found matching your criteria",
+        "items": "No items found matching your criteria",
+        "campaign_frames": "No campaign frames found matching your criteria"
+      }
+    },
+    "campaign_frames": {
+      "import_to_campaign": "Import Frame",
+      "import_title": "Import Campaign Frame",
+      "import_description": "Select a campaign frame to import its data into your campaign",
+      "create_from_frame": "Create Campaign from Frame",
+      "create_from_frame_description": "Create a new campaign based on \"{name}\"",
+      "designed_by": "Designed by {name}",
+      "filters": {
+        "all_complexity": "All Complexity"
+      },
+      "print": {
+        "pitch_instruction": "Read this section to your players to introduce them to the campaign.",
+        "overview_instruction": "If your group decides to play this campaign, give your players the following information before character creation.",
+        "ancestries_instruction": "All ancestries are available, but some have unique aspects within your campaign. As needed, provide the following information to your players.",
+        "classes_instruction": "All classes are available, but some have unique aspects within your campaign. As needed, provide the following information to your players.",
+        "player_principles_instruction": "If your group decides to play this campaign, give your players the following information before character creation.",
+        "gm_principles_instruction": "Keep the following guidance in mind while you GM this campaign.",
+        "optional_rule_note": "This is an optional rule. Use it to add special mechanics or trackers to your campaign.",
+        "gm_notes_note": "GM notes can be handy for session zero planning and campaign preparation.",
+        "save_pdf": "Save as PDF"
+      }
+    },
+    "share_with_campaign": {
+      "title": "Share {name} with Campaign",
+      "description": "Select a campaign to share this equipment with. Campaign players will be able to add it to their characters.",
+      "no_campaigns": "You don't have any campaigns where you are the Game Master.",
+      "create_campaign": "Create a Campaign →",
+      "share_button": "Share with Campaign",
+      "share_failed": "Failed to share equipment. Please try again.",
+      "success": "Successfully shared with {campaign}!",
+      "button": "Share with Campaign"
+    },
+    "domains": {
+      "title": "Domains",
+      "subtitle": "Browse and discover domains",
+      "browse_domains": "Browse Domains",
+      "create_domain": "Create Domain",
+      "create_domain_card": "Create Domain Card",
+      "delete_confirm": "Are you sure you want to delete \"{name}\"? This action cannot be undone.",
+      "official_domain": "Official Domain",
+      "custom_domain": "Custom Domain",
+      "card_count": "{count} card{plural}",
+      "no_domains": "No domains found",
+      "search_placeholder": "Search domains...",
+      "filter_by_domain": "Filter by domain",
+      "form_fields": {
+        "display_name": "Display Name",
+        "display_name_placeholder": "Enter display name",
+        "description_placeholder": "Enter domain description",
+        "symbol": "Symbol",
+        "symbol_placeholder": "Emoji or symbol (e.g., 🛡)",
+        "symbol_hint": "A single emoji or symbol to represent this domain",
+        "icon": "Domain Icon",
+        "domain_color": "Domain Color",
+        "domain_color_hint": "Color used for UI elements and domain cards",
+        "no_color_selected": "No color selected",
+        "clear_color": "Clear Color"
+      }
+    },
+    "domain_cards": {
+      "title": "Domain Cards",
+      "subtitle": "Create and manage custom domain cards",
+      "create_domain_card": "Create Domain Card",
+      "edit_domain_card": "Edit Domain Card",
+      "delete_domain_card": "Delete Domain Card",
+      "delete_confirm": "Are you sure you want to delete \"{name}\"? This action cannot be undone.",
+      "no_cards": "No domain cards found",
+      "details": "Details",
+      "filter_by_domain": "Filter by domain",
+      "form_fields": {
+        "domain": "Domain",
+        "domain_placeholder": "Select domain",
+        "domain_hint": "Select an existing domain. Create a new domain first if needed.",
+        "title": "Card Title",
+        "title_placeholder": "Enter card title",
+        "type_ability": "Ability",
+        "type_spell": "Spell",
+        "type_grimoire": "Grimoire",
+        "feature_placeholder": "Describe what this card does",
+        "description_placeholder": "Optional additional description",
+        "card_icon": "Card Icon",
+        "recall_cost": "Recall Cost",
+        "spellcast_roll": "Requires Spellcast Roll",
+        "spellcast_difficulty": "Spellcast Difficulty",
+        "spellcast_difficulty_type": "Difficulty Type",
+        "has_tokens": "Uses Tokens",
+        "fixed_place": "Fixed Placement",
+        "fixed_place_loadout": "Always in Loadout",
+        "fixed_place_vault": "Always in Vault"
+      },
+      "validation": {
+        "domain_required": "Domain is required",
+        "title_required": "Title is required",
+        "level_required": "Level is required",
+        "type_required": "Type is required",
+        "feature_required": "Feature is required"
+      },
+      "success": {
+        "created": "Domain card created successfully",
+        "updated": "Domain card updated successfully",
+        "deleted": "Domain card deleted successfully"
+      }
+    }
+  }
+}
