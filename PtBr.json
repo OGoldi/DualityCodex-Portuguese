@@ -74,8 +74,8 @@
         "description": "Diretrizes para criar e publicar conteúdo personalizado na Oficina da comunidade."
       },
       "cross_domain_cards": {
-        "title": "Cross-Domain Card Advancement",
-        "description": "Learn how to enable the optional Cross-Domain Card advancement to take domain cards from any domain during level-up."
+        "title": "Avanço de cartas Interdomínio",
+        "description": "Aprenda como habilitar o recurso opcional de Cartas Interdomínio para obter cartas de qualquer domínio durante a subida de nível."
       },
       "scars": {
         "title": "Cicatrizes",
@@ -91,10 +91,10 @@
       }
     },
     "cross_domain": {
-      "title": "Cross-Domain Card Advancement",
-      "subtitle": "How to enable and use the optional Cross-Domain Card advancement when leveling up your character.",
+      "title": "Avanço de cartas de Interdomínio",
+      "subtitle": "Como habilitar e usar o recurso opcional de avanço de Cartas Interdomínio ao subir de nível seu personagem.",
       "what_is": {
-        "title": "What is Cross-Domain Card?",
+        "title": "O que é carta Interdomínio",
         "description": "The Cross-Domain Card advancement lets you take one domain card from any domain outside your class domains when you level up. This optional rule is similar to the Demiplane feature—it expands your character's abilities beyond their class's native domains.",
         "level_rule": "The card's level cannot exceed half your character level (rounded up). For example, a level 5 character can take cross-domain cards up to level 3."
       },
