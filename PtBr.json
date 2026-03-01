@@ -74,7 +74,7 @@
         "description": "Diretrizes para criar e publicar conteúdo personalizado na Oficina da comunidade."
       },
       "cross_domain_cards": {
-        "title": "Avanço de cartas Interdomínio",
+        "title": "Avanço de Cartas Interdomínio",
         "description": "Aprenda como habilitar o recurso opcional de Cartas Interdomínio para obter cartas de qualquer domínio durante a subida de nível."
       },
       "scars": {
@@ -91,32 +91,32 @@
       }
     },
     "cross_domain": {
-      "title": "Avanço de cartas de Interdomínio",
+      "title": "Avanço de Cartas Interdomínio",
       "subtitle": "Como habilitar e usar o recurso opcional de avanço de Cartas Interdomínio ao subir de nível seu personagem.",
       "what_is": {
-        "title": "O que é carta Interdomínio",
-        "description": "The Cross-Domain Card advancement lets you take one domain card from any domain outside your class domains when you level up. This optional rule is similar to the Demiplane feature—it expands your character's abilities beyond their class's native domains.",
-        "level_rule": "The card's level cannot exceed half your character level (rounded up). For example, a level 5 character can take cross-domain cards up to level 3."
+        "title": "O que é Cartas Interdomínio",
+        "description": "O avanço Carta Interdomínio permite que você escolha uma carta de domínio de qualquer domínio fora dos seus domínios de classe ao subir de nível. Essa regra opcional é semelhante à opções no Demiplane — ela expande as habilidades do seu personagem além dos domínios nativos da sua classe.",
+        "level_rule": "O nível da carta não pode exceder metade do seu nível de personagem (arredondado para cima). Por exemplo, um personagem de nível 5 pode escolher cartas de domínio cruzado de até nível 3."
       },
       "how_to_enable": {
-        "title": "How to Enable",
-        "intro": "You must enable Cross-Domain Cards before the option will appear during level-up. You can enable it for your entire account (affects new characters and level-ups) or for individual characters.",
+        "title": "Como habilitar",
+        "intro": "Você precisa habilitar as Cartas Interdomínio para que a opção apareça durante a subida de nível. Você pode habilitá-la para toda a sua conta (afeta novos personagens e subidas de nível) ou para personagens individuais.",
         "account": {
-          "title": "Account-wide (Recommended)",
-          "description": "Enable Cross-Domain Cards in your account preferences. This applies to all your characters and makes the advancement available when you level up.",
-          "button": "Open Preferences"
+          "title": "Para toda a conta (Recomendado)",
+          "description": "Ative as Cartas Interdomínio nas preferências da sua conta. Isso se aplica a todos os seus personagens e disponibiliza o avanço ao subir de nível.",
+          "button": "Abrir Preferências"
         },
         "character": {
-          "title": "Per character",
-          "description": "You can also enable Cross-Domain Cards for a specific character in the character edit screen.",
-          "step1": "Open your character and go to the Preferences tab",
-          "step2": "Scroll to the Cross-Domain Cards section",
-          "step3": "Toggle Enable Cross-Domain Cards on"
+          "title": "Por personagem",
+          "description": "Você também pode habilitar as cartas Interdomínio para um personagem específico na tela de edição de personagem.",
+          "step1": "Abra seu personagem e acesse a aba Preferências.",
+          "step2": "Procure a seção Cartas Interdomínio",
+          "step3": "Ative/Desative a opção Cartas Interdmínio."
         }
       },
       "level_up": {
-        "title": "Using it when leveling up",
-        "description": "Once enabled, the Cross-Domain Card advancement will appear as an option in the level-up wizard (Tier 2 and above). Select it as one of your advancements, then choose a domain card from any domain outside your class. You can take at most one cross-domain card per level-up."
+        "title": "Usando ao subir de nível",
+        "description": "Uma vez habilitado, o avanço Carta Interdomínio aparecerá como uma opção no assistente de evolução (Nível 2 e superior). Selecione-o como um de seus avanços e, em seguida, escolha uma carta de domínio de qualquer domínio fora da sua classe. Você pode escolher no máximo uma carta interdomínio por evolução."
       }
     },
     "scars": {
@@ -150,7 +150,7 @@
         "title": "Como Configurar",
         "step1": "Abra seu personagem e acesse a aba Preferências",
         "step2": "Procure a seção Configurações de Riquezas",
-        "step3": "Ative/Desative a opção Habilitar moedas."
+        "step3": "Ative/Desative a opção Habilitar Moedas."
       }
     },
     "massive_damage": {
