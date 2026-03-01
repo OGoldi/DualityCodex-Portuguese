@@ -1,93 +1,93 @@
 {
   "app": {
     "title": "Duality codex",
-    "subtitle": "Character Manager"
+    "subtitle": "Gerenciador de Personagens"
   },
   "home": {
     "welcome": {
-      "title": "Welcome to Duality Codex",
-      "description": "Create, manage, and track your Daggerheart RPG characters with this intuitive digital tool.",
-      "get_started": "Get Started"
+      "title": "Bem vindo ao Duality Codex",
+      "description": "Crie, gerencie, e acompanhe seus personagens de Daggerheart RPG com esta ferramenta digital intuitiva.",
+      "get_started": "Vamos nessa"
     },
     "features": {
       "character_creation": {
-        "title": "Character Creation",
-        "description": "Create your character with an intuitive step-by-step wizard that guides you through every choice."
+        "title": "Criação de Personagem",
+        "description": "Crie seu personagem com um assistente intuitivo passo a passo que o guiará em cada escolha."
       },
       "character_management": {
-        "title": "Character Management",
-        "description": "Track your character's progress, inventory, and abilities with our easy-to-use digital sheets."
+        "title": "Gerenciador de Personagem",
+        "description": "Acompanhe o progresso, o inventário e as habilidades do seu personagem com nossas fichas digitais fáceis de usar."
       },
       "secure_private": {
-        "title": "Secure & Private",
-        "description": "Your character data is securely stored and accessible only to you."
+        "title": "Seguro & Privado",
+        "description": "Os dados do seu personagem são armazenados com segurança e acessíveis somente a você."
       }
     },
     "cta": {
-      "title": "Ready to Begin Your Adventure?",
-      "description": "Join our community of adventurers and start creating your unique Daggerheart characters today.",
-      "button": "Create Your Character"
+      "title": "Pronto para começar sua aventura?",
+      "description": "Junte-se à nossa comunidade de aventureiros e comece a criar seus personagens únicos de Daggerheart hoje mesmo.",
+      "button": "Crie seu Personagem"
     },
     "dashboard": {
-      "welcome": "Welcome, {name}!",
-      "adventurer": "Adventurer",
-      "subtitle": "Manage your characters and embark on new adventures",
-      "error_title": "Failed to load characters",
-      "no_characters": "No Characters Yet",
-      "no_characters_description": "Create your first character to begin your journey! You can have up to {max} characters and campaigns in total.",
-      "limit_reached": "Limit Reached",
-      "limit_description": "You've reached the maximum of {max} characters and campaigns in total. Delete a character or campaign to create more.",
-      "limit_description_free": "You've reached your free limit of {max} characters and campaigns. Upgrade to a membership to unlock more!",
-      "upgrade_prompt": "Want more characters and campaigns? Upgrade your membership!",
-      "discord_title": "Join Our Community",
-      "discord_description": "Connect with other players, share your characters, and get help on Discord!",
-      "discord_button": "Join Us on Discord"
+      "welcome": "Bem vindo, {name}!",
+      "adventurer": "Aventureiro",
+      "subtitle": "Gerencie seus personagens e embarque em novas aventuras",
+      "error_title": "Falha ao carregar personagens",
+      "no_characters": "Ainda não há personagens",
+      "no_characters_description": "Crie seu primeiro personagem para começar sua jornada! Você pode ter até {max} personagens e campanhas no total.",
+      "limit_reached": "Limite Atingido",
+      "limit_description": "Você atingiu o máximo de {max} personagens e campanhas no total. Apague um personagem ou campanha para criar mais.",
+      "limit_description_free": "Você atingiu o limite gratuito de {max} personagens e campanhas. Torne-se um assinante para desbloquear mais recursos!",
+      "upgrade_prompt": "Quer mais personagens e campanhas? Torne-se um assinante!",
+      "discord_title": "Junte-se a nossa Comunidade",
+      "discord_description": "Conecte-se com outros jogadores, compartilhe seus personagens e obtenha ajuda no Discord!",
+      "discord_button": "Junte-se a nós no Discord!"
     }
   },
   "guides": {
-    "title": "Guides",
-    "subtitle": "Learn how to use optional rules and character preferences in the Duality codex Character Manager.",
-    "back_to_guides": "Back to Guides",
+    "title": "Guias",
+    "subtitle": "Aprenda a usar regras opcionais e preferências de personagem no Gerenciador de Personagens do Duality Codex.",
+    "back_to_guides": "Voltar para Guias",
     "items": {
       "character_creation": {
-        "title": "Character Creation",
-        "description": "Step-by-step wizard to create your character. Choose ancestry, class, heritage, and configure your abilities."
+        "title": "Criação de Personagem",
+        "description": "Assistente passo a passo para criar seu personagem. Escolha ancestralidade, classe, herança e configure suas habilidades."
       },
       "domain_cards": {
-        "title": "Domain Cards & Loadout",
-        "description": "Manage your spells and domain abilities with the loadout system. Move cards between your active loadout and vault."
+        "title": "Cartas de Domínio & Mão",
+        "description": "Gerencie suas magias e habilidades de domínio com o sistema de Mão e Reserva. Mova cartas livremente entre elas."
       },
       "campaigns": {
-        "title": "Campaigns",
-        "description": "Create campaigns to group characters. Invite players and share content within your party."
+        "title": "Campanhas",
+        "description": "Crie campanhas para agrupar personagens. Convide jogadores e compartilhe conteúdo dentro do seu grupo."
       },
       "workshop": {
-        "title": "The Workshop",
-        "description": "Create custom weapons, armor, and items. Publish to the community or keep them private for your games."
+        "title": "A Oficina",
+        "description": "Crie armas, armaduras e itens personalizados. Publique para a comunidade ou mantenha-as privadas para seus jogos."
       },
       "sharing": {
-        "title": "Sharing Characters",
-        "description": "Share your character sheets with other players. Import shared characters into your account."
+        "title": "Compartilhe Personagens",
+        "description": "Compartilhe suas fichas de personagem com outros jogadores. Importe os personagens compartilhados para sua conta."
       },
       "homebrew": {
-        "title": "Homebrew Guidelines",
-        "description": "Guidelines for creating and publishing custom content to the Workshop community."
+        "title": "Diretrizes para Homebrew",
+        "description": "Diretrizes para criar e publicar conteúdo personalizado na Oficina da comunidade."
       },
       "cross_domain_cards": {
         "title": "Cross-Domain Card Advancement",
         "description": "Learn how to enable the optional Cross-Domain Card advancement to take domain cards from any domain during level-up."
       },
       "scars": {
-        "title": "Scars",
-        "description": "Understand how scars from failed death saves affect your character's Hope and how to manage them."
+        "title": "Cicatrizes",
+        "description": "Entenda como as cicatrizes de fahas ao Evitar a Morte afetam a Esperança do seu personagem e como gerenciá-las."
       },
       "currency": {
-        "title": "Currency Settings",
-        "description": "Configure how your character tracks gold—default handfuls or the optional coins system."
+        "title": "Configurações de Riquezas",
+        "description": "Configure como seu personagem rastreia o ouro — punhados ou o sistema opcional de moedas."
       },
       "massive_damage": {
-        "title": "Massive Damage",
-        "description": "Enable and use the optional Massive Damage rule for devastating hits."
+        "title": "Dano Massivo",
+        "description": "Habilite e use a regra opcional de Dano Massivo para causar golpes devastadores."
       }
     },
     "cross_domain": {
@@ -120,52 +120,52 @@
       }
     },
     "scars": {
-      "title": "Scars",
-      "subtitle": "How scars affect your character's Hope and how to edit them.",
+      "title": "Cicatrizes",
+      "subtitle": "Como as cicatrizes afetam a Esperança do seu personagem e como editá-las.",
       "what_are": {
-        "title": "What are Scars?",
-        "description": "Scars are permanent marks from failed death saves. Each scar represents a lasting wound that reduces your character's maximum Hope.",
-        "effective_hope": "Your effective maximum Hope equals your max Hope minus your scars. For example, with 6 max Hope and 2 scars, you have 4 effective Hope slots."
+        "title": "O que são Cicatrizes?",
+        "description": "Cicatrizes são marcas permanentes resultantes de falhas em testes ao Evitar a Morte. Cada cicatriz representa uma ferida duradoura que reduz a Esperança máxima do seu personagem.",
+        "effective_hope": "Sua Esperança máxima efetiva é igual à sua Esperança máxima menos suas cicatrizes. Por exemplo, com 6 de Esperança máxima e 2 cicatrizes, você tem 4 espaços de Esperança efetivas."
       },
       "how_to": {
-        "title": "How to Edit Scars",
-        "description": "Scars are managed in the character edit screen.",
-        "step1": "Open your character and go to the Preferences tab",
-        "step2": "Scroll to the Scars section",
-        "step3": "Click Edit and set the number of scars (0 to max Hope minus 1)"
+        "title": "Como editar Cicatrizes?",
+        "description": "As cicatrizes são gerenciadas na tela de edição de personagem.",
+        "step1": "Abra seu personagem e acesse a aba Preferências.",
+        "step2": "Procure a seção Cicatrizes",
+        "step3": "Clique em Editar e defina o número de cicatrizes (de 0 até o máximo de Esperança menos 1)."
       }
     },
     "currency": {
-      "title": "Currency Settings",
-      "subtitle": "Configure how your character tracks gold and currency.",
+      "title": "Configurações de Riquezas",
+      "subtitle": "Gerencie ouro e moedas de seu personagem.",
       "default": {
-        "title": "Default Currency",
-        "description": "By default, characters track gold using Handfuls, Bags, and Chest. This follows the standard Daggerheart rules."
+        "title": "Riqueza Padrão",
+        "description": "Por padrão, os personagens gerenciam o ouro usando Punhados, Bolsas e Baús. Isso segue as regras padrão de Daggerheart."
       },
       "coins": {
-        "title": "Optional Coins",
-        "description": "When enabled, Coins are added as the smallest unit: 10 coins equal 1 handful. The currency hierarchy becomes Coins → Handfuls → Bags → Chest."
+        "title": "Moedas Opcionais",
+        "description": "Quando habilitado, As moedas são adicionadas como a menor unidade: 10 moedas equivalem a 1 punhado. A hierarquia da moeda passa a ser Moedas → Punhados → Sacos → Baú."
       },
       "how_to": {
-        "title": "How to Configure",
-        "step1": "Open your character and go to the Preferences tab",
-        "step2": "Scroll to the Currency Settings section",
-        "step3": "Toggle Enable Coins on or off"
+        "title": "Como Configurar",
+        "step1": "Abra seu personagem e acesse a aba Preferências",
+        "step2": "Procure a seção Configurações de Riquezas",
+        "step3": "Ative/Desative a opção "Habilitar moedas"."
       }
     },
     "massive_damage": {
-      "title": "Massive Damage (Optional Rule)",
-      "subtitle": "Enable the optional rule for devastating hits that deal extra damage.",
+      "title": "Dano Massivo (Regra Opcional)",
+      "subtitle": "Ative a regra opcional para golpes devastadores que causam dano extra.",
       "what_is": {
-        "title": "What is Massive Damage?",
-        "description": "Massive Damage is an optional Daggerheart rule for particularly devastating attacks.",
-        "rule": "If a character takes damage equal to twice their Major threshold in a single hit, they mark 4 HP instead of 3. When enabled, a fourth damage threshold button appears on your character sheet for this case."
+        "title": "O que é Dano Massivo?",
+        "description": "Dano Massivo é uma regra opcional de Daggerheart para ataques particularmente devastadores.",
+        "rule": "Se um personagem sofrer dano igual ao dobro do seu limite de Dano Grave em um único golpe, ele marcará 4 PV em vez de 3. Quando ativado, um quarto botão de limite de dano aparecerá na ficha do personagem para essa situação."
       },
       "how_to": {
-        "title": "How to Enable",
-        "step1": "Open your character and go to the Preferences tab",
-        "step2": "Scroll to the Massive Damage section",
-        "step3": "Toggle Enable Massive Damage on"
+        "title": "Como habilitar",
+        "step1": "Abra seu personagem e acesse a aba Preferências",
+        "step2": "Procure a seção Dano Massivo",
+        "step3": "Ative/Desative a opção Dano Massivo"
       }
     }
   },
