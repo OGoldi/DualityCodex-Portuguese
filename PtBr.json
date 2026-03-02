@@ -200,34 +200,34 @@
         "description": "Você não pode criar conteúdo Homebrew e incluir um link para outro site. Por exemplo, você não pode criar uma raça e incluir: \"para mais informações, visite meu site/blog/loja\"."
       }
     },
-    "ban_title": "Content That Will Result in a Ban",
+    "ban_title": "Conteúdo que Resultará em Banimento",
     "ban_items": {
-      "illegal_pdf": "Illegal PDF/download of official content or the websites that create/use them",
-      "keyloggers": "Keyloggers, hoaxes, and/or phishing websites",
-      "illegal_activities": "Activities considered illegal by the content owners",
-      "religious": "Religious opinions/debates (from the real world - fantasy religious principles are generally okay if they are not inflammatory)",
-      "hateful": "Hateful language about race, religion, country, political beliefs, etc.",
-      "explicit": "Sexually explicit content",
-      "illegal_law": "Content that is considered illegal by law",
-      "referral_links": "Referral links for contests, promotions, or anything else",
-      "advertisements": "Advertisements"
+      "illegal_pdf": "Downloads ilegais de PDFs/conteúdo oficial ou dos sites que os criam/utilizam.",
+      "keyloggers": "Keyloggers, hoaxes, e/ou sites de phishing",
+      "illegal_activities": "Atividades consideradas ilegais pelos proprietários do conteúdo.",
+      "religious": "Opiniões/debates religiosos (do mundo real - princípios religiosos fictícios geralmente são aceitáveis, desde que não sejam polêmicos)",
+      "hateful": "Discurso de ódio relacionado a raça, religião, país, crenças políticas, etc.",
+      "explicit": "Conteúdo sexual explícito",
+      "illegal_law": "Conteúdo considerado ilegal por lei",
+      "referral_links": "Links de publicidade para concursos, promoções ou qualquer outra coisa.",
+      "advertisements": "Anúncios"
     },
-    "official_title": "For Official Content",
+    "official_title": "Para Conteúdo Oficial",
     "official": {
-      "paragraph1": "Do NOT submit official material to public homebrew. (e.g., submitting official content from published sourcebooks is NOT permitted as part of public homebrew).",
-      "paragraph2": "Please do not submit minor variations to official content (like a changed weapon for a town guard, or a \"warrior\" version of a standard monster). It is acceptable to submit variations provided that they contain significant additional changes."
+      "paragraph1": "NÃO envie material oficial para conteúdo Homebrew público. (Por exemplo, enviar conteúdo oficial de livros de regras publicados NÃO é permitido como parte de conteúdo Homebrew público).",
+      "paragraph2": "Por favor, não envie pequenas variações de conteúdo oficial (como uma arma alterada para um guarda da cidade ou uma versão \"guerreiro\" de um monstro padrão). É aceitável enviar variações, desde que contenham mudanças adicionais significativas."
     },
-    "ai_title": "AI-Generated Content",
+    "ai_title": "Conteúdo Gerado por IA",
     "ai": {
-      "paragraph1": "We reserve the right to remove public content that contains AI-generated images and content. While AI tools can be helpful for inspiration and development, publicly shared homebrew should represent original creative work. Content that is primarily or substantially AI-generated may be removed at our discretion.",
-      "paragraph2": "This policy helps maintain the quality and authenticity of the community's shared content. You are welcome to use AI tools for private homebrew content within your own campaigns."
+      "paragraph1": "Reservamo-nos o direito de remover conteúdo público que contenha imagens e conteúdo gerados por IA. Embora as ferramentas de IA possam ser úteis para inspiração e desenvolvimento, o conteúdo Homebrew compartilhado publicamente deve representar trabalho criativo original. Conteúdo que seja primária ou substancialmente gerado por IA poderá ser removido a nosso critério.",
+      "paragraph2": "Esta política ajuda a manter a qualidade e a autenticidade do conteúdo compartilhado pela comunidade. Você pode usar ferramentas de IA para conteúdo Homebrew privado em suas próprias campanhas."
     },
-    "public_title": "Public Homebrew Guidelines",
+    "public_title": "Diretrizes de Homebrew Pública",
     "public": {
-      "intro": "If you wish to share your homebrew creation with the greater community, it must adhere to the following guidelines:",
-      "rule1": "Do not submit homebrew creations with names that start with either a space, bracket, symbol, or number.",
-      "rule2": "Do not submit homebrew that contains copyrighted material. We can review it again if you remove any and all copyrighted content and any references to it (e.g., content from other games, movies, books, etc.).",
-      "rule3": "Do not submit any content owned by a third party partner.",
+      "intro": "Se você deseja compartilhar sua criação Homebrew com a comunidade em geral, ela deve seguir as seguintes diretrizes:",
+      "rule1": "Não envie criações Homebrew com nomes que comecem com um espaço, colchete, símbolo ou número.",
+      "rule2": "Não envie conteúdo Homebrew que contenha material protegido por direitos autorais. Podemos analisá-lo novamente se você remover todo e qualquer conteúdo protegido por direitos autorais e quaisquer referências a ele (por exemplo, conteúdo de outros jogos, filmes, livros, etc.).",
+      "rule3": "Não envie nenhum conteúdo que pertença a um parceiro terceiro.",
       "rule4": "Images may not be included or embedded in public homebrew.",
       "rule5": "Please ensure that any public homebrew content you submit contains all of the correct modifiers. Missing modifiers may cause issues with values not appearing properly within the character sheet/character builder.",
       "rule6": "Please do not submit homebrew that is only designed for personal campaigns. This includes descriptive references to specific PCs/NPCs, as well as places and events.",
