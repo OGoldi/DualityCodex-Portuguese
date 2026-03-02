@@ -176,28 +176,28 @@
     "subtitle": "Regras e diretrizes para compartilhar conteúdo Homebrew com a comunidade",
     "intro": {
       "paragraph1": "A seguir, apresentamos as regras e diretrizes para compartilhar conteúdo Homebrew com a comunidade. Você NÃO precisa publicar seu conteúdo Homebrew publicamente para usá-lo ou compartilhá-lo em sua própria campanha. Além disso, tanto as Regras e Diretrizes do Site quanto os Termos de Serviço se aplicam a todo conteúdo Homebrew público. Qualquer conteúdo Homebrew público que viole essas regras e diretrizes terá sua aprovação negada e será removido.",
-      "paragraph2": "Important: Once you have published a homebrew creation, it cannot be removed. Once published, the creation can only be updated via the \"Create new version\" option."
+      "paragraph2": "Importante: Depois de publicar uma criação Homebrew, ela não poderá ser removida. Após a publicação, a criação só poderá ser atualizada através da opção \"Criar nova versão\"."
     },
-    "unacceptable_title": "Unacceptable Content for Public Homebrew",
+    "unacceptable_title": "Conteúdo inaceitável para conteúdo Homebrew público",
     "unacceptable": {
       "naming_and_shaming": {
-        "title": "Naming and Shaming",
-        "description": "We don't want to see one-sided accusations or any other form of naming and shaming as part of any homebrew content."
+        "title": "Exposição e Difamação",
+        "description": "Não queremos ver acusações unilaterais ou qualquer outra forma de difamação e exposição pública como parte de qualquer conteúdo Homebrew."
       },
       "personal_info": {
-        "title": "Personal Information",
-        "description": "Personal information about yourself or anyone else should not be posted in homebrew content."
+        "title": "Informações Pessoais",
+        "description": "Informações pessoais suas ou de qualquer outra pessoa não devem ser publicadas em conteúdo Homebrew."
       },
       "spamming_trolling": {
-        "title": "Spamming and Trolling",
-        "description": "Neither spamming nor trolling is acceptable as part of any homebrew content creation. This includes but isn't limited to:",
-        "list1": "Creating content for the sole purpose of causing unrest",
-        "list2": "Excessively communicating the same phrase, similar phrases, or pure gibberish",
-        "list3": "Posting meme or troll text as part of homebrew content (e.g., \"cool story bro\", \"u mad\", \"10/10\", captioned images, etc.)"
+        "title": "Spam e Trolagem",
+        "description": "Spam e provocações não são aceitáveis ​​em nenhuma criação de conteúdo Homebrew. Isso inclui, mas não se limita a:",
+        "list1": "Criar conteúdo com o único propósito de causar desordem.",
+        "list2": "Comunicar excessivamente a mesma frase, frases semelhantes ou puro non-sense.",
+        "list3": "Postar memes ou textos provocativos como parte de conteúdo Homebrew (por exemplo, \"que história legal, mano\", \"tá bravo?\", \"10/10\", imagens com legendas, etc.)"
       },
       "links": {
-        "title": "Links to Other Websites",
-        "description": "You may not create homebrew and include a link to another website. For example, you may not create a race and include: \"for further information, please visit my website/blog/shop\"."
+        "title": "Links para Outros Sites",
+        "description": "Você não pode criar conteúdo Homebrew e incluir um link para outro site. Por exemplo, você não pode criar uma raça e incluir: \"para mais informações, visite meu site/blog/loja\"."
       }
     },
     "ban_title": "Content That Will Result in a Ban",
