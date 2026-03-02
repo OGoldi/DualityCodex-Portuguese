@@ -228,24 +228,24 @@
       "rule1": "Não envie criações Homebrew com nomes que comecem com um espaço, colchete, símbolo ou número.",
       "rule2": "Não envie conteúdo Homebrew que contenha material protegido por direitos autorais. Podemos analisá-lo novamente se você remover todo e qualquer conteúdo protegido por direitos autorais e quaisquer referências a ele (por exemplo, conteúdo de outros jogos, filmes, livros, etc.).",
       "rule3": "Não envie nenhum conteúdo que pertença a um parceiro terceiro.",
-      "rule4": "Images may not be included or embedded in public homebrew.",
-      "rule5": "Please ensure that any public homebrew content you submit contains all of the correct modifiers. Missing modifiers may cause issues with values not appearing properly within the character sheet/character builder.",
-      "rule6": "Please do not submit homebrew that is only designed for personal campaigns. This includes descriptive references to specific PCs/NPCs, as well as places and events.",
-      "rule7": "Do not re-submit previously rejected submissions without making an attempt to resolve the reason why it was rejected.",
-      "rule8": "Do not submit new base or mundane items. If you wish to share your creation of mundane items/weapons, we recommend posting these in the community forums."
+      "rule4": "As imagens não podem ser incluídas ou incorporadas em conteúdo Homebrew público.",
+      "rule5": "Certifique-se de que todo o conteúdo Homebrew público que você enviar contenha todos os modificadores corretos. A falta de modificadores pode causar problemas com os valores, que podem não aparecer corretamente na ficha de personagem/criador de personagens.",
+      "rule6": "Por favor, não envie conteúdo Homebrew que seja destinado apenas a campanhas pessoais. Isso inclui referências descritivas a PJs/NPCs específicos, bem como a locais e eventos.",
+      "rule7": "Não envie novamente trabalhos que já foram rejeitados sem antes tentar resolver o motivo da rejeição.",
+      "rule8": "Não envie itens básicos ou comuns novos. Se desejar compartilhar sua criação de itens/armas comuns, recomendamos que os publique nos fóruns da comunidade."
     },
-    "category_title": "Category-Specific Guidelines",
+    "category_title": "Diretrizes por Categoria",
     "category": {
       "magic_items": {
-        "title": "Magic Items",
-        "description": "Do not submit magical items that are not actually magical items. This includes items that are meant to replicate/emulate Blessings / Curses / Feats / Class features etc."
+        "title": "Itens Mágicos",
+        "description": "Não envie itens mágicos que não sejam realmente mágicos. Isso inclui itens que visam replicar/emular Bênçãos/Maldições/Talentos/Características de Classe etc."
       },
       "ancestries": {
-        "title": "Races/Ancestries",
-        "description": "You may not create subraces for official races that do not normally have subraces. For example, you would not be able to create subraces for races that don't have them (but would be able to create a Variant, as long as it's sufficiently different from the version found in official material)."
+        "title": "Ancestralidades/Raças",
+        "description": "Você não pode criar sub-raças para raças oficiais que normalmente não as possuem. Por exemplo, você não poderá criar sub-raças para raças que não as têm (mas poderá criar uma variante, desde que seja suficientemente diferente da versão encontrada no material oficial)."
       }
     },
-    "reminder": "Remember: You can always use homebrew privately for your own games! Publishing is optional and only required if you want to share with the community."
+    "reminder": "Lembre-se: você sempre pode usar conteúdo Homebrew de forma privada para seus próprios jogos! A publicação é opcional e só é necessária se você quiser compartilhar com a comunidade."
   },
   "guides_meta": {
     "index_title": "Guides - Duality codex Character Manager",
