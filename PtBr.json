@@ -1599,407 +1599,407 @@
       }
     },
     "attributes_step": {
-      "title": "Assign Attribute Modifiers",
-      "instructions": "Assign the following modifiers to your six attributes in any order you wish: +2, +1, +1, +0, +0, -1",
-      "suggested_traits": "Suggested Traits for",
-      "available_modifiers": "Available Modifiers:",
-      "no_modifiers_available": "No modifiers available",
-      "suggested_value": "Suggested Value:"
+      "title": "Atribuir Modificadores de Atributo",
+      "instructions": "Atribua os seguintes modificadores aos seus seis atributos na ordem que desejar: +2, +1, +1, +0, +0, -1",
+      "suggested_traits": "Atributos sugeridas para",
+      "available_modifiers": "Modificadores Disponíveis:",
+      "no_modifiers_available": "Nenhum modificador disponível",
+      "suggested_value": "Valor Sugerido:"
     },
     "connections_step": {
-      "title": "Create Your Connections",
+      "title": "Crie Suas Conexões",
       "intro": {
-        "title": "Building Relationships",
-        "content": "Connections are the relationships between player characters. Record your connections with other party members below."
+        "title": "Construindo Relacionamentos",
+        "content": "Conexões são os relacionamentos entre os personagens dos jogadores. Registre suas conexões com outros membros do grupo abaixo."
       },
       "section": {
-        "title": "Your Character Connections",
-        "description": "Add your connections to other player characters. Work with your group to establish these relationships collaboratively."
+        "title": "Suas Conexões de Personagem",
+        "description": "Adicione suas conexões com outros personagens jogadores. Trabalhe com seu grupo para estabelecer esses relacionamentos de forma colaborativa."
       },
       "quick_ideas": {
-        "title": "Quick Connection Ideas",
+        "title": "Ideias para Conexão Rápida",
         "family": {
-          "title": "Family/Friends",
-          "description": "Siblings, childhood friends, or chosen family"
+          "title": "Família/Amigos",
+          "description": "Irmãos, amigos de infância ou família escolhida"
         },
         "professional": {
-          "title": "Professional",
-          "description": "Former colleagues, guild members, or rivals"
+          "title": "Profissional",
+          "description": "Ex-colegas, membros da guilda ou rivais"
         },
         "shared": {
-          "title": "Shared Experience",
-          "description": "Survivors of the same event or quest"
+          "title": "Experiência Compartilhada",
+          "description": "Sobreviventes do mesmo evento ou missão"
         }
       },
       "process": {
-        "title": "Connection Creation Process (Click to expand)",
+        "title": "Processo de Criação de Conexão (Clique para expandir)",
         "steps": {
           "introductions": {
-            "title": "Character Introductions",
-            "description": "Go around the table and have each player describe their character: name, pronouns, description, experiences, and background answers."
+            "title": "Apresentação dos Personagens",
+            "description": "Dê a volta na mesa e peça para cada jogador descrever seu personagem: nome, pronomes, descrição, experiências e informações sobre sua história."
           },
           "discuss": {
-            "title": "Discuss Potential Connections",
-            "description": "Use the connection questions below as inspiration to explore relationships between characters."
+            "title": "Discutir Possíveis Conexões",
+            "description": "Use as perguntas de conexão abaixo como inspiração para explorar as relações entre os personagens."
           },
           "suggest": {
-            "title": "Suggest & Accept Connections",
-            "description": "Suggest at least one connection between your character and each other PC. Accept or reject suggestions as desired."
+            "title": "Sugerir & aceitar conexões",
+            "description": "Sugira pelo menos uma conexão entre seu personagem e cada um dos outros personagens jogadores. Aceite ou rejeite as sugestões como desejar."
           }
         }
       },
       "questions": {
-        "title": "Connection Questions for Inspiration (Click to expand)",
+        "title": "Perguntas de Conexão para Inspiração (Clique para expandir)",
         "shared_history": {
-          "title": "Shared History",
-          "question_grow_up": "Did you grow up together?",
-          "question_work": "Have you worked together before?",
-          "question_event": "Did you meet during a significant event?",
-          "question_mentor": "Do you share a mentor or teacher?"
+          "title": "História Compartilhada",
+          "question_grow_up": "Vocês cresceram juntos?",
+          "question_work": "Vocês já trabalharam juntos antes?",
+          "question_event": "Vocês se conheceram durante um evento significativo?",
+          "question_mentor": "Você compartilha um mentor ou professor?"
         },
         "family": {
-          "title": "Family & Blood",
-          "question_related": "Are you related by blood or marriage?",
-          "question_save": "Did one of you save the other's family?",
-          "question_history": "Do your families have a history together?",
-          "question_adopted": "Are you adopted siblings or chosen family?"
+          "title": "Família & Sangue",
+          "question_related": "Vocês são parentes de sangue ou por casamento?",
+          "question_save": "Um de vocês salvou a família do outro?",
+          "question_history": "Suas famílias têm alguma história em comum?",
+          "question_adopted": "Vocês são irmãos adotivos ou família escolhida?"
         },
         "professional": {
-          "title": "Professional Bonds",
-          "question_guild": "Were you in the same guild or organization?",
-          "question_military": "Did you serve together in military or guard?",
-          "question_business": "Are you business partners or rivals?",
-          "question_patron": "Do you share the same patron or employer?"
+          "title": "Laços Profissionais",
+          "question_guild": "Vocês pertenciam à mesma guilda ou organização?",
+          "question_military": "Vocês serviram juntos no exército ou na guarda?",
+          "question_business": "Vocês são sócios ou rivais?",
+          "question_patron": "Vocês têm o mesmo patrão ou empregador?"
         },
         "debts": {
-          "title": "Debts & Favors",
-          "question_debt": "Does one of you owe the other a debt?",
-          "question_lives": "Did you save each other's lives?",
-          "question_oath": "Are you bound by an oath or promise?",
-          "question_secret": "Do you share a secret that binds you?"
+          "title": "Dívidas & Favores",
+          "question_debt": "Algum de vocês deve algo ao outro?",
+          "question_lives": "Vocês salvaram a vida um do outro?",
+          "question_oath": "Você está vinculado por um juramento ou promessa?",
+          "question_secret": "Vocês compartilham algum segredo que os une?"
         },
         "conflict": {
-          "title": "Conflict & Rivalry",
-          "question_enemies": "Were you once enemies or rivals?",
-          "question_compete": "Did you compete for the same goal?",
-          "question_philosophy": "Do you have philosophical differences?",
-          "question_overcome": "Are you working to overcome past conflicts?"
+          "title": "Conflito & Rivalidade",
+          "question_enemies": "Vocês já foram inimigos ou rivais?",
+          "question_compete": "Vocês competiram pelo mesmo objetivo?",
+          "question_philosophy": "Vocês têm divergências filosóficas?",
+          "question_overcome": "Você está trabalhando para superar conflitos passados?"
         },
         "goals": {
-          "title": "Shared Goals",
-          "question_seek": "Do you seek the same thing?",
-          "question_enemy": "Are you united by a common enemy?",
-          "question_vision": "Do you share a vision for the future?",
-          "question_search": "Are you both searching for someone or something?"
+          "title": "Objetivos Compartilhados",
+          "question_seek": "Você busca a mesma coisa?",
+          "question_enemy": "Vocês estão unidos por um inimigo comum?",
+          "question_vision": "Você compartilha da mesma visão para o futuro?",
+          "question_search": "Vocês dois estão procurando por alguém ou por alguma coisa?"
         }
       },
       "reminders": {
-        "title": "Important Reminders",
-        "item_reject": "Players can reject suggested connections for any reason",
-        "item_not_all": "It's okay if there isn't a connection between every pair of PCs",
-        "item_discover": "You can always discover and develop relationships through play",
-        "item_focus": "Focus on connections that excite you and enhance the story"
+        "title": "Lembretes Importantes",
+        "item_reject": "Os jogadores podem rejeitar as conexões sugeridas por qualquer motivo.",
+        "item_not_all": "Não tem problema se não houver conexão entre todos os pares de PCs.",
+        "item_discover": "Você sempre pode descobrir e desenvolver relacionamentos através do jogo em si.",
+        "item_focus": "Concentre-se nas conexões que te empolgam e enriquecem a história"
       },
       "help": {
-        "title": "Quick Ideas & Reminders"
+        "title": "Ideias & Lembretes Rápidos"
       },
       "fields": {
         "name": {
-          "label": "Connected Character Name",
-          "placeholder": "Enter character name..."
+          "label": "Nome do Personagem Conectado",
+          "placeholder": "Digite o nome do personagem..."
         },
         "description": {
-          "label": "Connection Description",
-          "placeholder": "Describe your connection to this character..."
+          "label": "Descrição da Conexão",
+          "placeholder": "Descreva sua conexão com esse personagem..."
         }
       }
     },
     "heritage_step": {
-      "title": "Choose Your Heritage",
-      "description": "Your heritage consists of your ancestry (your physical and magical origins) and your community (the culture and traditions that shaped you).",
+      "title": "Escolha sua Herança",
+      "description": "Sua herança consiste em sua ancestralidade (suas origens físicas e mágicas) e em sua comunidade (a cultura e as tradições que o moldaram).",
       "ancestry": {
-        "title": "Select Your Ancestry",
-        "available": "{count} available",
+        "title": "Selecione Sua Ancestralidade",
+        "available": "{count} disponível",
         "info": {
-          "title": "About Ancestry",
-          "description": "Your ancestry determines your physical traits, innate magical abilities, and natural talents. Choose the one that best fits your character concept."
+          "title": "Sobre Ancestralidade",
+          "description": "Sua ancestralidade determina suas características físicas, habilidades mágicas inatas e talentos naturais. Escolha aquela que melhor se encaixa no conceito do seu personagem."
         }
       },
       "mixed": {
-        "title": "Create Mixed Ancestry",
-        "reset": "Reset",
+        "title": "Criar Ancestralidade Mista",
+        "reset": "Resetar",
         "rules": {
-          "title": "Mixed Ancestry Rules",
-          "description": "Take the {first} from one ancestry and the {second} from another ancestry to create your unique mixed heritage.",
-          "first_feature": "first feature",
-          "second_feature": "second feature"
+          "title": "Regras da Ancestralidade Mista",
+          "description": "Pegue o {first} de uma ancestralidade e o {second} de outra ancestralidade para criar sua herança mista única.",
+          "first_feature": "primeira habilidade",
+          "second_feature": "segunda habilidade"
         },
         "first": {
-          "title": "First Ancestry (for first feature)"
+          "title": "Primeira Ancestralidade (para a primeira habilidade)"
         },
         "second": {
-          "title": "Second Ancestry (for second feature)",
-          "already_selected": "(Already selected)"
+          "title": "Segunda Ancestralidade (para a segunda habilidade)",
+          "already_selected": "(Já selecionado)"
         },
         "preview": {
-          "title": "Your Mixed Ancestry",
-          "type": "Mixed Ancestry",
-          "from": "From {ancestry}",
-          "confirm": "Confirm Mixed Ancestry"
+          "title": "Sua Ancestralidade Mista",
+          "type": "Ancestralidade Mista",
+          "from": "De {ancestry}",
+          "confirm": "Confirmar Ancestralidade Mista"
         }
       },
       "community": {
-        "title": "Select Your Community",
-        "available": "{count} available",
+        "title": "Selecione Sua Comunidade",
+        "available": "{count} disponível",
         "locked": {
-          "title": "Select Ancestry First",
-          "description": "You must first choose an ancestry before selecting a community.",
-          "button": "Go to Ancestry"
+          "title": "Primeiro Selecione uma Ancestralidade",
+          "description": "Primeiro você deve escolher uma ancestralidade antes de selecionar uma comunidade.",
+          "button": "Ir para Ancestralidade"
         },
         "info": {
-          "title": "About Community",
-          "description": "Your community represents the culture and traditions that shaped you growing up. This influences your social connections, skills, and worldview."
+          "title": "Sobre a Comunidade",
+          "description": "Sua comunidade representa a cultura e as tradições que moldaram você durante seu crescimento. Isso influencia suas conexões sociais, habilidades e visão de mundo."
         }
       },
       "drakona": {
         "elemental_breath": {
           "choice_required": {
-            "title": "Elemental Breath Choice Required",
-            "description": "You must choose an element for your Drakona's breath weapon before proceeding to Community selection.",
-            "button": "Choose Element"
+            "title": "Escolha um Sopro Elemental",
+            "description": "Você deve escolher um elemento para a arma de sopro do seu Drakona antes de prosseguir para a seleção da Comunidade.",
+            "button": "Escolher Elemento"
           },
           "selected": {
-            "title": "Elemental Breath Selected",
-            "description": "Your breath weapon element has been chosen.",
-            "button": "Change Element"
+            "title": "Sopro Elemental Selecionado",
+            "description": "Seu elemento de arma de sopro foi escolhido.",
+            "button": "Alterar Elemento"
           }
         }
       },
       "mixed_ancestry": {
-        "label": "MIX",
-        "description": "A mixed heritage combining {first} and {second} traits."
+        "label": "MISTURA",
+        "description":"Uma herança mista que combina características {first} e {second}."
       },
-      "personality_traits": "Personality Traits"
+      "personality_traits": "Traços de Personalidade"
     },
     "heritage_confirmation": {
-      "title": "Confirm Your Heritage",
+      "title": "Confirme Sua Herança",
       "info": {
-        "title": "Heritage Review",
-        "content": "Review your ancestry, community, and any transformations before proceeding. You can go back to make changes if needed."
+        "title": "Revisar Herança",
+        "content": "Antes de prosseguir, revise sua ancestralidade, comunidade e quaisquer transformações. Você pode voltar atrás para fazer alterações, se necessário."
       },
-      "elemental_breath": "Elemental Breath",
+      "elemental_breath": "Sopro Elemental",
       "summary": {
-        "title": "Heritage Selection Complete",
-        "content": "Your heritage selections look good! You can proceed to the next step or go back to make changes."
+        "title": "Seleção de Herança Concluída",
+        "content": "Suas escolhas de herança estão ótimas! Você pode prosseguir para a próxima etapa ou voltar para fazer alterações."
       }
     },
     "equipment_item": {
-      "armor_score": "Armor Score"
+      "armor_score": "Pontos de Armadura"
     },
     "master_of_the_craft_step": {
-      "title": "Master of the Craft",
+      "title": "Mestre do Ofício",
       "card_info": {
-        "title": "Master of the Craft",
-        "content": "Gain a permanent +2 bonus to two of your Experiences or a permanent +3 bonus to one of your Experiences. Then place this card in your vault permanently."
+        "title": "Mestre do Ofício",
+        "content": "Receba um bônus permanente de +2 em duas de suas Experiências, ou +3 em apenas uma. Em seguida, coloque esta carta na sua reserva permanentemente."
       },
       "option_selection": {
-        "title": "Choose Your Bonus"
+        "title": "Escolha Seu Bônus"
       },
       "experience_selection": {
-        "title": "Select Experiences"
+        "title": "Selecionar Experiências"
       }
     },
     "vitality_step": {
-      "title": "Vitality",
+      "title": "Vitalidade",
       "card_info": {
-        "title": "Vitality",
-        "content": "When you choose this card, permanently gain two of the following benefits: One Stress slot, One Hit Point slot, or +2 bonus to your damage thresholds. Then place this card in your vault permanently."
+        "title": "Vitalidade",
+        "content": "Ao escolher esta carta, receba dois destes benefícios permanentemente: • 1 PF adicional; • 1 PV adicional; • Bônus de +2 em seus limiares de dano. Em seguida, coloque esta carta na sua reserva permanentemente"
       },
       "benefit_selection": {
-        "title": "Choose Two Benefits"
+        "title": "Escolha Dois Benefícios"
       }
     },
     "domain_cards_step": {
-      "title": "Domain Cards",
+      "title": "Cartas de Domínio",
       "acquisition": {
-        "title": "Domain Card Acquisition",
-        "content": "When leveling up, you automatically gain 1 new domain card from your class domains at your new level or below. If you selected the 'Additional Domain Card' advancement, you can choose 1 additional card (2 total). You can also exchange existing cards."
+        "title": "Aquisição de Carta de Domínio",
+        "content": "Ao subir de nível, você ganha automaticamente 1 nova carta de domínio dos seus domínios de classe, igual ou inferior ao seu novo nível. Se você selecionou o avanço 'Carta de Domínio Adicional', pode escolher 1 carta adicional (total de 2). Você também pode trocar cartas existentes."
       },
-      "advancing_to_level": "Advancing to Level {level}",
+      "advancing_to_level": "Avançando para o Nível {level}",
       "header": {
-        "status_and_available": "Current domain card status and available cards from your class domains: {domains}"
+        "status_and_available": "Status atual das cartas de domínio e cartas disponíveis dos seus domínios de classe: {domains}"
       },
-      "multiclass_info": "🌟 Multiclass detected! You can choose from both {primary} and {secondary} domains.",
-      "advancement_bonus_info": "🎉 You selected 'Additional Domain Card' advancement - you can choose {count} cards!",
-      "filter_by_domain": "Filter by domain:",
+      "multiclass_info": "🌟 Multiclasse detectada! Você pode escolher entre os domínios {primary} e {secondary}.",
+      "advancement_bonus_info": "🎉 Você selecionou a opção 'Carta de Domínio Adicional' - você pode escolher {count} cartas!",
+      "filter_by_domain": "Filtrar por domínio:",
       "summary": {
-        "title": "Level Up Summary",
-        "selected": "Selected {count}",
-        "to_loadout": "to loadout",
-        "exchanging": "Exchanging {count} card | Exchanging {count} cards"
+        "title": "Resumo do Avanço de Nível",
+        "selected": "Selecionado {count}",
+        "to_loadout": "para mão",
+        "exchanging": "Trocando {count} carta | Trocando {count} cartas"
       },
-      "card_placement": "Card Placement",
-      "available_for_exchange": "{count} available for exchange",
-      "choose_title": "Choose Domain Cards",
-      "new_cards": "New Cards",
-      "card_exchanges": "Card Exchanges",
-      "select_more_short": "Select {remaining} more to continue",
-      "ready_short": "Ready to Level Up",
-      "exchange_incomplete_short": "Complete exchanges to continue",
+      "card_placement": "Posicionamento de carta",
+      "available_for_exchange": "{count} Disponível para troca",
+      "choose_title": "Escolha Cartas de Domínio",
+      "new_cards": "Novas Cartas",
+      "card_exchanges": "Troca de Cartas",
+      "select_more_short": "Selecione {remaining} para continuar",
+      "ready_short": "Pronto para subir de nível?",
+      "exchange_incomplete_short": "Conclua as trocas para continuar.",
       "info": {
-        "title": "Domain Card Selection",
-        "description": "Choose {count} cards from your class's domains. You can take one card from each domain or {multiple_text}, whichever you prefer.",
-        "school_of_knowledge": "📚 School of Knowledge Bonus: Your \"Prepared\" feature grants you an additional domain card!"
+        "title": "Seleção de carta de domínio",
+        "description": "Escolha {count} cartas dos domínios de sua classe. Você pode pegar uma carta de cada domínio ou {multiple_text}, o que preferir.",
+        "school_of_knowledge": "📚 Bônus da Escola do Conhecimento: Seu recurso \"Preparado\" concede a você uma carta de domínio adicional!"
       },
       "progress": {
-        "title": "Cards Selected"
+        "title": "Cartas Selecionadas"
       },
       "domains": {
-        "title": "Your Class Domains"
+        "title": "Seus Domínios de Classe"
       },
       "cards": {
         "title": "Available Domain Cards"
       },
       "usage": {
-        "title": "Using Domain Cards",
-        "content": "Domain cards represent special abilities and techniques your character knows. Work with your GM to determine when and how to use these abilities during play. You'll gain more domain cards as you level up!"
+        "title": "Usando Cartas de Domínio",
+        "content": "As cartas de domínio representam habilidades e técnicas especiais que seu personagem conhece. Converse com seu Mestre para determinar quando e como usar essas habilidades durante o jogo. Você ganhará mais cartas de domínio à medida que subir de nível!"
       },
       "completion": {
-        "complete": "Complete",
-        "cards_selected": "{count} card selected | {count} cards selected"
+        "complete": "Completo",
+        "cards_selected": "{count} Carta selecionada | {count} cartas selecionadas"
       },
       "filters": {
-        "domain": "Filter by domain",
-        "all_domains": "All Domains",
-        "type": "Filter by type",
-        "all_types": "All Types",
-        "type_spell": "Spell",
-        "type_ability": "Ability",
-        "type_grimoire": "Grimoire",
-        "search": "Search",
-        "search_placeholder": "Search by title or ability...",
-        "official_only": "Official cards only",
-        "no_matches": "No Cards Match Your Filters",
-        "no_matches_description": "Try adjusting your search or filter options to see more cards."
+        "domain": "Filtrar por domínio",
+        "all_domains": "Todos os Domínios",
+        "type": "Filtrar por tipo",
+        "all_types": "Todos os tipos",
+        "type_spell": "Feitiço",
+        "type_ability": "Habilidade",
+        "type_grimoire": "Grimório",
+        "search": "Procurar",
+        "search_placeholder": "Pesquisar por título ou habilidade...",
+        "official_only": "Apenas cartas oficiais",
+        "no_matches": "Nenhuma carta corresponde aos seus filtros",
+        "no_matches_description": "Tente ajustar suas opções de busca ou filtro para ver mais cartas."
       },
       "merged_selection": {
-        "title": "Select Your Domain Cards",
-        "description": "Choose from your class domains ({classDomains}) at level {level} or below, plus one card from any other domain at level {maxCrossLevel} or below."
+        "title": "Selecione suas Cartas de Comínio",
+        "description": "Escolha entre seus domínios de classe ({classDomains}) no nível {level} ou inferior, mais uma carta de qualquer outro domínio no nível {maxCrossLevel} ou inferior."
       },
       "merged_progress": {
-        "class_cards": "Class: {count} / {max}",
-        "cross_domain": "Cross-domain: {count}"
+        "class_cards": "Classe: {count} / {max}",
+        "cross_domain": "Interdomínio: {count}"
       },
-      "cross_domain_badge": "CROSS-DOMAIN",
+      "cross_domain_badge": "INTERDOMÍNIO",
       "cross_domain_section": {
-        "title": "Cross-Domain Card",
-        "description": "Select one domain card from any domain outside your class domains. The card's level cannot exceed {maxLevel} (half your character level, rounded up).",
-        "no_cards": "No Cross-Domain Cards Available",
-        "no_cards_description": "There are no domain cards available from other domains at your level."
+        "title": "Carta Interdomínio",
+        "description": "Selecione uma carta de domínio de qualquer domínio fora dos seus domínios de classe. O nível da carta não pode exceder {maxLevel} (metade do seu nível de personagem, arredondado para cima).",
+        "no_cards": "Não há Cartas Interdomínio Disponíveis",
+        "no_cards_description": "Não há cartas de domínio disponíveis de outros domínios no seu nível."
       },
       "exchange": {
-        "title": "Card Exchange",
-        "select_source_first": "Select a source card first",
-        "move_to_vault": "Move to Vault",
-        "move_to_vault_description": "Choose a card to replace in your loadout if you want, this card is moved to your vault",
-        "replace_card": "Replace Card",
-        "with_this_card": "With this card",
-        "replace_card_description": "Choose any card you have and replace it with a card from your domains (same level or lower). The new card goes to the same location.",
-        "not_available_title": "Exchange Not Available",
-        "not_available_description": "Card exchange becomes available once you have domain cards. Complete character creation first to gain your starting domain cards.",
-        "no_cards_to_exchange_title": "No Cards to Exchange",
-        "no_cards_to_exchange_description": "You don't have any domain cards to exchange yet."
+        "title": "Troca de Cartas",
+        "select_source_first": "Primeiro selecione uma carta fonte",
+        "move_to_vault": "Mover para a reserva",
+        "move_to_vault_description": "Escolha uma carta para substituir na sua mão, se desejar; esta carta será transferida para a sua reserva.",
+        "replace_card": "Substituir Carta",
+        "with_this_card": "Com esta Carta",
+        "replace_card_description": "Escolha qualquer carta que você tenha e a substitua por uma carta de um dos seus domínios (do mesmo nível ou inferior). A nova carta deve ser conectada ao mesmo local.",
+        "not_available_title": "Troca Não Disponível",
+        "not_available_description": "A troca de cartas fica disponível assim que você tiver cartas de domínio. Conclua a criação do personagem primeiro para obter suas cartas de domínio iniciais.",
+        "no_cards_to_exchange_title": "Não há Cartas Para Trocar.",
+        "no_cards_to_exchange_description": "Você ainda não tem nenhuma carta de domínio para trocar."
       }
     },
     "equipment_step": {
-      "title": "Choose Your Starting Equipment",
+      "title": "Escolha seu equipamento inicial",
       "rules": {
-        "title": "Starting Equipment Rules",
-        "description": "Select from Tier 1 equipment tables. Choose either a two-handed primary weapon OR a one-handed primary + one-handed secondary weapon. Your Proficiency is 1 at Level 1."
+        "title": "Regras de Equipamento Inicial",
+        "description": "Selecione um equipamento de Patamar 1. Escolha entre uma arma primária de duas mãos OU uma arma primária de uma mão + uma arma secundária de uma mão. Sua Proficiência é 1 no Nível 1."
       },
       "content_filter": {
-        "label": "Content Type"
+        "label": "Tipo de Conteúdo"
       },
       "weapon": {
-        "title": "Weapon Selection",
+        "title": "Seleção de Armas",
         "configuration": {
-          "title": "Choose Your Weapon Configuration:",
-          "two_handed": "Two-handed primary weapon",
-          "one_handed": "One-handed primary + one-handed secondary weapon"
+          "title": "Escolha a Configuração da Sua Arma:",
+          "two_handed": "Arma primária de duas mãos",
+          "one_handed": "Arma primária de uma mão + arma secundária de uma mão"
         },
         "summary": {
-          "title": "Selected Weapons",
-          "configuration": "Configuration",
-          "configuration_two_handed": "Two-handed",
-          "configuration_one_handed": "One-handed + Secondary"
+          "title": "Armas Selecionadas",
+          "configuration": "Configuração",
+          "configuration_two_handed": "Duas mãos",
+          "configuration_one_handed": "Uma mão + Secundária"
         },
         "primary": {
-          "title": "Primary Weapon"
+          "title": "Arma Primária"
         },
         "secondary": {
-          "title": "Secondary Weapon (One-handed)"
+          "title": "Arma secundária (de uma mão)"
         }
       },
       "armor": {
-        "title": "Armor Selection",
-        "complete": "Complete",
+        "title": "Seleção de Armadura",
+        "complete": "Completo",
         "summary": {
-          "title": "Selected Armor",
-          "armor": "Armor",
-          "no_armor": "No Armor"
+          "title": "Armadura Selecionada",
+          "armor": "Armadura",
+          "no_armor": "Sem armadura"
         },
         "selection": {
-          "title": "Choose Your Tier 1 Armor",
+          "title": "Escolha Sua Armadura de Patamar 1",
           "no_armor": {
-            "title": "No Armor",
-            "armor_score": "0 (special)",
-            "threshold_note": "{level} (base + level)",
-            "description": "Ideal for Bare Bones domain card users or unique builds"
+            "title": "Sem armadura",
+            "armor_score": "0 (especial)",
+            "threshold_note": "{level} (base + nível)",
+            "description": "Ideal para usuários da carta de domínio \"Armadura Corporal\" ou builds exclusivas"
           },
-          "no_armor_available": "No armor available for character creation."
+          "no_armor_available": "Nenhuma armadura disponível para criação de personagem."
         }
       },
       "suggested": {
-        "primary_title": "SUGGESTED PRIMARY WEAPON",
-        "secondary_title": "SUGGESTED SECONDARY WEAPON",
-        "armor_title": "SUGGESTED ARMOR"
+        "primary_title": "ARMA PRINCIPAL SUGERIDA",
+        "secondary_title": "ARMA SECUNDÁRIA SUGERIDA",
+        "armor_title": "ARMADURA SUGERIDA"
       },
       "inventory": {
-        "title": "Starting Inventory",
-        "complete": "Complete",
+        "title": ""Inventário Inicial"",
+        "complete": "Completo",
         "summary": {
-          "title": "Selected Inventory",
-          "potion": "Starting Potion",
-          "class_item": "Class Item",
-          "spell_focus": "Spell Focus",
-          "additional": "Additional Items"
+          "title": "Inventário Selecionado",
+          "potion": "Poção Inicial",
+          "class_item": "Item de Classe",
+          "spell_focus": "Foco de Conjuração",
+          "additional": "Itens Adicionais"
         },
         "basic_items": {
-          "title": "Basic Starting Items (Included)"
+          "title": "Itens Básicos Iniciais (inclusos)"
         },
         "potion": {
-          "title": "Choose Your Starting Potion"
+          "title": "Escolha Sua Poção Inicial"
         },
         "class_item": {
-          "title": "Choose Your Class-Specific Item"
+          "title": "Escolha seu Item Específico de Classe."
         },
         "spell_focus": {
-          "title": "Choose Your Spell Focus"
+          "title": "Escolha seu Foco de Conjuração"
         },
         "additional": {
-          "title": "Additional Items (Optional)",
-          "placeholder": "List any other GM-approved items you'd like to start with...",
-          "note": "Work with your GM to add any other starting items that fit your character concept."
+          "title": "Itens adicionais (opcional)",
+          "placeholder": "Liste quaisquer outros itens aprovados pelo Mestre com os quais você gostaria de começar...",
+          "note": "Trabalhe com seu Mestre para adicionar quaisquer outros itens iniciais que se encaixem no conceito do seu personagem."
         }
       }
     },
     "experiences_step": {
-      "title": "Create Your Experiences",
+      "title": "Crie Suas Experiências",
       "info": {
-        "title": "What are Experiences?",
-        "description": "Experiences are words or phrases that encapsulate skills, traits, or aptitudes your character possesses. You get {count} at character creation, each providing a {bonus} when relevant.",
-        "count_text": "two Experiences",
-        "bonus_text": "+2 modifier"
+        "title": "O que são Experiências?",
+        "description": "Experiências são palavras ou frases que resumem habilidades, características ou aptidões que seu personagem possui. Você recebe {count} na criação do personagem, cada uma fornecendo um {bonus} quando relevante.",
+        "count_text": "duas Experiências",
+        "bonus_text": "+2 modificador"
       },
       "first_experience": {
         "title": "First Experience"
