@@ -1584,16 +1584,16 @@
           "attack_description": "Use o alcance, a característica e os dados de dano listados para a criatura, mas use sua Proficiência.",
           "weapons_disabled": "Armas normais ficam desativadas enquanto estiver na forma de forma",
           "selector": {
-            "choose_form": "Choose a form...",
-            "tier": "Tier {n}",
-            "fragile": "(Fragile)",
-            "attacks": "attacks"
+            "choose_form": "Escolha uma forma...",
+            "tier": "Patamar {n}",
+            "fragile": "(Frágil)",
+            "attacks": "ataques"
           },
           "toggle": {
-            "drop_form": "Drop Form",
-            "select_form_first": "Select Form First",
-            "need_stress": "Need 1 Stress",
-            "transform_stress": "Transform (1 Stress)"
+            "drop_form": "Deixar Forma",
+            "select_form_first": "Selecione uma forma primeiro",
+            "need_stress": "Precisa de 1 Fadiga",
+            "transform_stress": "Transformar (1 Fadiga)"
           }
         }
       }
