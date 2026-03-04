@@ -2002,255 +2002,255 @@
         "bonus_text": "+2 modificador"
       },
       "first_experience": {
-        "title": "First Experience"
+        "title": "Primeira Experiência"
       },
       "second_experience": {
-        "title": "Second Experience"
+        "title": "Segunda Experiência"
       },
       "clank_bonus": {
-        "error": "As a Clank, you must select which experience aligns with your purpose"
+        "error": "Como Clank, você deve selecionar a experiência que melhor se alinha ao seu propósito."
       },
       "guidelines": {
-        "title": "Experience Guidelines",
+        "title": "Diretrizes de Experiência",
         "good": {
-          "title": "Good Examples",
-          "example_blacksmith": "Trained as a blacksmith",
-          "example_streets": "Grew up on the streets",
-          "example_noble": "Noble court etiquette",
-          "example_wilderness": "Wilderness survival",
-          "example_scholar": "Academic scholar",
-          "example_soldier": "Former soldier"
+          "title": "Bons Exemplos",
+          "example_blacksmith": "Aprendiz de ferreiro",
+          "example_streets": "Crescido nas ruas",
+          "example_noble": "Etiqueta da corte nobre",
+          "example_wilderness": "Sobrevivente da natureza",
+          "example_scholar": "Acadêmico erudito",
+          "example_soldier": "Ex-soldado"
         },
         "bad": {
-          "title": "Avoid These",
-          "example_broad": "Too broad: \"Lucky\"",
-          "example_powerful": "Too powerful: \"Supersonic flight\"",
-          "example_vague": "Too vague: \"Good at stuff\"",
-          "example_combat": "Combat focused: \"Sword master\"",
-          "example_magic": "Magical abilities: \"Mind reading\""
+          "title": "Evite Experiências Assim",
+          "example_broad": "Muito amplo: \"Sortudo\"",
+          "example_powerful": "Poderoso demais: \"Voo supersônico\"",
+          "example_vague": "Muito vago: \"Bom em várias coisas\"",
+          "example_combat": "Focado em combate: \"Mestre da espada\"",
+          "example_magic": "Habilidades mágicas: \"Leitura da mente\""
         }
       },
       "inspiration": {
-        "title": "Need Inspiration?",
+        "title": "Precisa de Inspiração?",
         "professional": {
-          "title": "Professional",
-          "example_merchant": "Merchant trader",
-          "example_acolyte": "Temple acolyte",
-          "example_guard": "City guard",
-          "example_tavern": "Tavern keeper",
-          "example_navigator": "Ship navigator",
-          "example_musician": "Court musician"
+          "title": "Profissão",
+          "example_merchant": "Mercador Viajante",
+          "example_acolyte": "Acólito do templo",
+          "example_guard": "Guarda da cidade",
+          "example_tavern": "Taberneiro",
+          "example_navigator": "Navegador Pirata",
+          "example_musician": "Músico da corte"
         },
         "social": {
           "title": "Social",
-          "example_noble": "Noble upbringing",
-          "example_orphan": "Street orphan",
-          "example_tribal": "Tribal member",
-          "example_apprentice": "Guild apprentice",
-          "example_performer": "Traveling performer",
-          "example_elder": "Village elder"
+          "example_noble": "Educação nobre",
+          "example_orphan": "Órfão de rua",
+          "example_tribal": "Membro da tribo",
+          "example_apprentice": "Aprendiz da guilda",
+          "example_performer": "Artista itinerante",
+          "example_elder": "Ancião da aldeia"
         },
         "skills": {
-          "title": "Skills & Traits",
-          "example_reflexes": "Quick reflexes",
-          "example_observer": "Keen observer",
-          "example_leader": "Natural leader",
-          "example_teacher": "Patient teacher",
-          "example_talker": "Smooth talker",
-          "example_detail": "Detail oriented"
+          "title": "Habilidades & Características",
+          "example_reflexes": "Reflexos rápidos",
+          "example_observer": "Observador atento",
+          "example_leader": "Líder nato",
+          "example_teacher": "Professor paciente",
+          "example_talker": "Bom de papo",
+          "example_detail": "Orientador Detalhista"
         }
       },
       "usage": {
-        "title": "Using Experiences",
-        "content": "During play, you can spend 1 Hope to add +2 to any action roll where one of your Experiences would be relevant. Work with your GM to determine when an Experience applies!"
+        "title": "Utilizando Experiências",
+        "content": "Durante o jogo, você pode gastar 1 Esperança para adicionar +2 a qualquer teste de ação em que uma de suas Experiências seja relevante. Converse com seu Mestre para determinar quando uma Experiência se aplica!"
       },
       "help": {
-        "title": "Guidelines & Inspiration"
+        "title": "Diretrizes & Inspiração"
       }
     },
     "review_step": {
-      "title": "Review Your Character",
-      "description": "Review all your character details before finalizing creation.",
+      "title": "Revise Seu Personagem",
+      "description": "Revise todos os detalhes do seu personagem antes de finalizar a criação.",
       "sections": {
         "basic_info": {
-          "title": "Basic Information",
+          "title": "Informações Básicas",
           "fields": {
-            "heritage": "Heritage",
-            "class": "Class",
-            "level": "Level"
+            "heritage": "Herança",
+            "class": "Classe",
+            "level": "Nível"
           }
         },
         "mixed_ancestry": {
-          "title": "Mixed Ancestry Features",
-          "from": "From {ancestry}"
+          "title": "Características de Ancestralidade Mista",
+          "from": "De {ancestry}"
         },
         "transformation": {
-          "title": "Transformation",
+          "title": "Transformação",
           "beta": "BETA"
         },
         "class_features": {
-          "title": "Class Features",
-          "selected": "Selected: {choice}",
+          "title": "Habilidade de Classe",
+          "selected": "Selecionado: {choice}",
           "level_progression": {
-            "title": "Level Progression",
-            "level": "Level {level}:"
+            "title": "Progressão de Nível",
+            "level": "Nível {level}:"
           }
         },
         "subclass_features": {
-          "title": "{subclass} Features"
+          "title": "{subclass} Habilidades"
         },
         "attributes": {
-          "title": "Attributes"
+          "title": "Atributos"
         },
         "equipment": {
-          "title": "Starting Equipment",
+          "title": "Equipamento Inicial",
           "armor": {
-            "title": "Armor",
-            "score": "Score: {value}"
+            "title": "Armadura",
+            "score": "Pontos: {value}"
           },
           "primary_weapon": {
-            "title": "Primary Weapon",
+            "title": "Arma Primária",
             "stats": {}
           },
           "secondary_weapon": {
-            "title": "Secondary Weapon",
+            "title": "Arma Secundária",
             "stats": {}
           },
           "configuration": {
-            "title": "Configuration",
-            "two_handed": "Two-handed primary weapon",
-            "one_handed": "One-handed primary + secondary weapons"
+            "title": "Configuração",
+            "two_handed": "Arma primária de duas mãos",
+            "one_handed": "Armas primária e secundária de uma mão"
           }
         },
         "inventory": {
-          "title": "Starting Inventory",
+          "title": "Inventário Inicial"
           "basic_items": {
-            "title": "Basic Items",
-            "content": "Torch, 50 feet of rope, basic supplies, handful of gold"
+            "title": "Itens Básicos",
+            "content": "Tocha, 15 metros de corda, suprimentos básicos, um punhado de ouro"
           },
-          "potion": "Potion",
-          "class_item": "Class Item",
-          "spell_focus": "Spell Focus",
-          "additional": "Additional Items"
+          "potion": "Poção",
+          "class_item": "Item de Classe",
+          "spell_focus": "Foco de Conjuração",
+          "additional": "Itens Adicionais"
         },
         "experiences": {
-          "title": "Experiences",
-          "bonus": "+2 Bonus",
+          "title": "Experiências",
+          "bonus": "+2 de Bônus",
           "usage": {
-            "title": "Using Experiences",
-            "content": "Spend 1 Hope to add +2 to a relevant action roll"
+            "title": "Utilizando Experiências",
+            "content": "Gaste 1 de Esperança para adicionar +2 a uma jogada de ação relevante"
           }
         },
         "domain_cards": {
-          "title": "Domain Cards",
-          "level": "Level {level}",
-          "feature": "Feature",
-          "empty": "No domain cards selected"
+          "title": "Cartas Domínio",
+          "level": "Nível {level}",
+          "feature": "Habilidade",
+          "empty": "Nenhuma carta de domínio selecionada"
         }
       }
     },
     "details_tab": {
       "sections": {
         "basic_info": {
-          "title": "Basic Information",
-          "name": "NAME",
-          "pronouns": "PRONOUNS",
-          "heritage": "HERITAGE",
-          "level": "LEVEL",
-          "class_subclass": "CLASS & SUBCLASS"
+          "title": "Informação Básica",
+          "name": "NOME",
+          "pronouns": "PRONOMES",
+          "heritage": "HERANÇA",
+          "level": "NÍVEL",
+          "class_subclass": "CLASSE & SUBCLASSE"
         },
         "description": {
-          "title": "Physical Description",
-          "label": "DESCRIPTION",
-          "empty": "No physical description provided"
+          "title": "Descrição Física",
+          "label": "DESCRIÇÃO",
+          "empty": "Nenhuma descrição física foi fornecida."
         },
         "background": {
-          "title": "Background",
+          "title": "Origem",
           "origin": {
-            "label": "WHERE DID YOUR CHARACTER COME FROM?",
-            "empty": "No origin story provided"
+            "label": "DE ONDE VEIO SEU PERSONAGEM?",
+            "empty": "Nenhuma história de origem foi fornecida"
           },
           "motivation": {
-            "label": "WHAT DRIVES YOUR CHARACTER?",
-            "empty": "No motivation provided"
+            "label": "O QUE MOTIVA SEU PERSONAGEM?",
+            "empty": "Nenhuma motivação apresentada"
           },
           "relationships": {
-            "label": "IMPORTANT PEOPLE IN YOUR CHARACTER'S LIFE",
-            "empty": "No important relationships described"
+            "label": "PESSOAS IMPORTANTES NA VIDA DO SEU PERSONAGEM",
+            "empty": "Nenhuma relação importante descrita"
           },
           "secrets": {
-            "label": "SECRETS OR MYSTERIES",
-            "empty": "No secrets or mysteries described"
+            "label": "SEGREDOS OU MISTÉRIOS",
+            "empty": "Nenhum segredo ou mistério descrito"
           }
         },
         "story": {
-          "empty": "No background story provided"
+          "empty": "Nenhuma história de origem foi fornecida"
         },
         "personality": {
-          "empty": "No personality traits described"
+          "empty": "Nenhum traço de personalidade descrito"
         },
         "beliefs": {
-          "empty": "No beliefs described"
+          "empty": "Nenhuma crença descrita"
         },
         "connections": {
-          "default_title": "Connection",
-          "unnamed": "Unnamed Connection",
-          "empty_title": "No Connections",
-          "empty_description": "Connections will appear here as your character develops relationships during gameplay"
+          "default_title": "Conexão",
+          "unnamed": "Conexão Sem Nome",
+          "empty_title": "Sem Conexões",
+          "empty_description": "As conexões aparecerão aqui conforme seu personagem desenvolve relacionamentos durante o jogo."
         },
         "notes": {
-          "title": "Notes",
-          "add_button": "+ Add Note"
+          "title": "Notas",
+          "add_button": "+ Adicionar Nota"
         }
       }
     },
     "damage_thresholds": {
       "minor": {
-        "title": "Minor Damage",
-        "description": "Mark 1 HP"
+        "title": "Dano Menor",
+        "description": "Marque 1 PV"
       },
       "major": {
-        "title": "Major Damage",
-        "description": "Mark 2 HP"
+        "title": "Dano Maior",
+        "description": "Marque 2 PV"
       },
       "severe": {
-        "title": "Severe Damage",
-        "description": "Mark 3 HP"
+        "title": "Dano Grave",
+        "description": "Marque 3 PV"
       },
       "massive": {
-        "title": "Massive Damage",
-        "description": "Mark 4 HP"
+        "title": "Dano Massivo",
+        "description": "Marque 4 PV"
       }
     },
     "cards": {
-      "name_label": "Character Name",
-      "name_placeholder": "Enter your character's name",
-      "pronouns_label": "Pronouns",
-      "pronouns_placeholder": "e.g., they/them, she/her, he/him",
-      "description_label": "Physical Description",
-      "description_placeholder": "Describe your character's appearance, mannerisms, and notable features..."
+      "name_label": "Nome do Personagem",
+      "name_placeholder": "Digite o nome do seu personagem",
+      "pronouns_label": "Pronomes",
+      "pronouns_placeholder": "por exemplo, eles/elas, ela/dela, ele/dele",
+      "description_label": "Descrição Física",
+      "description_placeholder": "Descreva a aparência, os maneirismos e as características marcantes do seu personagem..."
     },
     "conditions": {
-      "title": "Conditions",
-      "manage": "Manage Status",
-      "manage_title": "Manage Character Conditions",
-      "current": "Active Conditions",
-      "available": "Available Conditions",
-      "apply": "Apply",
-      "remove": "Remove",
-      "active": "Active",
+      "title": "Condições",
+      "manage": "Gerenciar Status",
+      "manage_title": "Gerenciar Condições do Personagem",
+      "current": "Condições Ativas",
+      "available": "Condições Disponíveis",
+      "apply": "Aplicar",
+      "remove": "Remover",
+      "active": "Ativo",
       "types": {
         "hidden": {
-          "name": "Hidden",
-          "description": "Out of sight from enemies. Rolls against Hidden creatures have disadvantage."
+          "name": "Escondido",
+          "description": "Fora da vista dos inimigos. Testes contra criaturas Escondidas têm desvantagem."
         },
         "restrained": {
-          "name": "Restrained",
-          "description": "Cannot move, but can still take actions from current position."
+          "name": "Imobilizado",
+          "description": "Não é possível se mover, mas ainda é possível realizar ações a partir da posição atual."
         },
         "vulnerable": {
-          "name": "Vulnerable",
-          "description": "All rolls targeting this creature have advantage."
+          "name": "Vulnerável",
+          "description": "Todos os testes que tiverem como alvo esta criatura têm vantagem."
         }
       }
     },
