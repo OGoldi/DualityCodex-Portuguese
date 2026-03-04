@@ -1330,119 +1330,119 @@
     "character_info": "Informações sobre o personagem",
     "review": "Review",
     "image": {
-      "label": "Character Image",
-      "preview_alt": "Character image preview",
-      "upload_instruction": "Click or drag to upload an image",
-      "file_requirements": "JPG, PNG, WebP up to 5MB",
-      "uploading": "Uploading...",
+      "label": "Imagem do Personagem",
+      "preview_alt": "Pré-visualização da imagem do personagem",
+      "upload_instruction": "Clique ou arraste para carregar uma imagem",
+      "file_requirements": "JPG, PNG, WebP até 5 MB",
+      "uploading": "Enviando...",
       "error": {
-        "invalid_type": "Please select a valid image file (JPG, PNG, WebP)",
-        "too_large": "File size must be less than {max}MB",
-        "load_failed": "Failed to load image",
-        "upload_failed": "Failed to upload image"
+        "invalid_type": "Por favor, selecione um arquivo de imagem válido (JPG, PNG, WebP)",
+        "too_large": "O tamanho do arquivo deve ser inferior a {max}MB",
+        "load_failed": "Falha ao carregar a imagem",
+        "upload_failed": "Falha ao enviar a imagem"
       }
     },
     "background": {
-      "title": "Background",
-      "subtitle": "Develop your character's background by answering the questions below. Your background has no explicit mechanical effect, but it greatly affects the character you'll play and the prep the GM will do.",
-      "questions_title": "Background Questions",
-      "origin_label": "Where did your character come from?",
-      "origin_placeholder": "Describe your character's homeland, community, or place of origin. What was their early life like?",
-      "motivation_label": "What drives your character?",
-      "motivation_placeholder": "What are their goals, dreams, or motivations? What brought them to this adventure?",
-      "relationships_label": "Who are the important people in your character's life?",
-      "relationships_placeholder": "Family, friends, mentors, rivals, or enemies. How do these relationships shape your character?",
-      "secrets_label": "What secrets or mysteries surround your character?",
-      "secrets_placeholder": "Hidden past, family secrets, unfinished business, or personal struggles.",
-      "personality_traits_title": "Personality & Traits",
-      "personality_label": "How does your character act and speak?",
-      "personality_placeholder": "Personality traits, mannerisms, speech patterns, or quirks that make them unique.",
-      "beliefs_label": "What does your character believe in?",
-      "beliefs_placeholder": "Values, ideals, religious beliefs, or personal philosophies that guide their actions.",
-      "story_title": "Background Story",
-      "story_label": "Tell your character's story",
-      "story_placeholder": "Weave together the answers above into a cohesive background story. This can be as detailed or as ambiguous as you prefer - you can always discover more through play.",
-      "connections_title": "Connections & Notes",
-      "connections_label": "How is your character connected to the world? (Optional)",
-      "connections_placeholder": "Organizations, locations, events, or ongoing situations your character is involved with.",
-      "notes_label": "Additional Notes",
-      "notes_placeholder": "Any other important details, ideas for future development, or notes for your GM.",
-      "remember_title": "Remember",
-      "remember_content": "You can adjust choices from earlier steps to better reflect your character's background. If you prefer to keep your character's past more ambiguous, that's perfectly fine - you can discover their backstory through play!"
+      "title": "Origem",
+      "subtitle": "Desenvolva a Origem do seu personagem respondendo às perguntas abaixo. Sua Origemo não tem efeito mecânico explícito, mas afeta bastante o personagem que você interpretará e a preparação que o Mestre fará.",
+      "questions_title": "Perguntas da Origem",
+      "origin_label": "De onde veio seu personagem?",
+      "origin_placeholder": "Descreva a terra natal, a comunidade ou o local de origem do seu personagem. Como era a sua infância?",
+      "motivation_label": "O que motiva seu personagem?",
+      "motivation_placeholder": "Quais são seus objetivos, sonhos ou motivações? O que os trouxe a esta aventura?",
+      "relationships_label": "Quem são as pessoas importantes na vida do seu personagem?",
+      "relationships_placeholder": "Família, amigos, mentores, rivais ou inimigos. Como esses relacionamentos moldam seu caráter?",
+      "secrets_label": "Que segredos ou mistérios envolvem seu personagem?",
+      "secrets_placeholder": "Passado oculto, segredos de família, assuntos inacabados ou lutas pessoais.",
+      "personality_traits_title": "Personalidade & Traços",
+      "personality_label": "Como seu personagem age e fala?",
+      "personality_placeholder": "Traços de personalidade, maneirismos, padrões de fala ou peculiaridades que os tornam únicos.",
+      "beliefs_label": "Em que acredita o seu personagem?",
+      "beliefs_placeholder": "Valores, ideais, crenças religiosas ou filosofias pessoais que orientam suas ações.",
+      "story_title": "História de Fundo",
+      "story_label": "Conte a história do seu personagem",
+      "story_placeholder": "Combine as respostas acima em uma história de fundo coerente. Ela pode ser tão detalhada ou ambígua quanto você preferir — você sempre pode descobrir mais brincando.",
+      "connections_title": "Conexões e Notas",
+      "connections_label": "Como seu personagem se conecta com o mundo? (Opcional)",
+      "connections_placeholder": "Organizações, locais, eventos ou situações em andamento nas quais seu personagem está envolvido.",
+      "notes_label": "Notas Adicionais",
+      "notes_placeholder": "Quaisquer outros detalhes importantes, ideias para desenvolvimento futuro ou observações para o seu mestre de jogo.",
+      "remember_title": "Lembrar",
+      "remember_content": "Você pode ajustar as escolhas das etapas anteriores para refletir melhor o passado do seu personagem. Se preferir manter o passado do seu personagem mais ambíguo, não há problema algum - você pode descobrir a história dele durante o jogo!"
     },
     "attribute_traits": {
-      "agility": "Agility",
-      "strength": "Strength",
-      "finesse": "Finesse",
-      "instinct": "Instinct",
-      "presence": "Presence",
-      "knowledge": "Knowledge"
+      "agility": "Agilidade",
+      "strength": "Força",
+      "finesse": "Acuidade",
+      "instinct": "Instinto",
+      "presence": "Presença",
+      "knowledge": "Conhecimento"
     },
     "experiences_item": {
-      "name": "Experience",
-      "name_placeholder": "Enter experience name...",
-      "description": "Description",
-      "description_placeholder": "Enter description...",
-      "description_optional": "Optional"
+      "name": "Experiência",
+      "name_placeholder": "Digite o nome da experiência...",
+      "description": "Descrição",
+      "description_placeholder": "Digite a descrição...",
+      "description_optional": "Opcional"
     },
     "custom_counters": {
-      "add_title": "Add Custom Counter",
-      "edit_title": "Edit Custom Counter",
-      "name_label": "Counter Name",
-      "count_direction_label": "Count Direction",
-      "count_direction_placeholder": "Select count direction",
-      "count_direction_description": "Choose whether to fill dots from left to right or right to left",
-      "count_direction_left": "Left to Right",
-      "count_direction_right": "Right to Left",
-      "name_placeholder": "e.g., Inspiration, Rage Points, Ki Points",
-      "max_value_label": "Max Value",
-      "max_value_placeholder": "Enter maximum slots",
-      "max_value_description": "Total number of slots available",
-      "current_value_label": "Current Value",
-      "current_value_placeholder": "Enter current used slots",
-      "current_value_description": "Number of slots currently used"
+      "add_title": "Adicionar Contador Personalizado",
+      "edit_title": "Editar Contador Personalizado",
+      "name_label": "Nome do Contador",
+      "count_direction_label": "Direção do Contador",
+      "count_direction_placeholder": "Selecione a direção do contador",
+      "count_direction_description": "Escolha se deseja preencher os pontos da esquerda para a direita ou da direita para a esquerda",
+      "count_direction_left": "Da Esquerda para a Direita",
+      "count_direction_right": "Da Direita para a Esquerda",
+      "name_placeholder":"Exemplos: Inspiração, Pontos de Raiva, Pontos de Ki",
+      "max_value_label": "Valor Máximo",
+      "max_value_placeholder": "Insira o número máximo de pontos",
+      "max_value_description": "Número total de pontos disponíveis",
+      "current_value_label": "Valor atual",
+      "current_value_placeholder": "Insira os pontos atualmente em uso",
+      "current_value_description": "Número de pontos atualmente em uso"
     },
     "creation": {
       "basic_info": {
-        "title": "Character Information & Background",
-        "section_title": "Basic Character Details"
+        "title": "Origem & Informações do personagem",
+        "section_title": "Detalhes básicos do personagem"
       }
     },
     "sheet": {
       "tabs": {
-        "character_sheet": "Character Sheet",
-        "details": "Details",
-        "inventory": "Inventory",
-        "domain_cards": "Domain Cards"
+        "character_sheet": "Ficha de Personagem",
+        "details": "Detalhes",
+        "inventory": "Inventário",
+        "domain_cards": "Cartas de Domínio"
       },
       "resources": {
-        "hope": "Hope",
-        "armor_score": "Armor Score",
-        "experience": "Experience",
-        "gold": "Gold"
+        "hope": "Esperança",
+        "armor_score": "Pontos de Armadura",
+        "experience": "Experiência",
+        "gold": "Ouro"
       },
       "damage_thresholds": {
-        "minor": "Minor",
-        "major": "Major",
-        "severe": "Severe",
-        "massive": "Massive"
+        "minor": "Menor",
+        "major": "Maior",
+        "severe": "Grave",
+        "massive": "Massivo"
       }
     },
     "stats": {
-      "hope": "Hope"
+      "hope": "Esperança"
     },
-    "create_title": "Create Character",
+    "create_title": "Criar Personagem",
     "buttons": {
       "create": "Create Character"
     },
     "delete": {
-      "title": "Delete Character",
-      "confirm_title": "Are you sure?",
-      "this_character": "this character",
-      "button": "Delete Character"
+      "title": "Excluir Personagem",
+      "confirm_title": "Tem certeza?",
+      "this_character": "este personagem",
+      "button": "Excluir Personagem"
     },
     "class_selection": {
-      "title": "Choose Your Class",
+      "title": "Escolha sua Classe",
       "stats": {
         "base_hp": "Base HP"
       },
