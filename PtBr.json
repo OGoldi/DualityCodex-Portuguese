@@ -1444,145 +1444,145 @@
     "class_selection": {
       "title": "Escolha sua Classe",
       "stats": {
-        "base_hp": "Base HP"
+        "base_hp": "PV Base"
       },
       "domains": {
-        "title": "Class Domains"
+        "title": "Domínios da Classe"
       },
       "info": {
-        "title": "Class Selection",
-        "content": "Select the class that defines your character's abilities and role in the party. Each class offers unique specializations and features to customize your playstyle."
+        "title": "Seleção de Classe",
+        "content": "Selecione a classe que define as habilidades e o papel do seu personagem no grupo. Cada classe oferece especializações e características únicas para personalizar seu estilo de jogo."
       },
       "features": {
-        "title": "Class Features",
+        "title": "Habilidades de Classe",
         "info": {
-          "title": "Class Features",
-          "content": "Every class begins with unique features. If your class feature requires a selection, choose now."
+          "title": "Habilidades de Classe",
+          "content": "Cada classe começa com habilidades únicas. Se a habilidade da sua classe exigir uma seleção, escolha agora."
         },
         "subclass_info": {
-          "title": "Subclass Features",
-          "content": "Your {subclass} specialization grants these unique abilities.{spellcast}"
+          "title": "Habilidades de subclasse",
+          "content": "Sua especialização em {subclass} concede estas habilidades únicas.{spellcast}"
         }
       },
       "selection_summary": {
         "complete": {
-          "title": "Class Selection Complete",
-          "content": "All required class and subclass features have been selected. You can proceed to the next step."
+          "title": "Seleção da Classe Concluída",
+          "content": "Todos os recursos obrigatórios de classe e subclasse foram selecionados. Você pode prosseguir para a próxima etapa."
         },
         "incomplete": {
-          "title": "Class Selection Incomplete",
-          "content": "Please make all required selections for your class and subclass features before proceeding."
+          "title": "Seleção de Classe incompleta",
+          "content": "Por favor, faça todas as seleções necessárias para as características da sua classe e subclasse antes de prosseguir."
         }
       }
     },
     "armor": {
       "delete_confirmation": {
-        "title": "Remove Armor",
-        "message": "Are you sure you want to remove {armorName}? This action cannot be undone."
+        "title": "Remover Armadura",
+        "message": "Tem certeza de que deseja remover {armorName}? Esta ação não pode ser desfeita."
       }
     },
     "armor_modal": {
-      "title": "Select Armor",
+      "title": "Selecionar Armadura",
       "filters": {
         "tier": {
-          "label": "Tier",
-          "placeholder": "Filter by tier",
-          "all": "All Tiers",
-          "tier_n": "Tier {n}"
+          "label": "Patamar",
+          "placeholder": "Filtrar por Patamar",
+          "all": "Todos Patamares",
+          "tier_n": "Patamar {n}"
         },
         "score": {
-          "label": "Base Score",
-          "placeholder": "Filter by score",
-          "all": "All Scores",
-          "light": "0-2 (Light)",
-          "medium": "3-4 (Medium)",
-          "heavy": "5+ (Heavy)"
+          "label": "Pontos Base",
+          "placeholder": "Filtrar por pontos",
+          "all": "Todos Pontos",
+          "light": "0-2 (Leve)",
+          "medium": "3-4 (Média)",
+          "heavy": "5+ (Pesada)"
         }
       },
-      "no_results": "No armor found matching your criteria",
+      "no_results": "Nenhuma armadura encontrada que corresponda aos seus critérios",
       "armor_card": {
-        "score_label": "Score: {value}",
-        "tier_label": "T{value}",
-        "base_score": "Base Score"
+        "score_label": "Pontos: {value}",
+        "tier_label": "P{value}",
+        "base_score": "Pontos Base"
       }
     },
     "sheet_tab": {
       "sections": {
         "health": {
-          "title": "Hit Points & Stress"
+          "title": "Pontos de Vida & Fadiga"
         },
         "hope": {
-          "title": "Hope",
-          "feature_title": "Hope Feature",
-          "custom_counters_hint": "Tip: You can add custom counters on the Edit page under the Experience tab."
+          "title": "Esperança",
+          "feature_title": "Habilidade de Esperança",
+          "custom_counters_hint": "Dica: você pode adicionar contadores personalizados na página Editar, na aba Experiência."
         },
         "custom_counters": {
-          "title": "Custom Counters"
+          "title": "Contadores Personalizados"
         },
         "experience": {
           "empty": {
-            "title": "No Experiences",
-            "description": "Add experiences during character creation"
+            "title": "Sem Experiências",
+            "description": "Adicionar experiências durante a criação de personagens"
           },
-          "usage": "Usage: Spend 1 Hope to add the experience bonus to a relevant action roll",
-          "noExperienceSelected": "No experience selected yet",
-          "experienceSelected": "Experience selected:",
-          "chooseExperience": "Choose Experience"
+          "usage": "Uso: Gaste 1 Esperança para adicionar o bônus de experiência a uma rolagem de ação relevante.",
+          "noExperienceSelected": "Nenhuma experiência selecionada ainda",
+          "experienceSelected": "Experiência selecionada:",
+          "chooseExperience": "Escolha uma Experiência"
         },
         "class_features": {
-          "title": "Class Features",
-          "unknown": "UNKNOWN FEATURE",
-          "level": "Level {n}",
-          "empty": "No class features available",
-          "debug": "Debug: Class - {class}"
+          "title": "Habilidades de Classe",
+          "unknown": "HABILIDADE DESCONHECIDA",
+          "level": "Nível {n}",
+          "empty": "Nenhuma habilidade de classe disponível",
+          "debug": "Depuração: Classe - {class}"
         },
         "combo_die": {
-          "title": "Combo Die",
-          "name": "COMBO DIE",
-          "description": "Your Combo Die is used for Combo Strikes. Mark a Stress to start a combo strike and roll your Combo Die, continuing to roll until you get a lower result.",
-          "progression": "Progression"
+          "title": "Dado de Combo",
+          "name": "DADO DE COMBO",
+          "description": "Seu Dado de Combo é usado para Ataques Poderosos. Marque uma Fadiga para iniciar um ataque combinado e role seu Dado de Combo, continuando a rolar até obter um resultado menor.",
+          "progression": "Progressão"
         },
         "subclass_features": {
-          "title": "{subclass} Features",
-          "unknown": "UNKNOWN SUBCLASS FEATURE"
+          "title": "{subclass} Habilidades",
+          "unknown": "HABILIDADE DE SUBCLASSE DESCONHECIDA"
         },
         "weapons": {
-          "title": "Active weapons",
-          "title_short": "Weapons",
-          "proficiency": "Proficiency",
-          "primary": "Primary",
-          "secondary": "Secondary",
-          "set_active": "Set active in the equipment section",
+          "title": "Armas ativas",
+          "title_short": "Armas",
+          "proficiency": "Proficiência",
+          "primary": "Primária",
+          "secondary": "Secundária",
+          "set_active": "Ativar na seção de Equipamentos",
           "add_weapon_modal": {
-            "title": "Add Weapon to Inventory"
+            "title": "Adicionar Arma ao Inventário"
           },
           "filters": {
-            "all_types": "All Types",
-            "all_burdens": "All Burdens",
-            "all_categories": "All Categories",
-            "physical": "Physical",
-            "magic": "Magic",
-            "wheelchair": "Wheelchair/Mobility",
-            "filter_by_type": "Filter by type",
-            "filter_by_burden": "Filter by burden",
-            "filter_by_category": "Filter by category"
+            "all_types": "Todos os Tipo",
+            "all_burdens": "Todas Empunhaduras",
+            "all_categories": "Todas Categorias",
+            "physical": "Físico",
+            "magic": "Mágico",
+            "wheelchair": "Cadeira de Rodas/Mobilidade",
+            "filter_by_type": "Filtrar por tipo",
+            "filter_by_burden": "Filtrar por empunhadura",
+            "filter_by_category": "Filtrar por categoria"
           }
         },
         "armor": {
-          "title": "Active armor",
-          "title_short": "Armor"
+          "title": "Armadura ativa",
+          "title_short": "Armadura"
         },
         "beastform": {
-          "title": "BEASTFORM",
-          "attack": "Attack",
-          "attack_trait": "Attack Trait:",
-          "evasion_bonus": "Evasion Bonus:",
-          "advantages": "Advantages:",
-          "trait_bonuses": "Trait Bonuses:",
-          "melee_range": "Melee",
-          "attack_rules": "Beastform Attack Rules",
-          "attack_description": "Use the creature's listed range, trait, and damage dice, but use your Proficiency.",
-          "weapons_disabled": "Normal weapons are disabled while in beastform",
+          "title": "FORMA DE FERA",
+          "attack": "Ataque",
+          "attack_trait": "Atributo de Ataque:",
+          "evasion_bonus": "Bônus de Evasão:",
+          "advantages": "Vantagens:",
+          "trait_bonuses": "Bônus de Atributos:",
+          "melee_range": "Corpo a Corpo",
+          "attack_rules": "Regras de Ataque da Forma de Fera",
+          "attack_description": "Use o alcance, a característica e os dados de dano listados para a criatura, mas use sua Proficiência.",
+          "weapons_disabled": "Armas normais ficam desativadas enquanto estiver na forma de forma",
           "selector": {
             "choose_form": "Choose a form...",
             "tier": "Tier {n}",
