@@ -2255,166 +2255,166 @@
       }
     },
     "active_effects": {
-      "title": "Active Effects",
-      "none": "No active effects",
-      "remove": "Remove effect"
+      "title": "Efeitos Ativos",
+      "none": "Sem efeitos ativos",
+      "remove": "Remover efeito"
     },
     "settings": {
-      "title": "Character Settings"
+      "title": "Configurações de Personagem"
     },
     "actions": {
-      "edit": "Edit",
-      "level_up": "Level Up",
-      "rollback_level": "Rollback Level",
-      "rolling_back": "Rolling Back..."
+      "edit": "Editar",
+      "level_up": "Subir de Nível",
+      "rollback_level": "Retroceder de Nível",
+      "rolling_back": "Retrocedendo..."
     },
     "rollback": {
-      "confirm_title": "Rollback Level Up?",
-      "confirm_message": "Are you sure you want to rollback your last level up? This will undo all choices made during that level up and cannot be easily reversed.",
+      "confirm_title": "Reverter nível?",
+      "confirm_message": "Tem certeza de que deseja desfazer sua última subida de nível? Isso desfará todas as escolhas feitas durante essa subida de nível e não poderá ser revertido facilmente.",
       "confirm_button": "Rollback"
     },
     "rest": {
-      "title": "Rest",
-      "take_rest": "Take Rest",
-      "saving_text": "Taking Rest...",
-      "save_button_text": "Complete Rest",
+      "title": "Restar",
+      "take_rest": "Descanse",
+      "saving_text": "Descansando...",
+      "save_button_text": "Descanso completo",
       "short": {
-        "title": "Short Rest",
-        "description": "Lasts enough time to catch breath, about an hour.",
-        "choose_two": "Choose 2 downtime moves:"
+        "title": "Descanso Curto",
+        "description": "Dura o suficiente para recuperar o fôlego, cerca de uma hora.",
+        "choose_two": "Escolha 2 movimentos de Repouso:"
       },
       "long": {
-        "title": "Long Rest", 
-        "description": "When characters make camp and relax or sleep for several in-game hours.",
-        "choose_two": "Choose 2 downtime moves (can choose the same twice):"
+        "title": "Descanso Longo", 
+        "description": "Quando os personagens acampam e relaxam ou dormem por várias horas dentro do jogo.",
+        "choose_two": "Escolha 2 ações para o período de repouso (pode escolher a mesma duas vezes):"
       },
       "moves": {
         "tend_wounds": {
-          "name": "Tend to Wounds",
-          "effect": "Clear 1d4+Tier Hit Points for yourself or an ally"
+          "name": "Tratar Feridas:",
+          "effect": "Descreva como cuida de seus ferimentos às pressas. Em seguida, recupere uma quantidade de Pontos de Vida igual a 1d4 + seu patamar. Ou você pode escolher tratar as feridas de um aliado."
         },
         "clear_stress": {
-          "name": "Clear Stress",
-          "effect": "Clear 1d4+Tier Stress"
+          "name": "Reduzir Fadiga",
+          "effect": "Descreva como você descarrega suas frustrações ou se concentra, então recupere uma quantidade de PF igual a 1d4 + seu patamar."
         },
         "repair_armor": {
-          "name": "Repair Armor",
-          "effect": "Clear 1d4+Tier Armor Slots from your or an ally's armor"
+          "name": "Reparar Armadura",
+          "effect": "Descreva como você conserta sua armadura rapidamente, então recupere um número de PA igual a 1d4 + seu patamar. Ou você pode escolher recuperar a Armadura de um aliado."
         },
         "prepare": {
-          "name": "Prepare",
-          "effect": "Describe how you prepare yourself for the path ahead, then gain a Hope. If you choose to Prepare with one or more members of your party, you each gain 2 Hope."
+          "name": "Preparar-se",
+          "effect": "Descreva como você se prepara para seguir se aventurando e ganhe 1 Ponto de Esperança. Caso se prepare com um ou mais membros do grupo, cada um de vocês recebe 2 Pontos de Esperança."
         },
         "tend_all_wounds": {
-          "name": "Tend to All Wounds",
-          "effect": "Clear all Hit Points for yourself or an ally"
+          "name": "Tratar Todas as Feridas",
+          "effect": "Descreva como você cuida de suas feridas, então recupere todos os seus Pontos de Vida. Ou você pode escolher tratar as feridas de um aliado."
         },
         "clear_all_stress": {
-          "name": "Clear All Stress",
-          "effect": "Clear all Stress"
+          "name": "Zerar Fadiga",
+          "effect": "Descreva como você descarrega suas frustrações ou se concentra, então recupere seus Pontos de Fadiga por completo."
         },
         "repair_all_armor": {
-          "name": "Repair All Armor",
-          "effect": "Clear all Armor Slots from your or an ally's armor"
+          "name": "Reparar Armadura por Completo",
+          "effect": "Descreva como você passa um bom tempo consertando sua armadura, então recupere todos seus Pontos de Armadura. Ou você pode escolher recuperar a Armadura de um aliado"
         },
         "work_on_project": {
-          "name": "Work on a Project",
-          "effect": "With GM approval, make progress on a long-term project or craft. Each time a PC makes the Work on a Project move, they either advance their project's countdown automatically or make an action roll to advance it (GM's choice)."
+          "name": "Trabalhar em um Projeto",
+          "effect": "Com a aprovação do Mestre, avance em um projeto ou artesanato de longo prazo. Cada vez que um PJ realiza a ação Trabalhar em um Projeto, ele avança automaticamente a contagem regressiva do projeto ou realiza um teste de ação para avançá-la (a escolha do Mestre)."
         },
         "tithe_to_patron": {
-          "name": "Tithe to Your Patron",
-          "effect": "Gain Favor equal to your Presence"
+          "name": "Prestar Favores ao seu Patrono",
+          "effect": "Obtenha Favores igual à sua Presença"
         }
       },
       "domain_cards": {
-        "title": "Domain Card Management",
-        "description": "During rest, you can move domain cards between your loadout and vault for free.",
-        "manage": "Manage Cards",
-        "free_movement": "Move domain cards between loadout and vault for free",
-        "free_during_rest": "Free Card Movement",
-        "no_stress_cost": "Moving cards between loadout and vault costs no stress during rest"
+        "title": "Gerenciamento de Cartas de Domínio",
+        "description": "Durante o período de descanso, você pode transferir cartões de domínio entre sua mão e sua reserva gratuitamente.",
+        "manage": "Gerenciar Cartas",
+        "free_movement": "Mova cartas de domínio entre mão e reserva gratuitamente",
+        "free_during_rest": "Movimentação Livre de Cartas",
+        "no_stress_cost": "Mover cartas entre mão e reserva não custa fadiga no descanso"
       },
       "preview": {
-        "title": "Rest Effects Preview"
+        "title": "Prévia dos Efeitos de Descanso"
       },
-      "automatic_effects": "Automatic Effects",
+      "automatic_effects": "Efeitos Automáticos",
       "features": {
-        "limited_uses_refresh": "Features with limited uses per rest refresh",
-        "all_uses_refresh": "All features with limited uses per rest or per long rest refresh"
+        "limited_uses_refresh": "Funcionalidades com usos limitados por atualização de página",
+        "all_uses_refresh": "Todos os recursos com usos limitados por descanso ou por atualização de descanso longo"
       },
       "step_1": {
-        "title": "Choose Rest Type"
+        "title": "Escolha o Tipo de Descanso"
       },
       "step_2": {
-        "title": "Select Actions",
+        "title": "Selecionar Ações",
         "info": {
-          "title": "Downtime Moves",
-          "content": "Choose exactly 2 downtime moves to perform during your rest. Some moves can target other characters.",
-          "content_three": "Choose exactly 3 downtime moves to perform during your rest. Some moves can target other characters."
+          "title": "Movimentos de Tempo Livre",
+          "content": "Escolha exatamente 2 movimentos para executar durante seu descanso. Alguns movimentos podem ter como alvo outros personagens.",
+          "content_three": "Escolha exatamente 3 movimentos para executar durante seu descanso. Alguns movimentos podem ter como alvo outros personagens."
         },
-        "choose_two": "Choose 2 downtime moves:",
-        "choose_three": "Choose 3 downtime moves:",
+        "choose_two": "Escolha 2 ações para o período de inatividade:",
+        "choose_three": "Escolha 3 ações para o tempo de inatividade:",
         "target_selection": {
-          "title": "Target Selection",
-          "self": "Yourself",
-          "other": "Another Character",
-          "other_note": "No effect will be applied to your character when targeting others."
+          "title": "Seleção de Alvos",
+          "self": "Você mesmo",
+          "other": "Outro personagem",
+          "other_note": "Nenhum efeito será aplicado ao seu personagem ao mirar em outros."
         },
         "prepare_mode": {
-          "title": "Choose Preparation Method",
-          "alone": "Prepare Alone",
-          "with_others": "Prepare with Others",
-          "description": "Describe how you prepare yourself for the path ahead. Preparing with others gives more Hope but requires party coordination."
+          "title": "Escolha o Método de Preparo",
+          "alone": "Prepare-se sozinho",
+          "with_others": "Prepare-se com os Outros",
+          "description": "Descreva como você se prepara para o caminho à frente. Preparar-se com outras pessoas traz mais esperança, mas exige coordenação entre as partes."
         }
       },
       "step_3": {
-        "title": "Manage Loadout",
+        "title": "Gerenciar Mão",
         "info": {
-          "title": "Domain Card Management",
-          "content": "Reorganize your domain cards between your active loadout and vault. All card movements are free during rest."
+          "title": "Gerenciamento de Carta de Domínio",
+          "content": "Reorganize suas cartas de domínio entre sua mão ativa e reserva. Todas as movimentações de cartas são livres durante o período de repouso."
         },
-        "hide_vault": "Hide Vault",
-        "show_vault": "Show Vault",
-        "current_status": "Current Loadout Status",
-        "loadout_count": "{current}/{max} cards in loadout"
+        "hide_vault": "Ocultar Reserva",
+        "show_vault": "Mostrar Reserva",
+        "current_status": "Status Atual da Mão",
+        "loadout_count": "{current}/{max} cartas na mão"
       },
       "step_4": {
-        "title": "Confirm Rest",
+        "title": "Confirmar Descanso",
         "info": {
-          "title": "Ready to Rest",
-          "content": "Review your rest selections and add any external healing received from other players."
+          "title": "Pronto para Descansar",
+          "content": "Revise suas escolhas de descanso e adicione qualquer cura externa recebida de outros jogadores."
         },
         "summary": {
-          "title": "Rest Summary",
-          "rest_type": "Rest Type",
-          "selected_actions": "Selected Actions",
-          "target": "Target",
-          "automatic_effects": "Automatic Effects"
+          "title": "Resumo do descanso",
+          "rest_type": "Tipo de Descanso",
+          "selected_actions": "Ações Selecionadas",
+          "target": "Ações Selecionadas",
+          "automatic_effects": "Efeitos Automáticos"
         },
         "external_healing": {
-          "title": "External Healing",
+          "title": "Cura Externa",
           "info": {
-            "title": "Healing from Others",
-            "content": "If other players used healing or repair actions on you, enter the amounts here."
+            "title": "Cura Vinda dos Outros",
+            "content": "Se outros jogadores usaram ações de cura ou reparo em você, insira as quantidades aqui."
           },
-          "hp_healed": "HP Healed by Others",
-          "armor_repaired": "Armor Repaired by Others",
-          "hp_note": "Current HP: {current}/{max}",
-          "armor_note": "Current Armor Damage: {current}"
+          "hp_healed": "PV curado por outros",
+          "armor_repaired": "Armadura Reparada por Outros",
+          "hp_note": "PV Atual: {current}/{max}",
+          "armor_note": "Dano de Armadura Atual: {current}"
         },
         "effects_preview": {
-          "title": "Rest Effects to Apply"
+          "title": "Efeitos de Repouso a Aplicar"
         }
       }
     },
     "domain_cards": {
-      "loadout_count": "{current} of {max} slots",
-      "no_loadout_cards": "No cards in loadout",
-      "no_vault_cards": "No cards in vault",
-      "title": "Domain Cards",
-      "no_cards": "No domain cards available",
-      "no_cards_available": "No domain cards available for this filter",
-      "info_title": "Manage Domain Cards",
+      "loadout_count": "{current} de {max} Espaços",
+      "no_loadout_cards": "Sem cartas na Mão",
+      "no_vault_cards": "Não há Cartas no Cofre.",
+      "title": "Cartas de Domínio",
+      "no_cards": "Nenhuma carta de domínio disponível",
+      "no_cards_available": "Nenhum domínio disponível para este filtro",
+      "info_title": "Gerenciar Cartas de Domínio",
       "info_content": "Click cards to select or deselect. You can only exchange cards of the same level. Maximum cards equals your current total.",
       "level": "Level {level}",
       "total_owned": "Total Owned",
