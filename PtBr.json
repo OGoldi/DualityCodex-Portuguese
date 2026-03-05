@@ -3599,7 +3599,7 @@
       "image_url_placeholder": "https://examplo.com/communidade-imagem.png",
       "image_url_hint": "Insira um URL para uma imagem que represente esta comunidade",
       "adjectives": "Adjetivos de personalidade",
-      "adjectives_hint": Adicione adjetivos que descrevam os membros desta comunidade (até 10),
+      "adjectives_hint": "Adicione adjetivos que descrevam os membros desta comunidade (até 10)",
       "adjective_placeholder": "Ex.: amável, engenhoso",
       "max_adjectives": "Máximo de 10 adjetivos",
       "feature_title": "Recurso da Comunidade",
