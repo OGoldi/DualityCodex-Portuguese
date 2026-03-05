@@ -2706,417 +2706,417 @@
     },
     "deleteModal": {
       "title": "Excluir Companheiro",
-      "message": "Are you sure you want to delete this companion? This action cannot be undone."
+      "message": "Tem certeza de que deseja excluir este companheiro? Esta ação não pode ser desfeita."
     },
     "advancement": {
-      "title": "Companion Training",
-      "description": "Your companion can gain new abilities through training. Select one advancement that reflects how your companion has grown during your adventures.",
-      "chooseImprovementType": "Choose improvement type",
-      "damage": "Damage",
-      "range": "Range",
-      "unknownExperience": "Unknown Experience",
+      "title": "Treinamento do Companheiro",
+      "description": "Seu companheiro pode adquirir novas habilidades por meio de treinamento. Selecione um avanço que reflita como seu companheiro evoluiu durante suas aventuras.",
+      "chooseImprovementType": "Escolha o tipo de melhoria",
+      "damage": "Dano:",
+      "range": "Acance",
+      "unknownExperience": "Experiência Desconhecida",
       "experienceModal": {
-        "title": "Choose Companion Experience to Increase",
-        "selectToContinue": "Select an experience to continue",
-        "experienceSelectedReady": "Experience selected and ready to advance.",
-        "advancementTitle": "Companion Experience Advancement", 
-        "advancementDescription": "Choose one of your companion's existing experiences to gain a permanent +1 bonus. This represents your companion's continued growth and training.",
-        "availableExperiences": "Available Experiences:",
-        "selectedCount": "Selected: {count}/1",
-        "noExperiencesFound": "No experiences found",
-        "noExperiencesDescription": "Your companion needs to have existing experiences to use this advancement."
+        "title": "Escolha uma experiência do companheiro para aumentar",
+        "selectToContinue": "Selecione uma experiência para continuar",
+        "experienceSelectedReady": "Experiência selecionada e pronto para avançar.",
+        "advancementTitle": "Aprimoramento da Experiência do Companheiro", 
+        "advancementDescription": "Escolha uma das experiências existentes do seu companheiro para obter um bônus permanente de +1. Isso representa o crescimento e treinamento contínuos do seu companheiro.",
+        "availableExperiences": "Experiências disponíveis:",
+        "selectedCount": "Selecionado: {count}/1",
+        "noExperiencesFound": "Nenhuma experiência encontrada",
+        "noExperiencesDescription": "Seu companhaneiro precisa ter experiências prévias para usar esse recurso."
       },
       "types": {
         "intelligent": {
-          "name": "Intelligent",
-          "description": "Your companion gains a permanent +1 bonus to a Companion Experience of your choice.",
-          "summary": "Will enhance companion's chosen experience by +1"
+          "name": "Inteligente",
+          "description": "seu companheiro recebe um bônus permanente de +1 em uma Experiência de companheiro à sua escolha.",
+          "summary": "Aprimorará a experiência escolhida pelo acompanhante em +1"
         },
         "vicious": {
-          "name": "Vicious",
-          "description": "Your companion becomes more effective in combat. Choose to improve either their damage die or attack range.",
-          "summary": "Selected {count} time{plural}",
-          "summaryImprovement": "Will improve companion's {improvementType}",
-          "damageImprovement": "Damage Dice Improvement",
-          "rangeImprovement": "Range Improvement"
+          "name": "Feroz",
+          "description": "Seu companheiro se torna mais eficaz em combate. Escolha melhorar o dado de dano ou o alcance de ataque dele.",
+          "summary": "Selecionado {count} tempo{plural}",
+          "summaryImprovement": "Aprimorará o {improvementType} do companheiro",
+          "damageImprovement": "Melhoria no Dado de Dano",
+          "rangeImprovement": "Melhoria de Alcance"
         },
         "lightInTheDark": {
-          "name": "Light in the Dark",
-          "description": "Your companion's presence grants you an additional Hope slot.",
-          "summary": "Will gain 1 Hope slot",
-          "badgeText": "Grants Hope Slot"
+          "name": "Luz no Fim do Túnel",
+          "description": "A presença do seu companheiro concede a você um espaço adicional de Esperança.",
+          "summary": "Ganhará 1 espaço de Esperança",
+          "badgeText": "Dá um Espaço de Esperança"
         },
         "resilient": {
-          "stressSlot": "Stress Slot",
-          "thickHide": "Thick Hide (+2 Damage Thresholds)"
+          "stressSlot": "Espaço de Fadiga",
+          "thickHide": "Pele Espessa (+2 Limiares de Dano)"
         }
       }
     }
   },
   "features": {
     "types": {
-      "stat_modifier": "Stat Modifier",
-      "stat_modifier_short": "STT",
-      "dice_mechanic": "Dice Mechanic",
-      "dice_mechanic_short": "DCE",
-      "status_effect": "Status Effect",
-      "status_effect_short": "EFT",
-      "action_economy": "Action Economy",
-      "action_economy_short": "ACT",
-      "utility": "Utility",
-      "utility_short": "UTL",
-      "versatile": "Versatile",
-      "versatile_short": "VER",
-      "requirement": "Requirement",
-      "requirement_short": "REQ",
-      "damage_reduction": "Damage Reduction",
-      "defensive_reaction": "Defensive Reaction",
-      "healing": "Healing",
-      "spell_focus": "Spell Focus",
-      "consumable": "Consumable",
-      "multi": "Multiple Types",
-      "multi_short": "MLT",
-      "multi_stat_modifier": "Multiple Stats",
-      "multi_dice_mechanic": "Multiple Dice Effects",
-      "multi_status_effect": "Multiple Status Effects",
-      "multi_action_economy": "Multiple Actions",
-      "multi_utility": "Multiple Utilities",
-      "multi_versatile": "Multiple Versatile Effects",
-      "multi_requirement": "Multiple Requirements"
+      "stat_modifier": "Modificador de Estatísticas",
+      "stat_modifier_short": "Est",
+      "dice_mechanic": "Mecânica de Dados",
+      "dice_mechanic_short": "Dad",
+      "status_effect": "Efeito de status",
+      "status_effect_short": "Sta",
+      "action_economy": "Economia de ação",
+      "action_economy_short": "Aç",
+      "utility": "Utilidade",
+      "utility_short": "Uti",
+      "versatile": "Versátil",
+      "versatile_short": "Ver",
+      "requirement": "Requisito",
+      "requirement_short": "Req",
+      "damage_reduction": "Redução de Dano",
+      "defensive_reaction": "Reação Defensiva",
+      "healing": "Cura",
+      "spell_focus": "Foco de Conjuração",
+      "consumable": "Consumível",
+      "multi": "Múltiplos Tipos",
+      "multi_short": "Mul",
+      "multi_stat_modifier": "Múltiplas Estatísticas",
+      "multi_dice_mechanic": "Efeitos de Múltiplos Dados",
+      "multi_status_effect": "Efeitos de Status Múltiplos",
+      "multi_action_economy": "Ações Múltiplas",
+      "multi_utility": "Múltiplas Utilidades",
+      "multi_versatile": "Múltiplos Efeitos Versáteis",
+      "multi_requirement": "Requisitos Múltiplos"
     }
   },
   "pwa": {
     "install": {
-      "title": "Install App",
-      "description": "Install this app on your device for quick access and offline use.",
-      "button": "Install",
-      "not_now": "Not Now"
+      "title": "Instalar App",
+      "description": "Instale este aplicativo em seu dispositivo para acesso rápido e uso offline.",
+      "button": "Instalar",
+      "not_now": "Agora não"
     },
     "offline": {
-      "sync_now": "Sync Now",
-      "offline_with_pending": "You're offline - {count} changes waiting to sync",
-      "offline_no_pending": "You're offline - Changes will sync when connection is restored",
-      "syncing": "Syncing {count} changes...",
-      "all_synced": "All changes synced"
+      "sync_now": "Sincronizar Agora",
+      "offline_with_pending": "Você está offline - {count} alterações aguardando sincronização",
+      "offline_no_pending": "Você está offline. As alterações serão sincronizadas quando a conexão for restabelecida.",
+      "syncing": "Sincronizando {count} alterações...",
+      "all_synced": "Todas as alterações foram sincronizadas."
     }
   },
   "footer": {
     "links": {
-      "guides": "Guides",
-      "homebrew_guidelines": "Homebrew Guidelines"
+      "guides": "Guias",
+      "homebrew_guidelines": "Diretrizes para Homebrew"
     },
     "copyright": {
-      "title": "Copyright & Attribution",
-      "srd_content": "This site uses only official Public Game Content from the Darrington Press System Reference Document (SRD), shared under the Community Gaming License. The descriptive text comes straight from the SRD, but all the images here are original creations inspired by those descriptions.",
-      "trademarks": "We don't use any copyrighted art, logos, or story content from Critical Role or its related companies. All trademarks and rights belong to Critical Role, LLC and its partners. Just so you know, this project isn't officially connected to or endorsed by Critical Role or Darrington Press.",
-      "feedback": "If you have any suggestions or feedback, please let us know by email at:"
+      "title": "Direitos Autorais & Atribuição",
+      "srd_content": "Este site utiliza apenas conteúdo público oficial do jogo, proveniente do Documento de Referência do Sistema (SRD) da Darrington Press, compartilhado sob a Licença de Jogo Comunitário. O texto descritivo vem diretamente do SRD, mas todas as imagens aqui presentes são criações originais inspiradas nessas descrições.",
+      "trademarks": "Não utilizamos nenhuma arte, logotipo ou conteúdo de história protegido por direitos autorais da Critical Role ou de suas empresas relacionadas. Todas as marcas registradas e direitos pertencem à Critical Role, LLC e seus parceiros. Para que fique claro, este projeto não possui qualquer ligação oficial com a Critical Role ou a Darrington Press, nem é por elas endossado.",
+      "feedback": "Se tiver alguma sugestão ou comentário, entre em contato conosco por e-mail:"
     },
     "attribution": {
-      "title": "Daggerheart System Reference",
-      "license": "This product includes materials from the Daggerheart System Reference Document 1.0, © Critical Role, LLC. under the terms of the Darrington Press Community Gaming (DPCGL) License.",
-      "more_info": "More information can be found at",
+      "title": "Referência do Sistema Daggerheart",
+      "license": "Este produto inclui materiais do Documento de Referência do Sistema Daggerheart 1.0, © Critical Role, LLC, sob os termos da Licença de Jogos Comunitários da Darrington Press (DPCGL).",
+      "more_info": "Mais informações podem ser encontradas em",
       "website": "https://www.daggerheart.com",
-      "modifications": "There are no previous modifications by others."
+      "modifications": "Não existem modificações anteriores feitas por terceiros."
     },
     "bottom": {
-      "text": "Built for the Daggerheart community"
+      "text": "Criado para a comunidade Daggerheart"
     }
   },
   "dice": {
-    "critical_hit": "CRITICAL HIT!",
-    "hope_roll": "HOPE ROLL",
-    "fear_roll": "FEAR ROLL",
-    "result": "Result",
-    "critical_hit_explanation": "Both dice show the same number - always counts as Hope!",
-    "modifier_label": "Modifier",
-    "with_hope": "WITH HOPE",
-    "with_fear": "WITH FEAR",
-    "advantage": "ADV",
-    "disadvantage": "DIS",
+    "critical_hit": "ACERTO CRÍTICO!",
+    "hope_roll": "ROLAGEM DE ESPERANÇA",
+    "fear_roll": "ROLAGEM DE MEDO",
+    "result": "Resultado",
+    "critical_hit_explanation": "Ambos os dados mostram o mesmo número - sempre conta como Esperança!",
+    "modifier_label": "Modificador",
+    "with_hope": "COM ESPERANÇA",
+    "with_fear": "COM MEDO",
+    "advantage": "VAN",
+    "disadvantage": "DES",
     "modifier_short": "MOD",
     "roll_type": {
       "regular": "Regular",
-      "reaction": "Reaction"
+      "reaction": "Reação"
     },
     "mode": {
-      "daggerheart": "Duality",
-      "standard": "Standard"
+      "daggerheart": "Dualidade",
+      "standard": "Padrão"
     },
     "standard": {
-      "no_dice": "Add dice to roll",
-      "clear": "Clear",
-      "drop_lowest": "Drop Lowest",
-      "drop_lowest_tooltip": "Roll an extra die and drop the lowest result (like Brutal/Massive)"
+      "no_dice": "Adicione os dados para rolar.",
+      "clear": "Limpar",
+      "drop_lowest": "Abaixar até o fundo",
+      "drop_lowest_tooltip": "Role um dado extra e descarte o resultado mais baixo (como Brutal/Massivo)"
     },
     "drawer": {
-      "panel_title": "Dice Roller",
-      "title": "Daggerheart Dice",
-      "subtitle": "Roll your Hope and Fear dice",
-      "hope_label": "HOPE",
-      "fear_label": "FEAR",
+      "panel_title": "Lançador de Dados",
+      "title": "Dados de Daggerheart",
+      "subtitle": "Jogue seus dados da Esperança e Medo",
+      "hope_label": "ESPERANÇA",
+      "fear_label": "MEDO",
       "total_label": "Total:",
       "total_short": "Total:",
-      "history_title": "Roll History",
-      "clear_history": "Clear",
-      "rolling": "Rolling...",
-      "roll_cta": "ROLL",
-      "show_history": "SHOW HISTORY",
-      "hide_history": "HIDE HISTORY",
-      "roll_dice": "ROLL DICE",
-      "duality_roll": "Duality Roll",
-      "standard_roll": "Standard Roll",
-      "custom_roll": "CUSTOM ROLL",
-      "open": "Open Dice Roller",
-      "handle_label": "DICE"
+      "history_title": "Histórico de Rolagem",
+      "clear_history": "Limpar",
+      "rolling": "Rolando...",
+      "roll_cta": "ROLAR",
+      "show_history": "MOSTRAR HISTÓRICO",
+      "hide_history": "OCULTAR HISTÓRICO",
+      "roll_dice": "JOGUE OS DADOS",
+      "duality_roll": "Rolagem de Dualidade",
+      "standard_roll": "Rolagem Padrão",
+      "custom_roll": "ROLAGEM PERSONALIZADA",
+      "open": "Lançador Aberto de Dados",
+      "handle_label": "DADO"
     }
   },
   "death_mechanic": {
     "modal": {
-      "title": "Death Move",
+      "title": "Movimento de Morte",
       "title_icon": "",
-      "description": "Your character has marked their last Hit Point. You must choose one of the following death moves:",
-      "ephemeral_notice": "Your Ephemeral transformation requires you to choose Blaze of Glory.",
-      "execute": "Execute Death Move"
+      "description": "Seu personagem marcou seu último Ponto de Vida. Você deve escolher um dos seguintes movimentos de morte:",
+      "ephemeral_notice": "Sua transformação efêmera exige que você escolha a Chama da Glória.",
+      "execute": "Executar Golpe Mortal"
     },
     "options": {
       "blaze_of_glory": {
-        "title": "Blaze of Glory",
-        "description": "Your character embraces death and goes out in a blaze of glory. Take one final action. It automatically critically succeeds (with GM approval), and then you cross through the veil of death.",
-        "final_action_label": "Describe your final action:",
-        "final_action_placeholder": "Describe how your character goes out in a blaze of glory..."
+        "title": "Chama da Glória",
+        "description": "Seu personagem abraça a morte e parte em uma explosão de glória. Execute uma ação final. Ela automaticamente obtém sucesso crítico (com a aprovação do Mestre), e então você atravessa o véu da morte.",
+        "final_action_label": "Descreva sua ação final:",
+        "final_action_placeholder": "Descreva como seu personagem sai de cena em uma explosão de glória..."
       },
       "avoid_death": {
-        "title": "Avoid Death",
-        "description": "Your character avoids death and faces the consequences. They temporarily drop unconscious, and then you work with the GM to describe how the situation worsens. While unconscious, your character can't move or act, and they can't be targeted by an attack. They return to consciousness when an ally clears 1 or more of their marked Hit Points or when the party finishes a long rest.",
-        "scar_warning": "After falling unconscious: Roll your Hope Die. If its value is equal to or less than your character's level ({level}), they gain a scar: permanently cross out a Hope slot.",
-        "roll_button": "Roll Hope Die for Scar Check",
-        "scar_gained": "Scar Gained!",
-        "no_scar": "No Scar!",
-        "scar_explanation": "Hope Die ({roll}) ≤ Character Level ({level}) - Your character gains a scar.",
-        "no_scar_explanation": "Hope Die ({roll}) > Character Level ({level}) - Your character avoids gaining a scar."
+        "title": "Evitar a Morte",
+        "description": "Seu personagem escapa da morte e enfrenta as consequências. Ele fica inconsciente temporariamente, e então você e o Mestre descrevem como a situação piora. Enquanto inconsciente, seu personagem não pode se mover, agir ou ser alvo de ataques. Ele recupera a consciência quando um aliado elimina 1 ou mais de seus Pontos de Vida marcados ou quando o grupo termina um descanso longo.",
+        "scar_warning": "Após perder a consciência: Role seu Dado da Esperança. Se o valor for igual ou menor que o nível do seu personagem ({level}), ele ganha uma cicatriz: risque permanentemente um espaço de Esperança.",
+        "roll_button": "Role o Dado da Esperança Para Verificar a Cicatriz.",
+        "scar_gained": "Cicatriz Adquirida!",
+        "no_scar": "Sem Cicatriz!",
+        "scar_explanation": "Dado de Esperança ({roll}) ≤ Nível do Personagem ({level}) - Seu personagem ganha uma cicatriz.",
+        "no_scar_explanation": "Dado de Esperança ({roll}) > Nível do Personagem ({level}) - Seu personagem evita ganhar uma cicatriz."
       },
       "risk_it_all": {
-        "title": "Risk It All",
-        "description": "Roll your Duality Dice:",
+        "title": "Arrisque tudo",
+        "description": "Lance seus Dados da Dualidade:",
         "rules": {
-          "hope_higher": "If the Hope Die is higher: stay on your feet and clear HP/Stress equal to the Hope Die value",
-          "fear_higher": "If the Fear Die is higher: cross through the veil of death",
-          "dice_match": "If the dice match: stay up and clear all Hit Points and Stress"
+          "hope_higher": "Se o Dado da Esperança for maior: mantenha-se de pé e elimine PV/Fadiga igual ao valor do Dado da Esperança.",
+          "fear_higher": "Se o Dado de Medo for maior: atravesse o véu da morte.",
+          "dice_match": "Se os dados combinarem: permaneça de pé e recupere todos os seus Pontos de Vida e Fadiga."
         },
-        "roll_button": "Roll Duality Dice",
-        "allocation_prompt": "Allocate {points} points between Hit Points and Stress:",
-        "remaining_points": "Remaining points: {points}"
+        "roll_button": "Roar Dados de Dualidade",
+        "allocation_prompt": "Distribua {points} pontos entre Pontos de Vida e Fadiga:",
+        "remaining_points": "Pontos restantes: {points}"
       }
     },
     "dice": {
-      "hope_die": "HOPE DIE",
-      "fear_die": "FEAR DIE",
+      "hope_die": "DADO DE ESPERANÇA",
+      "fear_die": "DADO DE MEDO",
       "results": {
-        "matching_dice": "MATCHING DICE! Stay up and clear all Hit Points and Stress!",
-        "hope_wins": "Hope Die wins! Stay on your feet!",
-        "fear_wins": "Fear Die wins... Cross through the veil of death."
+        "matching_dice": "DADOS COMBINANDO! Mantenha-se ativo e elimine todos os seus Pontos de Vida e Estresse!",
+        "hope_wins": "A Esperança Vence! Mantenha-se firme!",
+        "fear_wins": "O Medo Vence... Atravesse o véu da morte."
       }
     }
   },
   "inventory": {
     "modal": {
-      "title": "Manage Inventory",
-      "available_items": "Available Items",
-      "character_items": "Your Items",
-      "create_custom": "Create Custom Item",
+      "title": "Gerenciar Inventário",
+      "available_items": "Itens Disponíveis",
+      "character_items": "Seus Itens",
+      "create_custom": "Criar Item Personalizado",
       "empty_state": {
-        "title": "No Items Available",
-        "description": "There are no items available to add to your inventory."
+        "title": "Nenhum Item Disponível",
+        "description": "Não há itens disponíveis para adicionar ao seu inventário."
       },
       "filters": {
         "content_type": {
-          "label": "Content Type",
-          "placeholder": "Filter by content type"
+          "label": "Tipo de Conteúdo",
+          "placeholder": "Filtrar por Tipo de Conteúdo"
         }
       },
-      "no_results": "No items found matching your criteria",
+      "no_results": "Nenhum item encontrado que corresponda aos seus critérios",
       "pagination": {
-        "showing": "Showing {start} - {end} of {total} items"
+        "showing": "Exibindo {start} - {end} de {total} itens"
       },
       "errors": {
-        "create_failed": "Failed to create custom item. Please try again."
+        "create_failed": "Falha ao criar o item personalizado. Tente novamente."
       }
     },
     "sections": {
-      "gold": "Gold",
-      "weapons": "Weapons",
-      "other_equipment": "Other Equipment"
+      "gold": "Ouro",
+      "weapons": "Armas",
+      "other_equipment": "Outros Equipamentos"
     },
     "gold": {
-      "coins": "Coins",
-      "handfuls": "Handfuls",
-      "bags": "Bags",
-      "chest": "Chest",
-      "add_chest": "Add chest",
-      "remove_chest": "Remove chest",
-      "convert_chest_to_bags": "Convert chest to 12 bags"
+      "coins": "Moedas",
+      "handfuls": "Punhados",
+      "bags": "Bolsas",
+      "chest": "Baú",
+      "add_chest": "Adicionar baú",
+      "remove_chest": "Remover o baú",
+      "convert_chest_to_bags": "Converter baú em 12 bolsas"
     },
     "weapons": {
-      "store_description": "Store weapons not currently equipped",
-      "add_weapon": "+ Add Weapon",
-      "no_weapons": "No weapons in inventory",
-      "no_weapons_description": "Add weapons to store them when not equipped",
-      "inventory": "Inventory",
+      "store_description": "Armazene as armas que não estão equipadas no momento",
+      "add_weapon": "+ Adicionar Arma",
+      "no_weapons": "Nenhuma arma em inventário",
+      "no_weapons_description": "Adicionar armas para armazená-las quando não estiverem equipadas",
+      "inventory": "Inventário",
       "add_weapon_modal": {
-        "title": "Add"
+        "title": "Adicionar"
       },
       "filters": {
-        "all_types": "All Types",
-        "all_burdens": "All Burdens",
-        "all_categories": "All Categories",
-        "physical": "Physical",
-        "magic": "Magic",
-        "wheelchair": "Wheelchair/Mobility",
-        "filter_by_type": "Filter by type",
-        "filter_by_burden": "Filter by burden",
-        "filter_by_category": "Filter by category"
+        "all_types": "Todos os tipos",
+        "all_burdens": "Todos os Fardos",
+        "all_categories": "Todas as Categorias",
+        "physical": "Físico",
+        "magic": "Mágico",
+        "wheelchair": "Cadeira de rodas/Mobilidade",
+        "filter_by_type": "Filtrar por tipo",
+        "filter_by_burden": "Filtrar por carga",
+        "filter_by_category": "Filtrar por categoria"
       }
     },
     "armor": {
-      "store_description": "Store armor not currently equipped",
-      "add_armor": "+ Add Armor",
-      "no_armor": "No armor in inventory",
-      "no_armor_description": "Add armor to store it when not equipped"
+      "store_description": "Armadura armazenada não equipada no momento",
+      "add_armor": "+ Adicionar Armadura",
+      "no_armor": "Nenhuma armadura no inventário",
+      "no_armor_description": "Adicione armadura para armazená-la quando não estiver equipada"
     },
     "items": {
-      "store_description": "Store general equipment and items",
-      "no_items": "No Equipment Items",
-      "no_items_description": "This character's backpack is empty. Items can be added during character creation or acquired during gameplay.",
-      "attach_to_weapon_title": "Attach to Weapon",
-      "attach_to_weapon_description": "Select a weapon to attach {itemName} to.",
-      "no_weapons_available": "No weapons available to attach this item to."
+      "store_description": "Armazene equipamentos e itens em geral",
+      "no_items": "Nenhum Item de Equipamento",
+      "no_items_description": "A mochila deste personagem está vazia. Itens podem ser adicionados durante a criação do personagem ou adquiridos durante o jogo.",
+      "attach_to_weapon_title": "Anexar à Arma",
+      "attach_to_weapon_description": "Selecione uma arma para anexar {itemName}.",
+      "no_weapons_available": "Não há armas disponíveis para acoplar este item."
     },
     "consumables": {
       "use_modal": {
-        "title": "Use {itemName}",
-        "effects": "Effects:",
-        "last_use_warning": "This is the last use of this item",
-        "uses_remaining": "Uses remaining: {current}/{max}",
-        "choose_effect": "Choose one effect:"
+        "title": "Usar {itemName}",
+        "effects": "Efeitos:",
+        "last_use_warning": "Este é o último uso deste item",
+        "uses_remaining": "Usos Restantes: {current}/{max}",
+        "choose_effect": "Escolha um efeito:"
       },
       "badges": {
-        "consumable": "consumable",
-        "expended": "expended",
-        "custom": "custom",
-        "equipped": "equipped"
+        "consumable": "consumível",
+        "expended": "gasto",
+        "custom": "personalizado",
+        "equipped": "equipado"
       },
       "effects": {
-        "heal_hp": "Heal {amount} Hit Points",
-        "heal_stress": "Clear {amount} Stress",
-        "heal_choice": "Heal {amount} Hit Points OR clear {amount} Stress (your choice)",
-        "stat_boost": "Gain +{bonus} {stat} for {duration}",
-        "stat_penalty": "Suffer {penalty} {stat} for {duration}",
-        "resource_gain": "Gain {amount} {resource}",
-        "resource_lose": "Lose {amount} {resource}",
-        "weapon_damage": "Adds {amount} to your next weapon damage roll"
+        "heal_hp": "Recupere {amount} pontos de vida",
+        "heal_stress": "Limpar {amount} Fadiga",
+        "heal_choice": "Recupere {amount} pontos de vida OU elimine {amount} de fadiga (à sua escolha)",
+        "stat_boost": "Ganhe +{bonus} {stat} por {duration}",
+        "stat_penalty": "Sofra {penalty} {stat} por {duration}",
+        "resource_gain": "Ganhe {amount} {resource}",
+        "resource_lose": "Perca {amount} {resource}",
+        "weapon_damage": "Adiciona {amount} ao seu próximo teste de dano com arma"
       },
       "durations": {
-        "next_roll": "next roll",
-        "next_attack": "next attack",
-        "scene": "the current scene",
-        "rest": "until your next rest",
-        "permanent": "permanently"
+        "next_roll": "próxima rolagem",
+        "next_attack": "próximo ataque",
+        "scene": "a cena atual",
+        "rest": "Até seu próximo descanso",
+        "permanent": "permanentemente"
       }
     }
   },
   "level_up": {
-    "saving_text": "Leveling Up...",
-    "save_button_text": "Complete Level Up",
+    "saving_text": "Subindo de Nível...",
+    "save_button_text": "Suba de Nível Completamente",
     "advancement_selection": {
-      "title": "Advancements",
-      "points_remaining": "You have {points} advancement points remaining.",
-      "advancement_points": "Advancement Points",
-      "used": "Used:",
-      "click_to_select": "Click to Select",
-      "uses_both_picks": "Uses Both Picks",
-      "will_increase_traits": "Will increase {count} character traits by +1",
-      "will_gain_hp_slots": "Will gain {count} Hit Point slot{plural}",
-      "will_gain_stress_slots": "Will gain {count} Stress slot{plural}",
-      "selected_times": "Selected {count} time{plural}",
-      "trait_selection": "Trait Selection",
-      "select_traits": "Select {count} traits",
-      "multiple_experience_advancement": "Multiple Experience Advancement",
-      "multiple_subclass_advancement": "Multiple Subclass Feature Advancement",
-      "multiple_multiclass_advancement": "Multiple Multiclass Advancement",
-      "experience_advancement_warning": "Experience advancement can only be taken once per tier. You have selected it {count} times, but only one will be applied.",
-      "subclass_advancement_warning": "Subclass feature advancement can only be taken once per tier. You have selected it {count} times, but only one will be applied.",
-      "multiclass_advancement_warning": "Multiclass advancement can only be taken once per character. You have selected it {count} times, but only one will be applied.",
-      "not_enough_experiences": "Not enough experiences found for this character. Your character needs at least two existing experiences to use this advancement.",
-      "cross_domain_card": "Cross-Domain Card"
+      "title": "Avanços",
+      "points_remaining": "Você ainda tem {points} pontos de avanço restantes.",
+      "advancement_points": "Pontos de Avanço",
+      "used": "Usado:",
+      "click_to_select": "Clique para selecionar",
+      "uses_both_picks": "Usa Ambas as Escohas",
+      "will_increase_traits": "Aumentará os Atributos do Personagem de {count} em +1",
+      "will_gain_hp_slots": "Vai ganhar {count} Espaço{plural} para Pontos de Vida",
+      "will_gain_stress_slots": "Vai ganhar {count} Espaço{plural} para Pontos de Fadiga",
+      "selected_times": "Selecionado {count} tempo{plural}",
+      "trait_selection": "Seleção de Atributos",
+      "select_traits": "Selecione {count} atributos",
+      "multiple_experience_advancement": "Avanço de Múltiplas Experiências",
+      "multiple_subclass_advancement": "Avanço de Habilidades de Subclasse Múltipla",
+      "multiple_multiclass_advancement": "Avanço de Multiclasse Múltipla",
+      "experience_advancement_warning": "O avanço de experiência só pode ser obtido uma vez por nível. Você o selecionou {count} vezes, mas apenas um será aplicado.",
+      "subclass_advancement_warning": "O aprimoramento de recurso de subclasse só pode ser escolhido uma vez por nível. Você o selecionou {count} vezes, mas apenas um será aplicado.",
+      "multiclass_advancement_warning": "O avanço multiclasse só pode ser escolhido uma vez por personagem. Você o selecionou {count} vezes, mas apenas um será aplicado.",
+      "not_enough_experiences": "Não foram encontradas experiências suficientes para este personagem. Seu personagem precisa de pelo menos duas experiências existentes para usar este avanço.",
+      "cross_domain_card": "Carta Interdomínio"
     },
     "damage_thresholds": {
-      "title": "Damage Thresholds",
-      "threshold_increase": "Threshold Increase",
-      "automatic_increase": "All damage thresholds automatically increase by 1 when you level up.",
-      "threshold_adjustments": "Threshold Adjustments",
-      "automatic_threshold_increase": "Automatic Threshold Increase",
-      "resilience_description": "Your character becomes more resilient as they level up. All damage thresholds increase by 1.",
-      "plus_one_increase": "+1 increase",
-      "includes_armor": "(Includes +{amount} from {armorName})",
-      "threshold_update_complete": "Threshold Update Complete",
-      "threshold_update_description": "Your damage thresholds have been automatically increased. Your character can now withstand more damage before suffering consequences."
+      "title": "Limiares de Dano",
+      "threshold_increase": "Aumento da Limiar",
+      "automatic_increase": "Todos os limiáres de dano aumentam automaticamente em 1 ao subir de nível.",
+      "threshold_adjustments": "Ajustes de Limiar",
+      "automatic_threshold_increase": "Aumento automático de Limiáres",
+      "resilience_description": "Seu personagem se torna mais resistente à medida que sobe de nível. Todos os limiáres de dano aumentam em 1.",
+      "plus_one_increase": "+1 aumento",
+      "includes_armor": "(Incúi +{amount} de {armorName})",
+      "threshold_update_complete": "Atualização de Limiáres Concluída",
+      "threshold_update_description": "Seus limiáres de dano foram aumentados automaticamente. Seu personagem agora pode suportar mais dano antes de sofrer consequências."
     },
     "tier_achievements": {
-      "title": "Tier Achievements",
-      "description": "As you advance in level, you automatically gain tier achievements. These are not optional - you receive all applicable benefits for your new level.",
-      "advancing_to_level": "Advancing to Level {level}",
-      "level_achievement": "Level {level} Tier Achievement",
-      "new_experience": "New Experience:",
-      "new_experience_description": "Gain a new Experience at +2",
-      "proficiency_increase": "Proficiency Increase:",
-      "proficiency_increase_description": "Permanently increase your Proficiency by 1",
-      "clear_traits": "Clear Marked Traits:",
-      "clear_traits_description": "Clear any marked traits on your character",
-      "create_experience": "Create Your New Experience",
-      "experience_guidelines": "Experience Guidelines",
-      "experience_guidelines_description": "Experiences represent significant moments, training, or knowledge your character has gained. They should be specific and meaningful to your character's story.",
-      "experience_name": "Experience Name",
-      "experience_name_placeholder": "e.g., Survived the Dragon's Lair",
-      "experience_name_help": "This experience will start at +2",
-      "experience_description": "Experience Description",
-      "experience_description_placeholder": "Describe what happened and how it shaped your character...",
-      "experience_description_help": "Optional: Provide more details about this experience",
-      "no_tier_achievement": "No Tier Achievement",
-      "no_tier_achievement_description": "Level advancement from {current} to {next} does not include a tier achievement. You will still gain other benefits in the following steps.",
-      "experience_required": "Experience Required",
-      "experience_required_description": "You must create a new experience to continue with this tier achievement.",
-      "ready_to_continue": "Ready to Continue",
-      "ready_to_continue_description": "Your tier achievement benefits will be applied when you complete the level up process."
+      "title": "Conquistas por Patamar",
+      "description": "Ao subir de nível, você ganha automaticamente conquistas de Patamar. Elas não são opcionais - você recebe todos os benefícios aplicáveis ​​ao seu novo nível.",
+      "advancing_to_level": "Avançando para o Nível {level}",
+      "level_achievement": "Nível {level} Conquista de Patamar",
+      "new_experience": "Nova Experiência:",
+      "new_experience_description": "Adquira uma Nova Experiência com +2",
+      "proficiency_increase": "Aumento de Proficiência:",
+      "proficiency_increase_description": "Aumente Permanentemente sua Proficiência em 1",
+      "clear_traits": "Limpar Marcadores em Atributos:",
+      "clear_traits_description": "Remova todas as marcações nos atributos do seu personagem",
+      "create_experience": "Crie Sua Nova Experiência",
+      "experience_guidelines": "Diretrizes de Experiência",
+      "experience_guidelines_description": "As experiências representam momentos significativos, treinamentos ou conhecimentos que seu personagem adquiriu. Elas devem ser específicas e relevantes para a história do seu personagem.",
+      "experience_name": "Nome da Experiência",
+      "experience_name_placeholder": "Ex.: Sobrevivi à Toca do Dragão",
+      "experience_name_help": "Esta experiência começará em +2",
+      "experience_description": "Descrição da Experiência",
+      "experience_description_placeholder": "Descreva o que aconteceu e como isso moldou seu personagem...",
+      "experience_description_help": "Opcional: Forneça mais detalhes sobre essa experiência",
+      "no_tier_achievement": "Sem Avanço de Patamar",
+      "no_tier_achievement_description": "A progressão de nível de {current} para {next} não inclui uma conquista de nível. Você ainda obterá outros benefícios nas etapas seguintes.",
+      "experience_required": "Experiência Necessária",
+      "experience_required_description": "Você precisa criar uma nova experiência para continuar com essa conquista de nível.",
+      "ready_to_continue": "Pronto para Continuar",
+      "ready_to_continue_description": "Seus benefícios de conquista de nível serão aplicados quando você concluir o processo de subida de nível."
     },
     "domain_cards": {
-      "available": "Available",
-      "loadout_full": "Loadout Full",
-      "loadout_full_description": "Your loadout is full. New cards will be added to your vault. You can reorganize your cards after leveling up.",
-      "no_available_cards": "No Available Cards",
-      "no_available_cards_description": "You have acquired all available domain cards for your class domains ({domains}) at level {level} or lower. Focus on the optional card exchange below.",
-      "selected": "SELECTED",
-      "school_of_knowledge_bonus": "📚 School of Knowledge: Your Accomplished or Brilliant feature grants an extra domain card!"
+      "available": "Disponível",
+      "loadout_full": "Mão Cheia",
+      "loadout_full_description": "Sua mão está cheia. Novos cartas serão adicionadas à sua reserva. Você poderá reorganizar suas cartas após subir de nível.",
+      "no_available_cards": "Nenhuma carta disponível",
+      "no_available_cards_description": "Você adquiriu todos os cartões de domínio disponíveis para os seus domínios de classe ({domains}) no nível {level} ou inferior. Concentre-se na troca de cartões opcional abaixo.",
+      "selected": "SELECIONADO",
+      "school_of_knowledge_bonus": "📚 Escola do Conhecimento: Suas Habilidades \"Talentoso\" ou \"Brilhante\" concede um cartão de domínio extra!"
     },
     "multiclass_setup": {
-      "title": "Multiclass Setup",
-      "subtitle": "Choose your second class and specialization",
-      "requirements": "Multiclass Requirements",
-      "requirements_description": "You are now learning from a second class! This process involves:",
+      "title": "Configuração de Multiclasse",
+      "subtitle": "Escolha sua segunda Classe e especialização.",
+      "requirements": "Requisitos de Multiclasse",
+      "requirements_description": "Você agora está aprendendo uma segunda classe! Este processo envolve:",
       "requirements_list": [
-        "Choosing an additional class (different from {primaryClass})",
-        "Selecting one domain from your new class",
-        "Choosing a subclass specialization from your new class",
-        "Gaining all foundation features from your selected subclass",
-        "Gaining all class features from your new class",
-        "Resolving spellcast trait conflicts"
+        "Escolhendo uma classe adicional (diferente de {primaryClass})",
+        "Selecionando um domínio da sua nova classe",
+        "Escolhendo uma especialização de subclasse da sua nova classe",
+        "Obtendo todos os recursos básicos da subclasse selecionada",
+        "Obtendo todas as habilidades da sua nova classe",
+        "Resolvendo conflitos de características de conjuração"
       ],
-      "setup_progress": "Setup Progress",
-      "complete": "Complete",
-      "choose_second_class": "1. Choose Your Second Class",
-      "choose_second_class_description": "Select the class you want to learn from. This must be different from your primary class ({primaryClass}).",
-      "selected_second_class": "Selected Second Class",
-      "change": "Change",
-      "choose_domain": "2. Choose One Domain",
+      "setup_progress": "Progresso da Instalação",
+      "complete": "Completo",
+      "choose_second_class": "1. Escolha sua segunda classe",
+      "choose_second_class_description": "Selecione a classe da qual você deseja aprender. Esta deve ser diferente da sua classe principal ({primaryClass}).",
+      "selected_second_class": "Selecionado Segunda Classe",
+      "change": "Mudar",
+      "choose_domain": "2. Escolha Um Domínio",
       "choose_domain_description": "Choose one domain from {className}. You'll gain access to domain cards from this domain only.",
       "selected_multiclass_domain": "Selected Multiclass Domain",
       "choose_subclass": "3. Choose Subclass",
