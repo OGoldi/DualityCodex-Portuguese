@@ -2415,197 +2415,197 @@
       "no_cards": "Nenhuma carta de domínio disponível",
       "no_cards_available": "Nenhum domínio disponível para este filtro",
       "info_title": "Gerenciar Cartas de Domínio",
-      "info_content": "Click cards to select or deselect. You can only exchange cards of the same level. Maximum cards equals your current total.",
-      "level": "Level {level}",
+      "info_content": "Clique nas cartas para selecionar ou desmarcar. Você só pode trocar cartas do mesmo nível. O número máximo de cartas é igual ao seu total atual.",
+      "level": "Nível {level}",
       "total_owned": "Total Owned",
-      "in_loadout": "In Loadout",
-      "pending_changes": "Pending Changes",
-      "removing": "Removing {count} card(s)",
-      "adding": "Adding {count} card(s)",
-      "replace_this": "Replace this card",
-      "exchange_with": "Exchange with",
-      "select_source_first": "Select a card to replace first",
-      "no_available_cards": "No available cards found",
+      "in_loadout": "Na Mão",
+      "pending_changes": "Alterações Pendentes",
+      "removing": "Removendo {count} carta(s)",
+      "adding": "Adicionando {count} carta(s)",
+      "replace_this": "Substitua esta Carta",
+      "exchange_with": "Trocar com",
+      "select_source_first": "Selecione primeiro a carta que deseja substituir",
+      "no_available_cards": "Nenhuma carta disponível encontrada",
       "empty_state": {
-        "title": "No Domain Cards",
-        "description": "You haven't acquired any domain cards yet."
+        "title": "Sem Cartas de Domínio",
+        "description": "Você ainda não adquiriu nenhuma carta de domínio."
       },
       "swap_modal": {
-        "title": "Swap Domain Card",
-        "description": "Your loadout is full (5/5 cards). Choose a card from your loadout to replace with",
-        "instruction": "Click on a card below to swap it out."
+        "title": "Trocar Cart de Domínio",
+        "description": "Sua mão está cheia (5/5 cartas). Escolha uma carta da sua mão para substituir por",
+        "instruction": "Clique em uma carta abaixo para trocá-la."
       }
     },
     "edit": {
       "header": {
-        "title": "Edit Character",
-        "description": "Edit your character's information and details"
+        "title": "Editar Personagem",
+        "description": "Edite as informações e detalhes do seu personagem"
       },
-      "saving": "Saving changes...",
+      "saving": "Salvando Mudanças...",
       "tabs": {
-        "details": "Details",
-        "experiences": "Growth",
-        "core": "Core",
-        "preferences": "Preferences"
+        "details": "Detlhes",
+        "experiences": "Desenvolvimento",
+        "core": "Base",
+        "preferences": "Preferências"
       },
       "preferences": {
-        "jump_to": "Jump to"
+        "jump_to": "Ir Para"
       },
       "attributes": {
-        "title": "Edit Attributes",
-        "instructions": "Assign the following modifiers to your six attributes in any order you wish: +2, +1, +1, +0, +0, -1",
+        "title": "Editar Atributos",
+        "instructions": "Atribua os seguintes modificadores aos seus seis atributos na ordem que desejar: +2, +1, +1, +0, +0, -1",
         "info": {
-          "title": "Attribute Editing",
-          "content": "You can reassign your attribute modifiers at any time during editing. This allows you to adjust your character's strengths and weaknesses."
+          "title": "Edição de Atributos",
+          "content": "Você pode reatribuir seus modificadores de atributos a qualquer momento durante a edição. Isso permite ajustar os pontos fortes e fracos do seu personagem."
         }
       },
       "subclass": {
-        "title": "Change Subclass",
+        "title": "Escoha Subclasse",
         "confirm": {
-          "title": "Confirm Subclass Change",
-          "message": "You are changing from {oldSubclass} to {newSubclass}.",
-          "warning": "This will replace your subclass features. Are you sure you want to continue?"
+          "title": "Confirmar Alteração de Subclasse",
+          "message": "Você está mudando de {oldSubclass} para {newSubclass}.",
+          "warning": "Isso substituirá os recursos da sua subclasse. Tem certeza de que deseja continuar?"
         }
       },
       "domains": {
-        "title": "Edit Domains",
-        "warning_title": "Advanced Option",
-        "warning_content": "Warning: Custom domains do not follow standard game settings. Domain cards from removed domains will be automatically deleted.",
-        "class_domains": "Class Default Domains",
-        "primary_domain": "Primary Domain {n}",
-        "multiclass_domain": "Multiclass Domain",
-        "cards_to_remove": "Domain Cards to be Removed",
-        "cards_to_remove_description": "{count} domain card(s) will be removed from domains that are no longer available."
+        "title": "Editar Domínios",
+        "warning_title": "Opção Avançada",
+        "warning_content": "Aviso: Domínios personalizados não seguem as configurações padrão do jogo. Cartas de domínios removidos serão excluídas automaticamente.",
+        "class_domains": "Domínios Padrão de Classe",
+        "primary_domain": "Domínio {n}",
+        "multiclass_domain": "Domínio de Multiclasse",
+        "cards_to_remove": "Cartas de Domínio Serão Removidas",
+        "cards_to_remove_description": "{count} As cartões de domínio serão removidos dos domínios que não estiverem mais disponíveis."
       },
       "heritage": {
-        "title": "Edit Heritage",
+        "title": "Editar Patrimônio",
         "info": {
-          "title": "Heritage Editing",
-          "content": "You can change your character's ancestry and community. This will update your heritage information."
+          "title": "Editando Herança",
+          "content": "Você pode alterar a ancestralidade e a comunidade do seu personagem. Isso atualizará as informações sobre sua herança."
         }
       },
       "scars": {
-        "title": "Edit Scars",
-        "warning_title": "Warning",
-        "warning_content": "Scars permanently reduce your maximum Hope. Each scar crosses out one Hope slot that cannot be used.",
-        "input_label": "Number of Scars",
-        "input_hint": "Enter a value between 0 and {max}"
+        "title": "Editar Cicatrizes",
+        "warning_title": "Aviso",
+        "warning_content": "Cicatrizes reduzem permanentemente sua Esperança máxima. Cada cicatriz risca um espaço de Esperança que não pode ser usado.",
+        "input_label": "Número de Cicatrizes",
+        "input_hint": "Insira um valor entre 0 e {max}"
       },
       "stats": {
-        "title": "Edit Stats",
+        "title": "Editar Estatísticas",
         "info": {
-          "title": "Stats Editing",
-          "content": "Edit your character's base stats (HP, Stress, Evasion). Advancement bonuses from HP slots, stress slots, and evasion increases are automatically applied on top of these base values."
+          "title": "Edição de Estatísticas",
+          "content": "Edite as estatísticas base do seu personagem (PV, Fadiga, Evasão). Os bônus de progressão dos pontos de PV, pontos de fadiga e aumentos de evasão são aplicados automaticamente a esses valores base."
         },
-        "advancement_note": "Base {bonus} + {final} from advancements = {final}"
+        "advancement_note": "Base {bonus} + {final} de avanços = {final}"
       },
       "sections": {
         "background": {
-          "title": "Background",
+          "title": "Origem",
           "fields": {
             "origin": {
-              "label": "Where did your character come from?",
-              "placeholder": "Describe your character's homeland, community, or place of origin. What was their early life like?"
+              "label": "De onde veio seu personagem?",
+              "placeholder": "Descreva a terra natal, a comunidade ou o local de origem do seu personagem. Como era a sua infância?"
             },
             "motivation": {
-              "label": "What drives your character?",
-              "placeholder": "What are their goals, dreams, or motivations? What brought them to this adventure?"
+              "label": "O que motiva sua personalidade?",
+              "placeholder": "Quais são seus objetivos, sonhos ou motivações? O que os trouxe a esta aventura?"
             },
             "relationships": {
-              "label": "Who are the important people in your character's life?",
-              "placeholder": "Family, friends, mentors, rivals, or enemies. How do these relationships shape your character?"
+              "label": "Quem são as pessoas importantes na vida do seu personagem?",
+              "placeholder": "Família, amigos, mentores, rivais ou inimigos. Como esses relacionamentos moldam seu personagem?"
             },
             "secrets": {
-              "label": "What secrets or mysteries surround your character?",
-              "placeholder": "Hidden past, family secrets, unfinished business, or personal struggles."
+              "label": "Que segredos ou mistérios envolvem seu personagem?",
+              "placeholder": "Passado oculto, segredos de família, assuntos inacabados ou lutas pessoais."
             }
           }
         },
         "personality": {
-          "title": "Personality & Traits",
+          "title": "Personalidade & Traços",
           "fields": {
             "traits": {
-              "label": "How does your character act and speak?",
-              "placeholder": "Personality traits, mannerisms, speech patterns, or quirks that make them unique."
+              "label": "Como seu personagem age e fala?",
+              "placeholder": "Traços de personalidade, maneirismos, padrões de fala ou peculiaridades que os tornam únicos."
             },
             "beliefs": {
-              "label": "What does your character believe in?",
-              "placeholder": "Values, ideals, religious beliefs, or personal philosophies that guide their actions."
+              "label": "Em que acredita o seu personagem?",
+              "placeholder": "Valores, ideais, crenças religiosas ou filosofias pessoais que orientam suas ações."
             }
           }
         },
         "story": {
-          "title": "Background Story",
+          "title": "História de Origem",
           "fields": {
             "story": {
-              "label": "Tell your character's story",
-              "placeholder": "Weave together the answers above into a cohesive background story. This can be as detailed or as ambiguous as you prefer - you can always discover more through play."
+              "label": "Conte a história do seu personagem",
+              "placeholder": "Combine as respostas acima em uma história de origem coerente. Ela pode ser tão detalhada ou ambígua quanto você preferir - você sempre pode descobrir mais brincando."
             }
           }
         },
         "experiences": {
-          "no_experiences": "No experiences yet.",
+          "no_experiences": "Ainda Sem Experiência.",
           "fields": {
             "name": {
-              "label": "Experience Name",
-              "placeholder": "e.g., Trained as a blacksmith, Noble court etiquette"
+              "label": "Nome da Experiência",
+              "placeholder": "Exemplos: Treinado como ferreiro, etiqueta da corte nobre"
             },
             "description": {
-              "label": "Description",
-              "placeholder": "Describe how this experience shaped your character..."
+              "label": "Descrição",
+              "placeholder": "Descreva como essa experiência moldou seu caráter..."
             }
           }
         },
         "connections": {
-          "title": "Character Connections",
-          "description": "Add your connections to other player characters and important NPCs. Work with your group to establish these relationships collaboratively.",
+          "title": "Conexões de Personagem",
+          "description": "Adicione suas conexões com outros personagens jogadores e NPCs importantes. Trabalhe com seu grupo para estabelecer esses relacionamentos de forma colaborativa.",
           "fields": {
             "name": {
-              "label": "Connected Character Name",
-              "placeholder": "Enter character name..."
+              "label": "Nome do Personagem Conectado",
+              "placeholder": "Digite o nome do personagem..."
             },
             "description": {
-              "label": "Connection Description",
-              "placeholder": "Describe your connection to this character..."
+              "label": "Descrição da Conexão",
+              "placeholder": "Descreva sua conexão com esse personagem..."
             }
           }
         },
         "custom_counters": {
-          "title": "Custom Counters",
-          "description": "Create custom counters to track resources like Inspiration, Rage Points, Ki Points, or any other resource your character needs to track.",
-          "empty_state": "No custom counters yet. Click the button below to add one.",
-          "add_button": "Add Custom Counter"
+          "title": "Contadores Customizados",
+          "description": "Crie contadores personalizados para acompanhar recursos como Inspiração, Pontos de Fúria, Pontos de Ki ou qualquer outro recurso que seu personagem precise monitorar.",
+          "empty_state": "Ainda não há contadores personalizados. Clique no botão abaixo para adicionar um.",
+          "add_button": "Adicionar Contador Personalizado"
         },
         "attributes": {
-          "title": "Character Attributes",
-          "description": "Edit your character's attribute modifiers. All six attributes must be assigned the standard distribution: +2, +1, +1, +0, +0, -1.",
-          "no_attributes": "No attributes available. Please ensure your character has attributes assigned.",
+          "title": "Atributos de Personalidade",
+          "description": "Edite os modificadores de atributos do seu personagem. Todos os seis atributos devem ter a distribuição padrão: +2, +1, +1, +0, +0, -1.",
+          "no_attributes": "Nenhum atributo disponível. Certifique-se de que seu personagem tenha atributos atribuídos.",
           "info": {
-            "title": "Attribute Editing",
-            "content": "You can reassign your attribute modifiers at any time during editing. This allows you to adjust your character's strengths and weaknesses."
+            "title": "Edição de Atributos",
+            "content": "Você pode reatribuir seus modificadores de atributos a qualquer momento durante a edição. Isso permite ajustar os pontos fortes e fracos do seu personagem."
           }
         },
         "subclass": {
-          "title": "Subclass",
-          "description": "Change your character's subclass specialization.",
+          "title": "Subclasse",
+          "description": "Altere a especialização de subclasse do seu personagem.",
           "warning": {
-            "title": "Important",
-            "content": "Changing your subclass will replace your current subclass features with the new subclass features. Your class features will remain unchanged."
+            "title": "Importante",
+            "content": "Alterar sua subclasse substituirá os recursos da sua subclasse atual pelos recursos da nova subclasse. Os recursos da sua classe permanecerão inalterados."
           }
         },
         "domains": {
-          "title": "Domains",
-          "description": "Override your character's domains. This is an advanced option that doesn't follow standard game settings.",
-          "current_domains": "Current Domains",
-          "custom_warning": "Custom domains are active (not using class defaults)",
-          "class_domains": "Class Default Domains"
+          "title": "Domínios",
+          "description": "Substitua os domínios do seu personagem. Esta é uma opção avançada que não segue as configurações padrão do jogo.",
+          "current_domains": "Domínios Atuais",
+          "custom_warning": "Domínios personalizados estão ativos (não usando padrão de classe)",
+          "class_domains": "Domínios Padrão de Classe"
         },
         "heritage": {
-          "title": "Heritage",
-          "description": "Edit your character's ancestry and community.",
+          "title": "Herança",
+          "description": "Edite a ancestralidade e a comunidade do seu personagem.",
           "info": {
-            "title": "Heritage Editing",
-            "content": "You can change your character's ancestry and community. This will update your heritage information."
+            "title": "Edição de Herança",
+            "content": "Você pode alterar a ancestralidade e a comunidade do seu personagem. Isso atualizará as informações sobre sua herança."
           }
         },
         "scars": {
