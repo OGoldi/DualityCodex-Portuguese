@@ -2609,103 +2609,103 @@
           }
         },
         "scars": {
-          "title": "Scars",
-          "description": "Scars are permanent marks from failed death saves that reduce your maximum Hope.",
-          "current": "Current Scars",
-          "effective_hope": "Effective Max Hope"
+          "title": "Cicatrizes",
+          "description": "Cicatrizes são marcas permanentes resultantes de falhas em testes de resistência à morte, que reduzem sua Esperança máxima.",
+          "current": "Cicatrizes Atuais",
+          "effective_hope": "Esperança Máxima Efetiva"
         },
         "currency": {
-          "title": "Currency Settings",
-          "description": "Configure how your character tracks gold and currency.",
-          "use_coins": "Enable Coins",
-          "use_coins_description": "Add coins as the smallest currency unit (10 coins = 1 handful)",
-          "hierarchy_with_coins": "Currency: Coins → Handfuls → Bags → Chest",
-          "hierarchy_default": "Currency: Handfuls → Bags → Chest"
+          "title": "Configurações de Moeda",
+          "description": "Configure como seu personagem rastreia ouro e moedas.",
+          "use_coins": "Habilitar Moedas",
+          "use_coins_description": "Adicione moedas como a menor unidade monetária (10 moedas = 1 punhado)",
+          "hierarchy_with_coins": "Riqueza: Moedas → Punhados → Bolsas → Baú",
+          "hierarchy_default": "Riqueza: Punhados → Bolsas → Baú"
         },
         "massive_damage": {
-          "title": "Massive Damage (Optional Rule)",
-          "description": "Enable the optional Massive Damage rule for this character.",
-          "enable": "Enable Massive Damage",
-          "enable_description": "If a character takes damage equal to twice their Major threshold, they mark 4 HP instead of 3.",
-          "rule_explanation": "When enabled, a fourth damage threshold button will appear. Damage equal to twice the Major threshold marks 4 HP."
+          "title": "Dano Massivo (Regra Opcional)",
+          "description": "Ative a regra opcional de Dano Massivo para este personagem.",
+          "enable": "Ativar Aano Massivo",
+          "enable_description": "Se um personagem sofrer dano igual ao dobro do seu limiar Maior, ele marcará 4 PV em vez de 3.",
+          "rule_explanation": "Quando ativado, um quarto botão de limite de dano aparecerá. Dano igual ao dobro do limite Grave causa 4 PV."
         },
         "cross_domain": {
-          "title": "Cross-Domain Card Advancement",
-          "description": "Enable the optional Cross-Domain Card advancement for this character.",
-          "enable": "Enable Cross-Domain Cards",
-          "enable_description": "Allow taking one domain card from any domain outside your class domains during level-up. The card's level cannot exceed half your character level (rounded up)."
+          "title": "Avanço de Cartas entre Domínios",
+          "description": "Ative o avanço opcional de Carta Interdomínio para este personagem.",
+          "enable": "Habilitar Cartas entre Domínios",
+          "enable_description": "Permite escolher uma carta de domínio de qualquer domínio fora dos seus domínios de classe durante a subida de nível. O nível da carta não pode exceder metade do seu nível de personagem (arredondado para cima)."
         },
         "stats": {
-          "title": "Character Stats",
-          "description": "Edit your character's base stats (HP, Stress, Evasion). Advancement bonuses are applied automatically on top of these base values."
+          "title": "Estatísticas do Personagem",
+          "description": "Edite os atributos base do seu personagem (PV, Fadiga, Evasão). Os bônus de progressão são aplicados automaticamente sobre esses valores base."
         }
       },
       "features": {
-        "removed": "Features Being Removed",
-        "added": "Features Being Added"
+        "removed": "Recursos Sendo Removidos",
+        "added": "Novos Recursos Sendo Adicionados"
       },
       "core": {
-        "info_title": "Individual Save Actions",
-        "info_content": "Each section in the Character Core tab saves immediately when you click Edit and confirm your changes.",
-        "jump_to": "Jump to",
+        "info_title": "Ações de Salvamento Individuais",
+        "info_content": "Cada seção na aba Núcleo do Personagem é salva imediatamente quando você clica em Editar e confirma as alterações.",
+        "jump_to": "Ir Para",
         "sections": {
-          "attributes": "Attributes",
-          "subclass": "Subclass",
-          "heritage": "Heritage",
-          "domain_cards": "Domain Cards",
-          "scars": "Scars",
-          "currency": "Currency",
-          "massive_damage": "Massive Damage",
-          "cross_domain": "Cross-Domain Cards"
+          "attributes": "Atributos",
+          "subclass": "Subclasse",
+          "heritage": "Herança",
+          "domain_cards": "Cartas de Domínio",
+          "scars": "Cicatrizes",
+          "currency": "Riqueza",
+          "massive_damage": "Dano",
+          "cross_domain": "Cartas Interdomínio"
         }
       }
     },
     "errors": {
-      "relic_already_exists": "You already have a relic",
-      "relic_already_exists_description": "You can only carry one relic at a time. Remove your current relic before adding a new one."
+      "relic_already_exists": "Você já possui uma relíquia",
+      "relic_already_exists_description": "Você só pode carregar uma relíquia por vez. Remova a relíquia atual antes de adicionar uma nova."
     }
   },
   "companion": {
-    "title": "Companion",
-    "name": "Name",
-    "description": "Description",
-    "namePlaceholder": "Enter companion name",
-    "descriptionPlaceholder": "Describe your companion",
-    "experiencePlaceholder": "Enter experience name",
-    "damageDie": "Damage Die",
-    "range": "Range",
-    "hitPoints": "Hit Points",
-    "available": "Available",
-    "unavailable": "Unavailable",
-    "rollAttack": "Roll Attack",
-    "rollDamage": "Roll Damage",
-    "clearStress": "Clear Stress",
-    "selectExperience": "Select Experience",
-    "chooseOne": "Choose One",
-    "experienceNote": "Note: Companion experiences provide special abilities and bonuses.",
+    "title": "Companheiro",
+    "name": "Nome",
+    "description": "Descrição",
+    "namePlaceholder": "Digite o nome do companhanheiro",
+    "descriptionPlaceholder": "Descreva seu(sua) companheiro(a)",
+    "experiencePlaceholder": "Insira o nome da experiência",
+    "damageDie": "Dado de Dano",
+    "range": "Alcance",
+    "hitPoints": "Pontos de Vida",
+    "available": "Disponível",
+    "unavailable": "Indisponível",
+    "rollAttack": "Rolagem de Ataque",
+    "rollDamage": "Rolagem de Dano",
+    "clearStress": "impar Fadiga",
+    "selectExperience": "Experiência Selecionada",
+    "chooseOne": "Escolha uma opção",
+    "experienceNote": "Nota: As experiências com companheiros fornecem habilidades e bônus especiais.",
     "noCompanion": {
-      "title": "No Companion",
-      "description": "Your character doesn't have a companion yet. Create one to begin your adventures together."
+      "title": "Sem Companheiro",
+      "description": "Seu personagem ainda não tem um companheiro. Crie um para começarem suas aventuras juntos."
     },
     "notAvailable": {
-      "title": "Companion Not Available",
-      "description": "Only characters with the Companion feature can have companions."
+      "title": "Companheiro Não Disponível",
+      "description": "Apenas personagens com a característica Companheiro Animal podem ter companheiros."
     },
     "create": {
-      "title": "Create Companion",
-      "button": "Create Companion",
-      "step1": "Step 1: Name Your Companion",
-      "step1Description": "Give your companion a name and describe their appearance and personality.",
-      "step2": "Step 2: Add Initial Experiences",
-      "step2Description": "Add up to 2 experiences that your companion has gained through their adventures with you.",
-      "experienceLimit": "You can add up to 2 experiences for your new companion."
+      "title": "Criar Companheiro",
+      "button": "Criar Companheiro",
+      "step1": "Passo 1: Dê um nome ao seu companheiro",
+      "step1Description": "Dê um nome ao seu companheiro e descreva sua aparência e personalidade.",
+      "step2": "Etapa 2: Adicionar experiências iniciais",
+      "step2Description": "Adicione até 2 experiências que seu companheiro adquiriu por meio de suas aventuras com você.",
+      "experienceLimit": "Você pode adicionar até 2 experiências para seu novo companheiro."
     },
     "edit": {
-      "title": "Edit Companion",
-      "experienceDescription": "Edit your companion's experiences. You can have up to 2 experiences."
+      "title": "Editar Companheiro",
+      "experienceDescription": "Edite as experiências do seu companheiro. Você pode ter até 2 experiências."
     },
     "deleteModal": {
-      "title": "Delete Companion",
+      "title": "Excluir Companheiro",
       "message": "Are you sure you want to delete this companion? This action cannot be undone."
     },
     "advancement": {
